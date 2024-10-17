@@ -63,12 +63,43 @@
 			}
 		]
 	},
-
+	{
+		"name": "The Map section of tracker is WIP",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "It will be done Eventually™",
+				"item_count": 1
+			},
+			{
+				"name": "It just takes a very long time",
+				"item_count": 1
+			},
+			{
+				"name": "Plus, this AP is very new and prone to wild location changes that I don't want to have to do-over",
+				"item_count": 1
+			},
+			{
+				"name": "Thanks for your patience",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 50,
+				"y": 170
+			}
+		]
+	},
 	{
 		"name": "Westopolis",
 		"chest_unopened_img": "images/CheckNotDone.png",
 		"chest_opened_img": "images/CheckDone.png",
         "access_rules": [ "wo_available" ],
+        "visibility_rules": [ "charactersanity_enabled" ],
 		"sections": [
 			{
 				"name": "Dark Mission",
@@ -96,6 +127,7 @@
 		"chest_unopened_img": "images/CheckNotDone.png",
 		"chest_opened_img": "images/CheckDone.png",
         "access_rules": [ "wo_available" ],
+        "visibility_rules": [ "charactersanity_enabled" ],
 		"sections": [
 			{
 				"name": "GUN Soldier 1",
@@ -124,6 +156,7 @@
 		"chest_unopened_img": "images/CheckNotDone.png",
 		"chest_opened_img": "images/CheckDone.png",
         "access_rules": [ "wo_available" ],
+        "visibility_rules": [ "charactersanity_enabled" ],
 		"sections": [
 			{
 				"name": "Alien 1",

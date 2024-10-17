@@ -411,5 +411,46 @@
         "overlay_background": "#000000",
         "img": "/images/switch.png",
         "codes": "fh_switch"
+    },
+
+
+
+
+
+
+    {
+        "name": "Token - HERO",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_hero.png",
+        "codes": "token_hero"
+    },
+    {
+        "name": "Token - DARK",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_dark.png",
+        "codes": "token_dark"
+    },
+    {
+        "name": "Token - NORMAL",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_normal.png",
+        "codes": "token_neutral"
+    },
+    {
+        "name": "Token - FINAL",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_final.png",
+        "codes": "token_final"
+    },
+    {
+        "name": "Token - OBJECTIVES",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_objective.png",
+        "codes": "token_objective"
     }
 ]

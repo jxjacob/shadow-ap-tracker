@@ -9,5 +9,6 @@
             "display_name": "Map Tracker",
             "flags": ["ap"]
         }
-    }
+    },
+    "versions_url": "https://raw.githubusercontent.com/jxjacob/shadow-ap-tracker/versions/versions.json"
 }
