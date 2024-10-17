@@ -1,0 +1,220 @@
+[
+    {
+		"name": "Character Sanity",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "visibility_rules": [ "charactersanity_enabled" ],
+		"sections": [
+            {
+				"name": "Amy",
+                "access_rules": [ "cc_available" ],
+				"item_count": 1
+			},
+			{
+				"name": "Black Doom",
+				"item_count": 1
+			},
+            {
+				"name": "Charmy",
+				"item_count": 1
+			},
+            {
+				"name": "Dr Eggman",
+				"item_count": 1
+			},
+            {
+				"name": "Espio",
+				"item_count": 1
+			},
+            {
+				"name": "Knuckles",
+				"item_count": 1
+			},
+            {
+				"name": "Maria",
+				"item_count": 1
+			},
+            {
+				"name": "Omega",
+				"item_count": 1
+			},
+            {
+				"name": "Rogue",
+				"item_count": 1
+			},
+			{
+				"name": "Sonic",
+				"item_count": 1
+			},
+            {
+				"name": "Tails",
+				"item_count": 1
+			},
+            {
+				"name": "Vector",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 50,
+				"y": 50
+			}
+		]
+	},
+
+	{
+		"name": "Westopolis",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "Dark Mission",
+				"item_count": 1
+			},
+			{
+				"name": "Neutral Mission",
+				"item_count": 1
+			},
+			{
+				"name": "Hero Mission",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 50,
+				"y": 170
+			}
+		]
+	},
+    {
+		"name": "Westopolis - Dark Objective",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "GUN Soldier 1",
+				"item_count": 1
+			},
+			{
+				"name": "GUN Soldier 2",
+				"item_count": 1
+			},
+			{
+				"name": "GUN Soldier 3",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 50,
+				"y": 195
+			}
+		]
+	}, 
+
+    {
+		"name": "Westopolis - Hero Objective",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "Alien 1",
+				"item_count": 1
+			},
+			{
+				"name": "Alien 2",
+				"item_count": 1
+			},
+			{
+				"name": "Alien 3",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 75,
+				"y": 195
+			}
+		]
+	}, 
+
+    {
+		"name": "Westopolis - Checkpoints",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "visibility_rules": [ "checkpointsanity_enabled" ],
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "Checkpoint 1",
+				"item_count": 1
+			},
+			{
+				"name": "Checkpoint 2",
+				"item_count": 1
+			},
+			{
+				"name": "Checkpoint 3",
+				"item_count": 1
+			},
+            {
+				"name": "Checkpoint 4",
+				"item_count": 1
+			},
+            {
+				"name": "Checkpoint 5",
+				"item_count": 1
+			},
+            {
+				"name": "Checkpoint 6",
+				"item_count": 1
+			}
+
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 75,
+				"y": 170
+			}
+		]
+	}, 
+
+    {
+		"name": "Westopolis - Enemies",
+		"chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+        "visibility_rules": [ "enemysanity_enabled" ],
+        "access_rules": [ "wo_available" ],
+		"sections": [
+			{
+				"name": "Holy Fuck 1",
+				"item_count": 1
+			},
+			{
+				"name": "Theres So Many 2",
+				"item_count": 1
+			},
+			{
+				"name": "Enemies In This Game 3",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "menu",
+				"x": 100,
+				"y": 195
+			}
+		]
+	}, 
+]

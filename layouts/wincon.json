@@ -1,0 +1,25 @@
+{
+    "wincon_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["green_emerald","blue_emerald", "yellow_emerald", "white_emerald", "red_emerald", "cyan_emerald", "purple_emerald" ],
+                            ["token_dark", "token_neutral","token_hero","token_final","token_objective"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
