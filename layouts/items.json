@@ -16,9 +16,9 @@
                         "rows": [
                           ["wo_stage", "wo_gun", "wo_alien", "", "cp_stage", "cp_gun", "", "li_stage", "li_chaos"],
                           ["gc_stage", "gc_jewel", "gc_alien", "", "dr_stage", "dr_alien", "", "gf_stage", "gf_computer" ],
-                          ["cc_stage", "cc_lantern", "cc_cream", "", "ta_stage", "ta_defense", "", "fh_stage", "fh_switch"],
-                          ["pi_stage", "pi_gun", "pi_disk", "", "af_stage", "af_alien", "", "bc_stage", "bc_gun"],
-                          ["ci_stage", "ci_big", "ci_small", "", "ij_stage", "ij_gun", "", "ls_stage", "ls_lava" ],
+                          ["cc_stage", "cc_lantern", "cc_cream", "", "ta_stage", "ta_defense", "", "bc_stage", "bc_gun"],
+                          ["pi_stage", "pi_gun", "pi_disk", "", "af_stage", "af_alien", "", "ls_stage", "ls_lava"],
+                          ["ci_stage", "ci_big", "ci_small", "", "ij_stage", "ij_gun", "", "fh_stage", "fh_switch"],
                           ["td_stage", "td_gun", "td_researcher", "", "sg_stage", "sg_defense", "", "dc_stage"],
                           ["st_stage", "st_ship", "st_jewel", "",   "lh_stage", "","","cf_stage"],
                           ["mm_stage", "mm_bomb", "mm_terminal"]

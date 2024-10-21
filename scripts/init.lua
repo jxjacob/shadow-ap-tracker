@@ -1,4 +1,5 @@
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
 
 Tracker:AddMaps("maps/maps.json")
 
@@ -6,9 +7,12 @@ Tracker:AddMaps("maps/maps.json")
 Tracker:AddLocations("locations/locations.json")
 --Tracker:AddLocations("locations/locations_hints.json")
 
+
+ScriptHost:LoadScript("scripts/logic.lua")
+
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
---Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/wincon.json")

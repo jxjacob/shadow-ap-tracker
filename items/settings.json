@@ -1,0 +1,127 @@
+[
+	{
+		"name": "Objectivesanity",
+		"type": "toggle",
+		"img": "images/alien.png",
+		"codes": "objectivesanity_enabled"
+	},
+	{
+		"name": "Enemy Objectivesanity",
+		"type": "toggle",
+		"img": "images/alien.png",
+		"codes": "enemy_objectivesanity_enabled"
+	},
+	{
+		"name": "Charactersanity",
+		"type": "toggle",
+		"img": "images/cream.png",
+		"codes": "charactersanity_enabled"
+	},
+	{
+		"name": "Enemysanity",
+		"type": "toggle",
+		"img": "images/gun.png",
+		"codes": "enemysanity_enabled"
+	},
+	{
+		"name": "Checkpointanity",
+		"type": "toggle",
+		"img": "images/gun.png",
+		"codes": "checkpointsanity_enabled"
+	},
+
+
+
+
+
+	{
+        "name": "Objective Percentage",
+        "type": "consumable",
+        "img": "images/alien.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_percentage"
+    },
+    {
+        "name": "Objective Item Percentage",
+        "type": "consumable",
+        "img": "images/chaos.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_item_percentage"
+    },
+    {
+        "name": "Enemysanity Percentage",
+        "type": "consumable",
+        "img": "images/chaos.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "enemysanity_percentage"
+    },
+
+
+    {
+        "name": "Goal - Mission Percentage",
+        "type": "consumable",
+        "img": "images/token_normal.png",
+        "initial_quantity": 50,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_missions_percentage"
+    },
+    {
+        "name": "Goal - Final Mission Percentage",
+        "type": "consumable",
+        "img": "images/token_final.png",
+        "initial_quantity": 50,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_final_missions_percentage"
+    },
+    {
+        "name": "Goal - Hero Mission Percentage",
+        "type": "consumable",
+        "img": "images/token_hero.png",
+        "initial_quantity": 50,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_hero_missions_percentage"
+    },
+    {
+        "name": "Goal - Dark Mission Percentage",
+        "type": "consumable",
+        "img": "images/token_dark.png",
+        "initial_quantity": 50,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_dark_missions_percentage"
+    },
+    {
+        "name": "Goal - Objective Mission Percentage",
+        "type": "consumable",
+        "img": "images/token_objective.png",
+        "initial_quantity": 50,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_objective_missions_percentage"
+    }
+]
