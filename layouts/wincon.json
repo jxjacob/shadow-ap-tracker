@@ -15,7 +15,7 @@
                         "h_alignment": "left",
                         "rows": [
                             ["green_emerald","blue_emerald", "yellow_emerald", "white_emerald", "cyan_emerald", "purple_emerald", "red_emerald" ],
-                            ["token_dark", "token_neutral","token_hero","token_final","token_objective"]
+                            ["token_neutral", "token_final","token_hero","token_dark","token_objective"]
                         ]
                     }
                 ]

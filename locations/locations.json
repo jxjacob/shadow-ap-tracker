@@ -46,7 +46,7 @@
 				"item_count": 1
 			},
             {
-				"name": "Rogue",
+				"name": "Rouge",
                 "access_rules": [ "dc_stage", "dr_stage", "gf_stage" ],
 				"item_count": 1
 			},
@@ -75,7 +75,30 @@
 		]
 	},
 
+
 	{
+		"name": "The Last Way",
+	    "chest_unopened_img": "images/CheckNotDone.png",
+		"chest_opened_img": "images/CheckDone.png",
+	    "access_rules": [ "$CanReachLast" ],
+		"sections": [
+	        {
+	            "name": "Devil Doom",
+	            "item_count": 1
+	        }
+
+	 
+	    ],
+	    "map_locations": [
+	        {
+	            "map": "menu",
+	            "x": 50,
+	            "y": 325
+	        }
+	    ]
+	},
+
+{
     "name": "Westopolis",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
@@ -115,177 +138,177 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soldiers 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:3"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:6"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:9"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:23"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:26"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:43"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:46"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:49"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:55"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 21",
+            "name": "Soldier 21",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 22",
+            "name": "Soldier 22",
             "visibility_rules": ["objective_percentage:63"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 23",
+            "name": "Soldier 23",
             "visibility_rules": ["objective_percentage:66"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 24",
+            "name": "Soldier 24",
             "visibility_rules": ["objective_percentage:69"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 25",
+            "name": "Soldier 25",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 26",
+            "name": "Soldier 26",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 27",
+            "name": "Soldier 27",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 28",
+            "name": "Soldier 28",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 29",
+            "name": "Soldier 29",
             "visibility_rules": ["objective_percentage:83"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 30",
+            "name": "Soldier 30",
             "visibility_rules": ["objective_percentage:86"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 31",
+            "name": "Soldier 31",
             "visibility_rules": ["objective_percentage:89"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 32",
+            "name": "Soldier 32",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 33",
+            "name": "Soldier 33",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 34",
+            "name": "Soldier 34",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 35",
+            "name": "Soldier 35",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -306,227 +329,227 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "Aliens 1",
+            "name": "Alien 1",
             "visibility_rules": ["objective_percentage:3"],
             "item_count": 1
         },
         {
-            "name": "Aliens 2",
+            "name": "Alien 2",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "Aliens 3",
+            "name": "Alien 3",
             "visibility_rules": ["objective_percentage:7"],
             "item_count": 1
         },
         {
-            "name": "Aliens 4",
+            "name": "Alien 4",
             "visibility_rules": ["objective_percentage:9"],
             "item_count": 1
         },
         {
-            "name": "Aliens 5",
+            "name": "Alien 5",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "Aliens 6",
+            "name": "Alien 6",
             "visibility_rules": ["objective_percentage:14"],
             "item_count": 1
         },
         {
-            "name": "Aliens 7",
+            "name": "Alien 7",
             "visibility_rules": ["objective_percentage:16"],
             "item_count": 1
         },
         {
-            "name": "Aliens 8",
+            "name": "Alien 8",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "Aliens 9",
+            "name": "Alien 9",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Aliens 10",
+            "name": "Alien 10",
             "visibility_rules": ["objective_percentage:23"],
             "item_count": 1
         },
         {
-            "name": "Aliens 11",
+            "name": "Alien 11",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Aliens 12",
+            "name": "Alien 12",
             "visibility_rules": ["objective_percentage:27"],
             "item_count": 1
         },
         {
-            "name": "Aliens 13",
+            "name": "Alien 13",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "Aliens 14",
+            "name": "Alien 14",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "Aliens 15",
+            "name": "Alien 15",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Aliens 16",
+            "name": "Alien 16",
             "visibility_rules": ["objective_percentage:36"],
             "item_count": 1
         },
         {
-            "name": "Aliens 17",
+            "name": "Alien 17",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "Aliens 18",
+            "name": "Alien 18",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Aliens 19",
+            "name": "Alien 19",
             "visibility_rules": ["objective_percentage:43"],
             "item_count": 1
         },
         {
-            "name": "Aliens 20",
+            "name": "Alien 20",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "Aliens 21",
+            "name": "Alien 21",
             "visibility_rules": ["objective_percentage:47"],
             "item_count": 1
         },
         {
-            "name": "Aliens 22",
+            "name": "Alien 22",
             "visibility_rules": ["objective_percentage:49"],
             "item_count": 1
         },
         {
-            "name": "Aliens 23",
+            "name": "Alien 23",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "Aliens 24",
+            "name": "Alien 24",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "Aliens 25",
+            "name": "Alien 25",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "Aliens 26",
+            "name": "Alien 26",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "Aliens 27",
+            "name": "Alien 27",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Aliens 28",
+            "name": "Alien 28",
             "visibility_rules": ["objective_percentage:63"],
             "item_count": 1
         },
         {
-            "name": "Aliens 29",
+            "name": "Alien 29",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "Aliens 30",
+            "name": "Alien 30",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "Aliens 31",
+            "name": "Alien 31",
             "visibility_rules": ["objective_percentage:69"],
             "item_count": 1
         },
         {
-            "name": "Aliens 32",
+            "name": "Alien 32",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "Aliens 33",
+            "name": "Alien 33",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "Aliens 34",
+            "name": "Alien 34",
             "visibility_rules": ["objective_percentage:76"],
             "item_count": 1
         },
         {
-            "name": "Aliens 35",
+            "name": "Alien 35",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "Aliens 36",
+            "name": "Alien 36",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Aliens 37",
+            "name": "Alien 37",
             "visibility_rules": ["objective_percentage:83"],
             "item_count": 1
         },
         {
-            "name": "Aliens 38",
+            "name": "Alien 38",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "Aliens 39",
+            "name": "Alien 39",
             "visibility_rules": ["objective_percentage:87"],
             "item_count": 1
         },
         {
-            "name": "Aliens 40",
+            "name": "Alien 40",
             "visibility_rules": ["objective_percentage:89"],
             "item_count": 1
         },
         {
-            "name": "Aliens 41",
+            "name": "Alien 41",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "Aliens 42",
+            "name": "Alien 42",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "Aliens 43",
+            "name": "Alien 43",
             "visibility_rules": ["objective_percentage:96"],
             "item_count": 1
         },
         {
-            "name": "Aliens 44",
+            "name": "Alien 44",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "Aliens 45",
+            "name": "Alien 45",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -587,14 +610,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 45
         },
 
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 36
         }
 
@@ -606,7 +631,43 @@
             "y": 196
         }
     ]
+},{
+    "name": "Westopolis - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "wo_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 100,
+            "y": 171
+        }
+    ]
 },
+
 {
     "name": "Digital Circuit",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -684,14 +745,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 46
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 17
         }
 
@@ -703,7 +766,43 @@
             "y": 128
         }
     ]
+},{
+    "name": "Digital Circuit - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "dc_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 210,
+            "y": 103
+        }
+    ]
 },
+
 {
     "name": "Glyphic Canyon",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -744,27 +843,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Temple Jewels 1",
+            "name": "Temple Jewel 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 2",
+            "name": "Temple Jewel 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 3",
+            "name": "Temple Jewel 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 4",
+            "name": "Temple Jewel 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 5",
+            "name": "Temple Jewel 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -785,302 +884,302 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "Aliens 1",
+            "name": "Alien 1",
             "visibility_rules": ["objective_percentage:2"],
             "item_count": 1
         },
         {
-            "name": "Aliens 2",
+            "name": "Alien 2",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "Aliens 3",
+            "name": "Alien 3",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "Aliens 4",
+            "name": "Alien 4",
             "visibility_rules": ["objective_percentage:7"],
             "item_count": 1
         },
         {
-            "name": "Aliens 5",
+            "name": "Alien 5",
             "visibility_rules": ["objective_percentage:9"],
             "item_count": 1
         },
         {
-            "name": "Aliens 6",
+            "name": "Alien 6",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "Aliens 7",
+            "name": "Alien 7",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "Aliens 8",
+            "name": "Alien 8",
             "visibility_rules": ["objective_percentage:14"],
             "item_count": 1
         },
         {
-            "name": "Aliens 9",
+            "name": "Alien 9",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "Aliens 10",
+            "name": "Alien 10",
             "visibility_rules": ["objective_percentage:17"],
             "item_count": 1
         },
         {
-            "name": "Aliens 11",
+            "name": "Alien 11",
             "visibility_rules": ["objective_percentage:19"],
             "item_count": 1
         },
         {
-            "name": "Aliens 12",
+            "name": "Alien 12",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Aliens 13",
+            "name": "Alien 13",
             "visibility_rules": ["objective_percentage:22"],
             "item_count": 1
         },
         {
-            "name": "Aliens 14",
+            "name": "Alien 14",
             "visibility_rules": ["objective_percentage:24"],
             "item_count": 1
         },
         {
-            "name": "Aliens 15",
+            "name": "Alien 15",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Aliens 16",
+            "name": "Alien 16",
             "visibility_rules": ["objective_percentage:27"],
             "item_count": 1
         },
         {
-            "name": "Aliens 17",
+            "name": "Alien 17",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "Aliens 18",
+            "name": "Alien 18",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "Aliens 19",
+            "name": "Alien 19",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "Aliens 20",
+            "name": "Alien 20",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Aliens 21",
+            "name": "Alien 21",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "Aliens 22",
+            "name": "Alien 22",
             "visibility_rules": ["objective_percentage:37"],
             "item_count": 1
         },
         {
-            "name": "Aliens 23",
+            "name": "Alien 23",
             "visibility_rules": ["objective_percentage:39"],
             "item_count": 1
         },
         {
-            "name": "Aliens 24",
+            "name": "Alien 24",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Aliens 25",
+            "name": "Alien 25",
             "visibility_rules": ["objective_percentage:42"],
             "item_count": 1
         },
         {
-            "name": "Aliens 26",
+            "name": "Alien 26",
             "visibility_rules": ["objective_percentage:44"],
             "item_count": 1
         },
         {
-            "name": "Aliens 27",
+            "name": "Alien 27",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "Aliens 28",
+            "name": "Alien 28",
             "visibility_rules": ["objective_percentage:47"],
             "item_count": 1
         },
         {
-            "name": "Aliens 29",
+            "name": "Alien 29",
             "visibility_rules": ["objective_percentage:49"],
             "item_count": 1
         },
         {
-            "name": "Aliens 30",
+            "name": "Alien 30",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Aliens 31",
+            "name": "Alien 31",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "Aliens 32",
+            "name": "Alien 32",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "Aliens 33",
+            "name": "Alien 33",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "Aliens 34",
+            "name": "Alien 34",
             "visibility_rules": ["objective_percentage:57"],
             "item_count": 1
         },
         {
-            "name": "Aliens 35",
+            "name": "Alien 35",
             "visibility_rules": ["objective_percentage:59"],
             "item_count": 1
         },
         {
-            "name": "Aliens 36",
+            "name": "Alien 36",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Aliens 37",
+            "name": "Alien 37",
             "visibility_rules": ["objective_percentage:62"],
             "item_count": 1
         },
         {
-            "name": "Aliens 38",
+            "name": "Alien 38",
             "visibility_rules": ["objective_percentage:64"],
             "item_count": 1
         },
         {
-            "name": "Aliens 39",
+            "name": "Alien 39",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "Aliens 40",
+            "name": "Alien 40",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "Aliens 41",
+            "name": "Alien 41",
             "visibility_rules": ["objective_percentage:69"],
             "item_count": 1
         },
         {
-            "name": "Aliens 42",
+            "name": "Alien 42",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "Aliens 43",
+            "name": "Alien 43",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "Aliens 44",
+            "name": "Alien 44",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "Aliens 45",
+            "name": "Alien 45",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Aliens 46",
+            "name": "Alien 46",
             "visibility_rules": ["objective_percentage:77"],
             "item_count": 1
         },
         {
-            "name": "Aliens 47",
+            "name": "Alien 47",
             "visibility_rules": ["objective_percentage:79"],
             "item_count": 1
         },
         {
-            "name": "Aliens 48",
+            "name": "Alien 48",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Aliens 49",
+            "name": "Alien 49",
             "visibility_rules": ["objective_percentage:82"],
             "item_count": 1
         },
         {
-            "name": "Aliens 50",
+            "name": "Alien 50",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "Aliens 51",
+            "name": "Alien 51",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "Aliens 52",
+            "name": "Alien 52",
             "visibility_rules": ["objective_percentage:87"],
             "item_count": 1
         },
         {
-            "name": "Aliens 53",
+            "name": "Alien 53",
             "visibility_rules": ["objective_percentage:89"],
             "item_count": 1
         },
         {
-            "name": "Aliens 54",
+            "name": "Alien 54",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "Aliens 55",
+            "name": "Alien 55",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "Aliens 56",
+            "name": "Alien 56",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "Aliens 57",
+            "name": "Alien 57",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "Aliens 58",
+            "name": "Alien 58",
             "visibility_rules": ["objective_percentage:97"],
             "item_count": 1
         },
         {
-            "name": "Aliens 59",
+            "name": "Alien 59",
             "visibility_rules": ["objective_percentage:99"],
             "item_count": 1
         },
         {
-            "name": "Aliens 60",
+            "name": "Alien 60",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -1149,14 +1248,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 8
         },
 
         {
-            "name": "Alien",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 60
         }
 
@@ -1168,7 +1269,43 @@
             "y": 196
         }
     ]
+},{
+    "name": "Glyphic Canyon - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "gc_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 210,
+            "y": 171
+        }
+    ]
 },
+
 {
     "name": "Lethal Highway",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -1182,6 +1319,7 @@
 
         {
             "name": "Hero Mission",
+            "access_rules": ["$objective_clearable|lh|0"], 
             "item_count": 1
         }
  
@@ -1191,6 +1329,27 @@
             "map": "menu",
             "x": 160,
             "y": 239
+        }
+    ]
+},
+{
+    "name": "Lethal Highway - Hero Objective",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "lh_stage" ],
+    "visibility_rules": ["objectivesanity_enabled "],
+	"sections": [
+        {
+            "name": "Tank 1",
+            "visibility_rules": ["objective_percentage:100"],
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 185,
+            "y": 264
         }
     ]
 },
@@ -1238,14 +1397,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 30
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 137
         }
 
@@ -1257,7 +1418,43 @@
             "y": 264
         }
     ]
+},{
+    "name": "Lethal Highway - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "lh_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 210,
+            "y": 239
+        }
+    ]
 },
+
 {
     "name": "Cryptic Castle",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -1298,27 +1495,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Lanterns 1",
+            "name": "Lantern 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Lanterns 2",
+            "name": "Lantern 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Lanterns 3",
+            "name": "Lantern 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Lanterns 4",
+            "name": "Lantern 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Lanterns 5",
+            "name": "Lantern 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -1413,14 +1610,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "Egg Pawns",
+            "name": "Egg Pawn",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 17
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 52
         }
 
@@ -1432,7 +1631,43 @@
             "y": 128
         }
     ]
+},{
+    "name": "Cryptic Castle - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "cc_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 320,
+            "y": 103
+        }
+    ]
 },
+
 {
     "name": "Prison Island",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -1473,202 +1708,202 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soldiers 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:3"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:8"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:13"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:23"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:28"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:33"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:43"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:48"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 21",
+            "name": "Soldier 21",
             "visibility_rules": ["objective_percentage:53"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 22",
+            "name": "Soldier 22",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 23",
+            "name": "Soldier 23",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 24",
+            "name": "Soldier 24",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 25",
+            "name": "Soldier 25",
             "visibility_rules": ["objective_percentage:63"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 26",
+            "name": "Soldier 26",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 27",
+            "name": "Soldier 27",
             "visibility_rules": ["objective_percentage:68"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 28",
+            "name": "Soldier 28",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 29",
+            "name": "Soldier 29",
             "visibility_rules": ["objective_percentage:73"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 30",
+            "name": "Soldier 30",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 31",
+            "name": "Soldier 31",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 32",
+            "name": "Soldier 32",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 33",
+            "name": "Soldier 33",
             "visibility_rules": ["objective_percentage:83"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 34",
+            "name": "Soldier 34",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 35",
+            "name": "Soldier 35",
             "visibility_rules": ["objective_percentage:88"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 36",
+            "name": "Soldier 36",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 37",
+            "name": "Soldier 37",
             "visibility_rules": ["objective_percentage:93"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 38",
+            "name": "Soldier 38",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 39",
+            "name": "Soldier 39",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 40",
+            "name": "Soldier 40",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -1689,27 +1924,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Discs 1",
+            "name": "Disc 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Discs 2",
+            "name": "Disc 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Discs 3",
+            "name": "Disc 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Discs 4",
+            "name": "Disc 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Discs 5",
+            "name": "Disc 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -1774,14 +2009,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 41
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 88
         }
 
@@ -1793,7 +2030,43 @@
             "y": 196
         }
     ]
+},{
+    "name": "Prison Island - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "pi_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 320,
+            "y": 171
+        }
+    ]
 },
+
 {
     "name": "Circus Park",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -1833,102 +2106,102 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soldiers 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -1993,14 +2266,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 21
         },
 
         {
-            "name": "Egg Pawns",
+            "name": "Egg Pawn",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 29
         }
 
@@ -2012,9 +2287,45 @@
             "y": 264
         }
     ]
+},{
+    "name": "Circus Park - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "cp_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 320,
+            "y": 239
+        }
+    ]
 },
+
 {
-    "name": "Central Park",
+    "name": "Central City",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
@@ -2041,34 +2352,34 @@
     ]
 },
 {
-    "name": "Central Park - Dark Objective",
+    "name": "Central City - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Big Bombs 1",
+            "name": "Big Bomb 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Big Bombs 2",
+            "name": "Big Bomb 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Big Bombs 3",
+            "name": "Big Bomb 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Big Bombs 4",
+            "name": "Big Bomb 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Big Bombs 5",
+            "name": "Big Bomb 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2082,109 +2393,109 @@
     ]
 },
 {
-    "name": "Central Park - Hero Objective",
+    "name": "Central City - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Small Bombs 1",
+            "name": "Small Bomb 1",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 2",
+            "name": "Small Bomb 2",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 3",
+            "name": "Small Bomb 3",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 4",
+            "name": "Small Bomb 4",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 5",
+            "name": "Small Bomb 5",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 6",
+            "name": "Small Bomb 6",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 7",
+            "name": "Small Bomb 7",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 8",
+            "name": "Small Bomb 8",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 9",
+            "name": "Small Bomb 9",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 10",
+            "name": "Small Bomb 10",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 11",
+            "name": "Small Bomb 11",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 12",
+            "name": "Small Bomb 12",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 13",
+            "name": "Small Bomb 13",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 14",
+            "name": "Small Bomb 14",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 15",
+            "name": "Small Bomb 15",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 16",
+            "name": "Small Bomb 16",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 17",
+            "name": "Small Bomb 17",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 18",
+            "name": "Small Bomb 18",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 19",
+            "name": "Small Bomb 19",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "Small Bombs 20",
+            "name": "Small Bomb 20",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2198,7 +2509,7 @@
     ]
 },
 {
-    "name": "Central Park - Checkpoints",
+    "name": "Central City - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
@@ -2233,6 +2544,42 @@
         {
             "map": "menu",
             "x": 405,
+            "y": 35
+        }
+    ]
+},
+{
+    "name": "Central City - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ci_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
             "y": 35
         }
     ]
@@ -2278,302 +2625,302 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soldiers 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:2"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:5"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:7"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:9"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:14"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:17"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:19"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:22"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:24"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:27"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 21",
+            "name": "Soldier 21",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 22",
+            "name": "Soldier 22",
             "visibility_rules": ["objective_percentage:37"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 23",
+            "name": "Soldier 23",
             "visibility_rules": ["objective_percentage:39"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 24",
+            "name": "Soldier 24",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 25",
+            "name": "Soldier 25",
             "visibility_rules": ["objective_percentage:42"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 26",
+            "name": "Soldier 26",
             "visibility_rules": ["objective_percentage:44"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 27",
+            "name": "Soldier 27",
             "visibility_rules": ["objective_percentage:45"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 28",
+            "name": "Soldier 28",
             "visibility_rules": ["objective_percentage:47"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 29",
+            "name": "Soldier 29",
             "visibility_rules": ["objective_percentage:49"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 30",
+            "name": "Soldier 30",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 31",
+            "name": "Soldier 31",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 32",
+            "name": "Soldier 32",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 33",
+            "name": "Soldier 33",
             "visibility_rules": ["objective_percentage:56"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 34",
+            "name": "Soldier 34",
             "visibility_rules": ["objective_percentage:57"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 35",
+            "name": "Soldier 35",
             "visibility_rules": ["objective_percentage:59"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 36",
+            "name": "Soldier 36",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 37",
+            "name": "Soldier 37",
             "visibility_rules": ["objective_percentage:62"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 38",
+            "name": "Soldier 38",
             "visibility_rules": ["objective_percentage:64"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 39",
+            "name": "Soldier 39",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 40",
+            "name": "Soldier 40",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 41",
+            "name": "Soldier 41",
             "visibility_rules": ["objective_percentage:69"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 42",
+            "name": "Soldier 42",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 43",
+            "name": "Soldier 43",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 44",
+            "name": "Soldier 44",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 45",
+            "name": "Soldier 45",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 46",
+            "name": "Soldier 46",
             "visibility_rules": ["objective_percentage:77"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 47",
+            "name": "Soldier 47",
             "visibility_rules": ["objective_percentage:79"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 48",
+            "name": "Soldier 48",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 49",
+            "name": "Soldier 49",
             "visibility_rules": ["objective_percentage:82"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 50",
+            "name": "Soldier 50",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 51",
+            "name": "Soldier 51",
             "visibility_rules": ["objective_percentage:85"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 52",
+            "name": "Soldier 52",
             "visibility_rules": ["objective_percentage:87"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 53",
+            "name": "Soldier 53",
             "visibility_rules": ["objective_percentage:89"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 54",
+            "name": "Soldier 54",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 55",
+            "name": "Soldier 55",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 56",
+            "name": "Soldier 56",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 57",
+            "name": "Soldier 57",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 58",
+            "name": "Soldier 58",
             "visibility_rules": ["objective_percentage:97"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 59",
+            "name": "Soldier 59",
             "visibility_rules": ["objective_percentage:99"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 60",
+            "name": "Soldier 60",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2594,52 +2941,52 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Researchers 1",
+            "name": "Researcher 1",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "Researchers 2",
+            "name": "Researcher 2",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Researchers 3",
+            "name": "Researcher 3",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "Researchers 4",
+            "name": "Researcher 4",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Researchers 5",
+            "name": "Researcher 5",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Researchers 6",
+            "name": "Researcher 6",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Researchers 7",
+            "name": "Researcher 7",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "Researchers 8",
+            "name": "Researcher 8",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Researchers 9",
+            "name": "Researcher 9",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "Researchers 10",
+            "name": "Researcher 10",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2692,6 +3039,64 @@
         }
     ]
 },
+{
+    "name": "The Doom - Enemies",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "td_stage" ],
+    "visibility_rules": ["enemysanity_enabled"],
+    "sections": [
+        {
+            "name": "GUN Soldier",
+            "clear_as_group": "false",
+            "overlay_background": "#000000",
+            "item_count": 60
+        }
+
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
+            "y": 128
+        }
+    ]
+},{
+    "name": "The Doom - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "td_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
+            "y": 103
+        }
+    ]
+},
 
 {
     "name": "Sky Troops",
@@ -2733,27 +3138,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Egg Fleets 1",
+            "name": "Egg Ship 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Egg Fleets 2",
+            "name": "Egg Ship 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Egg Fleets 3",
+            "name": "Egg Ship 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Egg Fleets 4",
+            "name": "Egg Ship 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Egg Fleets 5",
+            "name": "Egg Ship 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2774,27 +3179,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Temple Jewels 1",
+            "name": "Temple Jewel 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 2",
+            "name": "Temple Jewel 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 3",
+            "name": "Temple Jewel 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 4",
+            "name": "Temple Jewel 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Temple Jewels 5",
+            "name": "Temple Jewel 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -2863,14 +3268,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 73
         },
 
         {
-            "name": "Egg Pawns",
+            "name": "Egg Pawn",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 11
         }
 
@@ -2882,7 +3289,43 @@
             "y": 196
         }
     ]
+},{
+    "name": "Sky Troops - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "st_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
+            "y": 171
+        }
+    ]
 },
+
 {
     "name": "Mad Matrix",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -2923,152 +3366,152 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Bombs 1",
+            "name": "Bomb 1",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "Bombs 2",
+            "name": "Bomb 2",
             "visibility_rules": ["objective_percentage:7"],
             "item_count": 1
         },
         {
-            "name": "Bombs 3",
+            "name": "Bomb 3",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "Bombs 4",
+            "name": "Bomb 4",
             "visibility_rules": ["objective_percentage:14"],
             "item_count": 1
         },
         {
-            "name": "Bombs 5",
+            "name": "Bomb 5",
             "visibility_rules": ["objective_percentage:17"],
             "item_count": 1
         },
         {
-            "name": "Bombs 6",
+            "name": "Bomb 6",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Bombs 7",
+            "name": "Bomb 7",
             "visibility_rules": ["objective_percentage:24"],
             "item_count": 1
         },
         {
-            "name": "Bombs 8",
+            "name": "Bomb 8",
             "visibility_rules": ["objective_percentage:27"],
             "item_count": 1
         },
         {
-            "name": "Bombs 9",
+            "name": "Bomb 9",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "Bombs 10",
+            "name": "Bomb 10",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Bombs 11",
+            "name": "Bomb 11",
             "visibility_rules": ["objective_percentage:37"],
             "item_count": 1
         },
         {
-            "name": "Bombs 12",
+            "name": "Bomb 12",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Bombs 13",
+            "name": "Bomb 13",
             "visibility_rules": ["objective_percentage:44"],
             "item_count": 1
         },
         {
-            "name": "Bombs 14",
+            "name": "Bomb 14",
             "visibility_rules": ["objective_percentage:47"],
             "item_count": 1
         },
         {
-            "name": "Bombs 15",
+            "name": "Bomb 15",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Bombs 16",
+            "name": "Bomb 16",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "Bombs 17",
+            "name": "Bomb 17",
             "visibility_rules": ["objective_percentage:57"],
             "item_count": 1
         },
         {
-            "name": "Bombs 18",
+            "name": "Bomb 18",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Bombs 19",
+            "name": "Bomb 19",
             "visibility_rules": ["objective_percentage:64"],
             "item_count": 1
         },
         {
-            "name": "Bombs 20",
+            "name": "Bomb 20",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "Bombs 21",
+            "name": "Bomb 21",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "Bombs 22",
+            "name": "Bomb 22",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "Bombs 23",
+            "name": "Bomb 23",
             "visibility_rules": ["objective_percentage:77"],
             "item_count": 1
         },
         {
-            "name": "Bombs 24",
+            "name": "Bomb 24",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Bombs 25",
+            "name": "Bomb 25",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "Bombs 26",
+            "name": "Bomb 26",
             "visibility_rules": ["objective_percentage:87"],
             "item_count": 1
         },
         {
-            "name": "Bombs 27",
+            "name": "Bomb 27",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "Bombs 28",
+            "name": "Bomb 28",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "Bombs 29",
+            "name": "Bomb 29",
             "visibility_rules": ["objective_percentage:97"],
             "item_count": 1
         },
         {
-            "name": "Bombs 30",
+            "name": "Bomb 30",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -3089,22 +3532,22 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Data Terminals 1",
+            "name": "Data Terminal 1",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Data Terminals 2",
+            "name": "Data Terminal 2",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Data Terminals 3",
+            "name": "Data Terminal 3",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Data Terminals 4",
+            "name": "Data Terminal 4",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -3165,14 +3608,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "Egg Pawns",
+            "name": "Egg Pawn",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 31
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 8
         }
 
@@ -3184,7 +3629,43 @@
             "y": 264
         }
     ]
+},{
+    "name": "Mad Matrix - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "mm_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
+            "y": 239
+        }
+    ]
 },
+
 {
     "name": "Death Ruins",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -3219,252 +3700,252 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "Aliens 1",
+            "name": "Alien 1",
             "visibility_rules": ["objective_percentage:2"],
             "item_count": 1
         },
         {
-            "name": "Aliens 2",
+            "name": "Alien 2",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "Aliens 3",
+            "name": "Alien 3",
             "visibility_rules": ["objective_percentage:6"],
             "item_count": 1
         },
         {
-            "name": "Aliens 4",
+            "name": "Alien 4",
             "visibility_rules": ["objective_percentage:8"],
             "item_count": 1
         },
         {
-            "name": "Aliens 5",
+            "name": "Alien 5",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "Aliens 6",
+            "name": "Alien 6",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "Aliens 7",
+            "name": "Alien 7",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "Aliens 8",
+            "name": "Alien 8",
             "visibility_rules": ["objective_percentage:16"],
             "item_count": 1
         },
         {
-            "name": "Aliens 9",
+            "name": "Alien 9",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "Aliens 10",
+            "name": "Alien 10",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Aliens 11",
+            "name": "Alien 11",
             "visibility_rules": ["objective_percentage:22"],
             "item_count": 1
         },
         {
-            "name": "Aliens 12",
+            "name": "Alien 12",
             "visibility_rules": ["objective_percentage:24"],
             "item_count": 1
         },
         {
-            "name": "Aliens 13",
+            "name": "Alien 13",
             "visibility_rules": ["objective_percentage:26"],
             "item_count": 1
         },
         {
-            "name": "Aliens 14",
+            "name": "Alien 14",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "Aliens 15",
+            "name": "Alien 15",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "Aliens 16",
+            "name": "Alien 16",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "Aliens 17",
+            "name": "Alien 17",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Aliens 18",
+            "name": "Alien 18",
             "visibility_rules": ["objective_percentage:36"],
             "item_count": 1
         },
         {
-            "name": "Aliens 19",
+            "name": "Alien 19",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "Aliens 20",
+            "name": "Alien 20",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Aliens 21",
+            "name": "Alien 21",
             "visibility_rules": ["objective_percentage:42"],
             "item_count": 1
         },
         {
-            "name": "Aliens 22",
+            "name": "Alien 22",
             "visibility_rules": ["objective_percentage:44"],
             "item_count": 1
         },
         {
-            "name": "Aliens 23",
+            "name": "Alien 23",
             "visibility_rules": ["objective_percentage:46"],
             "item_count": 1
         },
         {
-            "name": "Aliens 24",
+            "name": "Alien 24",
             "visibility_rules": ["objective_percentage:48"],
             "item_count": 1
         },
         {
-            "name": "Aliens 25",
+            "name": "Alien 25",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Aliens 26",
+            "name": "Alien 26",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "Aliens 27",
+            "name": "Alien 27",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "Aliens 28",
+            "name": "Alien 28",
             "visibility_rules": ["objective_percentage:57"],
             "item_count": 1
         },
         {
-            "name": "Aliens 29",
+            "name": "Alien 29",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "Aliens 30",
+            "name": "Alien 30",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Aliens 31",
+            "name": "Alien 31",
             "visibility_rules": ["objective_percentage:62"],
             "item_count": 1
         },
         {
-            "name": "Aliens 32",
+            "name": "Alien 32",
             "visibility_rules": ["objective_percentage:64"],
             "item_count": 1
         },
         {
-            "name": "Aliens 33",
+            "name": "Alien 33",
             "visibility_rules": ["objective_percentage:66"],
             "item_count": 1
         },
         {
-            "name": "Aliens 34",
+            "name": "Alien 34",
             "visibility_rules": ["objective_percentage:68"],
             "item_count": 1
         },
         {
-            "name": "Aliens 35",
+            "name": "Alien 35",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "Aliens 36",
+            "name": "Alien 36",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "Aliens 37",
+            "name": "Alien 37",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "Aliens 38",
+            "name": "Alien 38",
             "visibility_rules": ["objective_percentage:76"],
             "item_count": 1
         },
         {
-            "name": "Aliens 39",
+            "name": "Alien 39",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "Aliens 40",
+            "name": "Alien 40",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Aliens 41",
+            "name": "Alien 41",
             "visibility_rules": ["objective_percentage:82"],
             "item_count": 1
         },
         {
-            "name": "Aliens 42",
+            "name": "Alien 42",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "Aliens 43",
+            "name": "Alien 43",
             "visibility_rules": ["objective_percentage:86"],
             "item_count": 1
         },
         {
-            "name": "Aliens 44",
+            "name": "Alien 44",
             "visibility_rules": ["objective_percentage:88"],
             "item_count": 1
         },
         {
-            "name": "Aliens 45",
+            "name": "Alien 45",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "Aliens 46",
+            "name": "Alien 46",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "Aliens 47",
+            "name": "Alien 47",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "Aliens 48",
+            "name": "Alien 48",
             "visibility_rules": ["objective_percentage:96"],
             "item_count": 1
         },
         {
-            "name": "Aliens 49",
+            "name": "Alien 49",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "Aliens 50",
+            "name": "Alien 50",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -3529,14 +4010,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 21
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 50
         }
 
@@ -3548,9 +4031,45 @@
             "y": 332
         }
     ]
+},{
+    "name": "Death Ruins - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "dr_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 430,
+            "y": 307
+        }
+    ]
 },
+
 {
-    "name": "The ARK",
+    "name": "The Ark",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
@@ -3576,29 +4095,29 @@
     ]
 },
 {
-    "name": "The ARK - Dark Objective",
+    "name": "The Ark - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Defense Units 1",
+            "name": "Defense Unit 1",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 2",
+            "name": "Defense Unit 2",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 3",
+            "name": "Defense Unit 3",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 4",
+            "name": "Defense Unit 4",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -3612,7 +4131,7 @@
     ]
 },
 {
-    "name": "The ARK - Checkpoints",
+    "name": "The Ark - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
@@ -3660,21 +4179,23 @@
     ]
 },
 {
-    "name": "The ARK - Enemies",
+    "name": "The Ark - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 74
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 21
         }
 
@@ -3686,7 +4207,43 @@
             "y": 60
         }
     ]
+},{
+    "name": "The Ark - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ta_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 540,
+            "y": 35
+        }
+    ]
 },
+
 {
     "name": "Air Fleet",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -3695,6 +4252,7 @@
 	"sections": [
         {
             "name": "Dark Mission",
+            "access_rules": ["$objective_clearable|af|1"], 
             "item_count": 1
         },
 
@@ -3719,6 +4277,27 @@
     ]
 },
 {
+    "name": "Air Fleet - Dark Objective",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "af_stage" ],
+    "visibility_rules": ["objectivesanity_enabled "],
+	"sections": [
+        {
+            "name": "President Aircraft 1",
+            "visibility_rules": ["objective_percentage:100"],
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 490,
+            "y": 128
+        }
+    ]
+},
+{
     "name": "Air Fleet - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
@@ -3726,177 +4305,177 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "Aliens 1",
+            "name": "Alien 1",
             "visibility_rules": ["objective_percentage:3"],
             "item_count": 1
         },
         {
-            "name": "Aliens 2",
+            "name": "Alien 2",
             "visibility_rules": ["objective_percentage:6"],
             "item_count": 1
         },
         {
-            "name": "Aliens 3",
+            "name": "Alien 3",
             "visibility_rules": ["objective_percentage:9"],
             "item_count": 1
         },
         {
-            "name": "Aliens 4",
+            "name": "Alien 4",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "Aliens 5",
+            "name": "Alien 5",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "Aliens 6",
+            "name": "Alien 6",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "Aliens 7",
+            "name": "Alien 7",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Aliens 8",
+            "name": "Alien 8",
             "visibility_rules": ["objective_percentage:23"],
             "item_count": 1
         },
         {
-            "name": "Aliens 9",
+            "name": "Alien 9",
             "visibility_rules": ["objective_percentage:26"],
             "item_count": 1
         },
         {
-            "name": "Aliens 10",
+            "name": "Alien 10",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "Aliens 11",
+            "name": "Alien 11",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "Aliens 12",
+            "name": "Alien 12",
             "visibility_rules": ["objective_percentage:35"],
             "item_count": 1
         },
         {
-            "name": "Aliens 13",
+            "name": "Alien 13",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "Aliens 14",
+            "name": "Alien 14",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Aliens 15",
+            "name": "Alien 15",
             "visibility_rules": ["objective_percentage:43"],
             "item_count": 1
         },
         {
-            "name": "Aliens 16",
+            "name": "Alien 16",
             "visibility_rules": ["objective_percentage:46"],
             "item_count": 1
         },
         {
-            "name": "Aliens 17",
+            "name": "Alien 17",
             "visibility_rules": ["objective_percentage:49"],
             "item_count": 1
         },
         {
-            "name": "Aliens 18",
+            "name": "Alien 18",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "Aliens 19",
+            "name": "Alien 19",
             "visibility_rules": ["objective_percentage:55"],
             "item_count": 1
         },
         {
-            "name": "Aliens 20",
+            "name": "Alien 20",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "Aliens 21",
+            "name": "Alien 21",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Aliens 22",
+            "name": "Alien 22",
             "visibility_rules": ["objective_percentage:63"],
             "item_count": 1
         },
         {
-            "name": "Aliens 23",
+            "name": "Alien 23",
             "visibility_rules": ["objective_percentage:66"],
             "item_count": 1
         },
         {
-            "name": "Aliens 24",
+            "name": "Alien 24",
             "visibility_rules": ["objective_percentage:69"],
             "item_count": 1
         },
         {
-            "name": "Aliens 25",
+            "name": "Alien 25",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "Aliens 26",
+            "name": "Alien 26",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Aliens 27",
+            "name": "Alien 27",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "Aliens 28",
+            "name": "Alien 28",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Aliens 29",
+            "name": "Alien 29",
             "visibility_rules": ["objective_percentage:83"],
             "item_count": 1
         },
         {
-            "name": "Aliens 30",
+            "name": "Alien 30",
             "visibility_rules": ["objective_percentage:86"],
             "item_count": 1
         },
         {
-            "name": "Aliens 31",
+            "name": "Alien 31",
             "visibility_rules": ["objective_percentage:89"],
             "item_count": 1
         },
         {
-            "name": "Aliens 32",
+            "name": "Alien 32",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "Aliens 33",
+            "name": "Alien 33",
             "visibility_rules": ["objective_percentage:95"],
             "item_count": 1
         },
         {
-            "name": "Aliens 34",
+            "name": "Alien 34",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "Aliens 35",
+            "name": "Alien 35",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -3965,14 +4544,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Solders",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 48
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 35
         }
 
@@ -3984,7 +4565,43 @@
             "y": 128
         }
     ]
+},{
+    "name": "Air Fleet - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "af_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 540,
+            "y": 103
+        }
+    ]
 },
+
 {
     "name": "Iron Jungle",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -4004,6 +4621,7 @@
 
         {
             "name": "Hero Mission",
+            "access_rules": ["$objective_clearable|ij|0"], 
             "item_count": 1
         }
  
@@ -4024,142 +4642,142 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soliders 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:8"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:11"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:22"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:33"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:36"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:43"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:47"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:61"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:65"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:68"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 21",
+            "name": "Soldier 21",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 22",
+            "name": "Soldier 22",
             "visibility_rules": ["objective_percentage:79"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 23",
+            "name": "Soldier 23",
             "visibility_rules": ["objective_percentage:83"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 24",
+            "name": "Soldier 24",
             "visibility_rules": ["objective_percentage:86"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 25",
+            "name": "Soldier 25",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 26",
+            "name": "Soldier 26",
             "visibility_rules": ["objective_percentage:93"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 27",
+            "name": "Soldier 27",
             "visibility_rules": ["objective_percentage:97"],
             "item_count": 1
         },
         {
-            "name": "GUN Soliders 28",
+            "name": "Soldier 28",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -4168,6 +4786,27 @@
         {
             "map": "menu",
             "x": 490,
+            "y": 196
+        }
+    ]
+},
+{
+    "name": "Iron Jungle - Hero Objective",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ij_stage" ],
+    "visibility_rules": ["objectivesanity_enabled "],
+	"sections": [
+        {
+            "name": "Egg Balloon 1",
+            "visibility_rules": ["objective_percentage:100"],
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 515,
             "y": 196
         }
     ]
@@ -4228,14 +4867,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 28
         },
 
         {
-            "name": "Egg Pawns",
+            "name": "Egg Pawn",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 37
         }
 
@@ -4247,16 +4888,52 @@
             "y": 196
         }
     ]
+},{
+    "name": "Iron Jungle - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ij_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 540,
+            "y": 171
+        }
+    ]
 },
+
 {
     "name": "Space Gadget",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "sp_stage" ],
+    "access_rules": [ "sg_stage" ],
 	"sections": [
         {
             "name": "Dark Mission",
-            "access_rules": ["$objective_clearable|sp|1"], 
+            "access_rules": ["$objective_clearable|sg|1"], 
             "item_count": 1
         },
 
@@ -4283,36 +4960,36 @@
     "name": "Space Gadget - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "sp_stage" ],
+    "access_rules": [ "sg_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Defense Units 1",
+            "name": "Defense Unit 1",
             "visibility_rules": ["objective_percentage:17"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 2",
+            "name": "Defense Unit 2",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 3",
+            "name": "Defense Unit 3",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 4",
+            "name": "Defense Unit 4",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 5",
+            "name": "Defense Unit 5",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "Defense Units 6",
+            "name": "Defense Unit 6",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -4329,7 +5006,7 @@
     "name": "Space Gadget - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "sp_stage" ],
+    "access_rules": [ "sg_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
 	"sections": [
         {
@@ -4377,18 +5054,20 @@
     "name": "Space Gadget - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "sp_stage" ],
+    "access_rules": [ "sg_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 25
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 33
         }
 
@@ -4400,7 +5079,43 @@
             "y": 264
         }
     ]
+},{
+    "name": "Space Gadget - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "sg_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 540,
+            "y": 239
+        }
+    ]
 },
+
 {
     "name": "Lost Impact",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -4674,14 +5389,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 31
         },
 
         {
             "name": "Artificial Chaos",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 35
         }
 
@@ -4693,9 +5410,45 @@
             "y": 332
         }
     ]
+},{
+    "name": "Lost Impact - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "li_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 540,
+            "y": 307
+        }
+    ]
 },
+
 {
-    "name": "GUN Fortress",
+    "name": "Gun Fortress",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
@@ -4721,24 +5474,24 @@
     ]
 },
 {
-    "name": "GUN Fortress - Dark Objective",
+    "name": "Gun Fortress - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Mother Computers 1",
+            "name": "Computer 1",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "Mother Computers 2",
+            "name": "Computer 2",
             "visibility_rules": ["objective_percentage:67"],
             "item_count": 1
         },
         {
-            "name": "Mother Computers 3",
+            "name": "Computer 3",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -4752,7 +5505,7 @@
     ]
 },
 {
-    "name": "GUN Fortress - Checkpoints",
+    "name": "Gun Fortress - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
@@ -4796,21 +5549,23 @@
     ]
 },
 {
-    "name": "GUN Fortress - Enemies",
+    "name": "Gun Fortress - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
 	"chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 94
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 18
         }
 
@@ -4822,7 +5577,43 @@
             "y": 60
         }
     ]
+},{
+    "name": "Gun Fortress - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "gf_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
+            "y": 35
+        }
+    ]
 },
+
 {
     "name": "Black Comet",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -4857,252 +5648,252 @@
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
 	"sections": [
         {
-            "name": "GUN Soldiers 1",
+            "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:2"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 2",
+            "name": "Soldier 2",
             "visibility_rules": ["objective_percentage:4"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 3",
+            "name": "Soldier 3",
             "visibility_rules": ["objective_percentage:6"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 4",
+            "name": "Soldier 4",
             "visibility_rules": ["objective_percentage:8"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 5",
+            "name": "Soldier 5",
             "visibility_rules": ["objective_percentage:10"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 6",
+            "name": "Soldier 6",
             "visibility_rules": ["objective_percentage:12"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 7",
+            "name": "Soldier 7",
             "visibility_rules": ["objective_percentage:15"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 8",
+            "name": "Soldier 8",
             "visibility_rules": ["objective_percentage:16"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 9",
+            "name": "Soldier 9",
             "visibility_rules": ["objective_percentage:18"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 10",
+            "name": "Soldier 10",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 11",
+            "name": "Soldier 11",
             "visibility_rules": ["objective_percentage:22"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 12",
+            "name": "Soldier 12",
             "visibility_rules": ["objective_percentage:24"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 13",
+            "name": "Soldier 13",
             "visibility_rules": ["objective_percentage:26"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 14",
+            "name": "Soldier 14",
             "visibility_rules": ["objective_percentage:29"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 15",
+            "name": "Soldier 15",
             "visibility_rules": ["objective_percentage:30"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 16",
+            "name": "Soldier 16",
             "visibility_rules": ["objective_percentage:32"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 17",
+            "name": "Soldier 17",
             "visibility_rules": ["objective_percentage:34"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 18",
+            "name": "Soldier 18",
             "visibility_rules": ["objective_percentage:36"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 19",
+            "name": "Soldier 19",
             "visibility_rules": ["objective_percentage:38"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 20",
+            "name": "Soldier 20",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 21",
+            "name": "Soldier 21",
             "visibility_rules": ["objective_percentage:42"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 22",
+            "name": "Soldier 22",
             "visibility_rules": ["objective_percentage:44"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 23",
+            "name": "Soldier 23",
             "visibility_rules": ["objective_percentage:46"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 24",
+            "name": "Soldier 24",
             "visibility_rules": ["objective_percentage:48"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 25",
+            "name": "Soldier 25",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 26",
+            "name": "Soldier 26",
             "visibility_rules": ["objective_percentage:52"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 27",
+            "name": "Soldier 27",
             "visibility_rules": ["objective_percentage:54"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 28",
+            "name": "Soldier 28",
             "visibility_rules": ["objective_percentage:57"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 29",
+            "name": "Soldier 29",
             "visibility_rules": ["objective_percentage:58"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 30",
+            "name": "Soldier 30",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 31",
+            "name": "Soldier 31",
             "visibility_rules": ["objective_percentage:62"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 32",
+            "name": "Soldier 32",
             "visibility_rules": ["objective_percentage:64"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 33",
+            "name": "Soldier 33",
             "visibility_rules": ["objective_percentage:66"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 34",
+            "name": "Soldier 34",
             "visibility_rules": ["objective_percentage:68"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 35",
+            "name": "Soldier 35",
             "visibility_rules": ["objective_percentage:70"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 36",
+            "name": "Soldier 36",
             "visibility_rules": ["objective_percentage:72"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 37",
+            "name": "Soldier 37",
             "visibility_rules": ["objective_percentage:74"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 38",
+            "name": "Soldier 38",
             "visibility_rules": ["objective_percentage:76"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 39",
+            "name": "Soldier 39",
             "visibility_rules": ["objective_percentage:78"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 40",
+            "name": "Soldier 40",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 41",
+            "name": "Soldier 41",
             "visibility_rules": ["objective_percentage:82"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 42",
+            "name": "Soldier 42",
             "visibility_rules": ["objective_percentage:84"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 43",
+            "name": "Soldier 43",
             "visibility_rules": ["objective_percentage:86"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 44",
+            "name": "Soldier 44",
             "visibility_rules": ["objective_percentage:88"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 45",
+            "name": "Soldier 45",
             "visibility_rules": ["objective_percentage:90"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 46",
+            "name": "Soldier 46",
             "visibility_rules": ["objective_percentage:92"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 47",
+            "name": "Soldier 47",
             "visibility_rules": ["objective_percentage:94"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 48",
+            "name": "Soldier 48",
             "visibility_rules": ["objective_percentage:96"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 49",
+            "name": "Soldier 49",
             "visibility_rules": ["objective_percentage:98"],
             "item_count": 1
         },
         {
-            "name": "GUN Soldiers 50",
+            "name": "Soldier 50",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -5171,14 +5962,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 53
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 83
         }
 
@@ -5190,7 +5983,43 @@
             "y": 128
         }
     ]
+},{
+    "name": "Black Comet - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "bc_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
+            "y": 103
+        }
+    ]
 },
+
 {
     "name": "Lava Shelter",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -5225,27 +6054,27 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Lava Defense Units 1",
+            "name": "Lava Defense Unit 1",
             "visibility_rules": ["objective_percentage:20"],
             "item_count": 1
         },
         {
-            "name": "Lava Defense Units 2",
+            "name": "Lava Defense Unit 2",
             "visibility_rules": ["objective_percentage:40"],
             "item_count": 1
         },
         {
-            "name": "Lava Defense Units 3",
+            "name": "Lava Defense Unit 3",
             "visibility_rules": ["objective_percentage:60"],
             "item_count": 1
         },
         {
-            "name": "Lava Defense Units 4",
+            "name": "Lava Defense Unit 4",
             "visibility_rules": ["objective_percentage:80"],
             "item_count": 1
         },
         {
-            "name": "Lava Defense Units 5",
+            "name": "Lava Defense Unit 5",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -5302,6 +6131,64 @@
         {
             "map": "menu",
             "x": 625,
+            "y": 171
+        }
+    ]
+},
+{
+    "name": "Lava Shelter - Enemies",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ls_stage" ],
+    "visibility_rules": ["enemysanity_enabled"],
+    "sections": [
+        {
+            "name": "Egg Pawn",
+            "clear_as_group": "false",
+            "overlay_background": "#000000",
+            "item_count": 74
+        }
+
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
+            "y": 196
+        }
+    ]
+},{
+    "name": "Lava Shelter - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "ls_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
             "y": 171
         }
     ]
@@ -5384,14 +6271,16 @@
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
         {
-            "name": "GUN Soldiers",
+            "name": "GUN Soldier",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 7
         },
 
         {
-            "name": "Aliens",
+            "name": "Black Arm",
             "clear_as_group": "false",
+            "overlay_background": "#000000",
             "item_count": 24
         }
 
@@ -5403,7 +6292,43 @@
             "y": 264
         }
     ]
+},{
+    "name": "Cosmic Fall - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "cf_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
+            "y": 239
+        }
+    ]
 },
+
 {
     "name": "Final Haunt",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -5438,22 +6363,22 @@
     "visibility_rules": ["objectivesanity_enabled "],
 	"sections": [
         {
-            "name": "Defense Shields 1",
+            "name": "Shield 1",
             "visibility_rules": ["objective_percentage:25"],
             "item_count": 1
         },
         {
-            "name": "Defense Shields 2",
+            "name": "Shield 2",
             "visibility_rules": ["objective_percentage:50"],
             "item_count": 1
         },
         {
-            "name": "Defense Shields 3",
+            "name": "Shield 3",
             "visibility_rules": ["objective_percentage:75"],
             "item_count": 1
         },
         {
-            "name": "Defense Shields 4",
+            "name": "Shield 4",
             "visibility_rules": ["objective_percentage:100"],
             "item_count": 1
         }
@@ -5510,6 +6435,64 @@
         {
             "map": "menu",
             "x": 625,
+            "y": 307
+        }
+    ]
+},
+{
+    "name": "Final Haunt - Enemies",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "fh_stage" ],
+    "visibility_rules": ["enemysanity_enabled"],
+    "sections": [
+        {
+            "name": "Black Arm",
+            "clear_as_group": "false",
+            "overlay_background": "#000000",
+            "item_count": 124
+        }
+
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
+            "y": 332
+        }
+    ]
+},{
+    "name": "Final Haunt - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+	"chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "fh_stage" ],
+    "visibility_rules": ["keysanity_enabled"],
+	"sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 650,
             "y": 307
         }
     ]

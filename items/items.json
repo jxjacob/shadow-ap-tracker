@@ -72,6 +72,12 @@
         "img": "/images/lethal.png",
         "codes": "lh_stage"
     },
+    {
+        "name": "Lethal Highway - Tank",
+        "type": "toggle",
+        "img": "/images/tank.png",
+        "codes": "lh_tank"
+    },
 
     {
         "name": "Stage: Glyphic Canyon",
@@ -293,6 +299,12 @@
         "codes": "af_stage"
     },
     {
+        "name": "Air Fleet - The President's Aircraft",
+        "type": "toggle",
+        "img": "/images/president.png",
+        "codes": "af_president"
+    },
+    {
         "name": "Air Fleet - Aliens",
         "type": "consumable",
         "max_quantity": 35,
@@ -314,6 +326,12 @@
         "overlay_background": "#000000",
         "img": "/images/gun.png",
         "codes": "ij_gun"
+    },
+    {
+        "name": "Iron Jungle - Egg Balloon",
+        "type": "toggle",
+        "img": "/images/balloon.png",
+        "codes": "ij_balloon"
     },
 
     {

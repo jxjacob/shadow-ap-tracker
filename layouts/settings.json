@@ -14,9 +14,9 @@
                         "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
-                            ["objectivesanity_enabled","enemy_objectivesanity_enabled", "charactersanity_enabled", "enemysanity_enabled", "checkpointsanity_enabled"],
-                            ["objective_percentage", "objective_item_percentage", "enemysanity_percentage"],
-                            ["goal_missions_percentage", "goal_final_missions_percentage", "goal_hero_missions_percentage", "goal_dark_missions_percentage", "goal_objective_missions_percentage"]
+                            ["objectivesanity_enabled","enemy_objectivesanity_enabled", "charactersanity_enabled", "enemysanity_enabled", "checkpointsanity_enabled", "keysanity_enabled"],
+                            ["objective_percentage", "objective_item_percentage", "", "enemfysanity_percentage"],
+                            ["goal_missions", "goal_final_missions", "goal_hero_missions", "goal_dark_missions", "goal_objective_missions", "goal_emeralds"]
                         ]
                     }
                 ]

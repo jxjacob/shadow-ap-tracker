@@ -1,40 +1,46 @@
 [
-	{
-		"name": "Objectivesanity",
-		"type": "toggle",
-		"img": "images/alien.png",
-		"codes": "objectivesanity_enabled"
-	},
-	{
-		"name": "Enemy Objectivesanity",
-		"type": "toggle",
-		"img": "images/alien.png",
-		"codes": "enemy_objectivesanity_enabled"
-	},
-	{
-		"name": "Charactersanity",
-		"type": "toggle",
-		"img": "images/cream.png",
-		"codes": "charactersanity_enabled"
-	},
-	{
-		"name": "Enemysanity",
-		"type": "toggle",
-		"img": "images/gun.png",
-		"codes": "enemysanity_enabled"
-	},
-	{
-		"name": "Checkpointanity",
-		"type": "toggle",
-		"img": "images/gun.png",
-		"codes": "checkpointsanity_enabled"
-	},
+    {
+        "name": "Objectivesanity",
+        "type": "toggle",
+        "img": "images/alien.png",
+        "codes": "objectivesanity_enabled"
+    },
+    {
+        "name": "Enemy Objectivesanity",
+        "type": "toggle",
+        "img": "images/gun.png",
+        "codes": "enemy_objectivesanity_enabled"
+    },
+    {
+        "name": "Charactersanity",
+        "type": "toggle",
+        "img": "images/cream.png",
+        "codes": "charactersanity_enabled"
+    },
+    {
+        "name": "Enemysanity",
+        "type": "toggle",
+        "img": "images/chaos.png",
+        "codes": "enemysanity_enabled"
+    },
+    {
+        "name": "Checkpointsanity",
+        "type": "toggle",
+        "img": "images/computer.png",
+        "codes": "checkpointsanity_enabled"
+    },
+    {
+        "name": "Keysanity",
+        "type": "toggle",
+        "img": "images/jewel.png",
+        "codes": "keysanity_enabled"
+    },
 
 
 
 
 
-	{
+    {
         "name": "Objective Percentage",
         "type": "consumable",
         "img": "images/alien.png",
@@ -48,7 +54,7 @@
     {
         "name": "Objective Item Percentage",
         "type": "consumable",
-        "img": "images/chaos.png",
+        "img": "images/alien.png",
         "initial_quantity": 100,
         "min_quantity": 0,
         "max_quantity": 100,
@@ -70,58 +76,64 @@
 
 
     {
-        "name": "Goal - Mission Percentage",
+        "name": "Goal - Mission Tokens",
         "type": "consumable",
         "img": "images/token_normal.png",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "goal_missions_percentage"
+        "codes": "goal_missions"
     },
     {
-        "name": "Goal - Final Mission Percentage",
+        "name": "Goal - Final Mission Tokens",
         "type": "consumable",
         "img": "images/token_final.png",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "goal_final_missions_percentage"
+        "codes": "goal_final_missions"
     },
     {
-        "name": "Goal - Hero Mission Percentage",
+        "name": "Goal - Hero Mission Tokens",
         "type": "consumable",
         "img": "images/token_hero.png",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "goal_hero_missions_percentage"
+        "codes": "goal_hero_missions"
     },
     {
-        "name": "Goal - Dark Mission Percentage",
+        "name": "Goal - Dark Mission Tokens",
         "type": "consumable",
         "img": "images/token_dark.png",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "goal_dark_missions_percentage"
+        "codes": "goal_dark_missions"
     },
     {
-        "name": "Goal - Objective Mission Percentage",
+        "name": "Goal - Objective Mission Tokens",
         "type": "consumable",
         "img": "images/token_objective.png",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "min_quantity": 0,
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "goal_objective_missions_percentage"
+        "codes": "goal_objective_missions"
+    },
+    {
+        "name": "Goal - All Chaos Emeralds",
+        "type": "toggle",
+        "img": "images/greenemerald.png",
+        "codes": "goal_emeralds"
     }
 ]
