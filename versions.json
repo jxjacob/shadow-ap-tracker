@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.0.2",
 			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.2",
-			"sha256": "pleasereplacethis",
+			"sha256": "9a781cf9c4c12c558a270ebe9cf8c73f0e3c9507dd87e0e799823599ca317b98",
 			"changelog": [
 				"Updated item IDs for 0.0.3 of Shadow AP",
 				"Added autotracking for (almost) all settings"
