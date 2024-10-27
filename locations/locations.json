@@ -97,7 +97,6 @@
 	        }
 	    ]
 	},
-
 {
     "name": "Westopolis",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -1341,7 +1340,7 @@
 	"sections": [
         {
             "name": "Tank 1",
-            "visibility_rules": ["objective_percentage:100"],
+            "visibility_rules": ["objective_percentage:0"],
             "item_count": 1
         }
     ],
@@ -4285,7 +4284,7 @@
 	"sections": [
         {
             "name": "President Aircraft 1",
-            "visibility_rules": ["objective_percentage:100"],
+            "visibility_rules": ["objective_percentage:0"],
             "item_count": 1
         }
     ],
@@ -4799,7 +4798,7 @@
 	"sections": [
         {
             "name": "Egg Balloon 1",
-            "visibility_rules": ["objective_percentage:100"],
+            "visibility_rules": ["objective_percentage:0"],
             "item_count": 1
         }
     ],

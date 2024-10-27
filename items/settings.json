@@ -2,37 +2,37 @@
     {
         "name": "Objectivesanity",
         "type": "toggle",
-        "img": "images/alien.png",
+        "img": "images/objectivesanity.png",
         "codes": "objectivesanity_enabled"
     },
     {
         "name": "Enemy Objectivesanity",
         "type": "toggle",
-        "img": "images/gun.png",
+        "img": "images/enemy-objectivesanity.png",
         "codes": "enemy_objectivesanity_enabled"
     },
     {
         "name": "Charactersanity",
         "type": "toggle",
-        "img": "images/cream.png",
+        "img": "images/charactersanity.png",
         "codes": "charactersanity_enabled"
     },
     {
         "name": "Enemysanity",
         "type": "toggle",
-        "img": "images/chaos.png",
+        "img": "images/enemysanity.png",
         "codes": "enemysanity_enabled"
     },
     {
         "name": "Checkpointsanity",
         "type": "toggle",
-        "img": "images/computer.png",
+        "img": "images/checkpointsanity.png",
         "codes": "checkpointsanity_enabled"
     },
     {
         "name": "Keysanity",
         "type": "toggle",
-        "img": "images/jewel.png",
+        "img": "images/keysanity.png",
         "codes": "keysanity_enabled"
     },
 
@@ -43,7 +43,7 @@
     {
         "name": "Objective Percentage",
         "type": "consumable",
-        "img": "images/alien.png",
+        "img": "images/objectivesanity_percentage.png",
         "initial_quantity": 100,
         "min_quantity": 0,
         "max_quantity": 100,
@@ -54,7 +54,7 @@
     {
         "name": "Objective Item Percentage",
         "type": "consumable",
-        "img": "images/alien.png",
+        "img": "images/objectivesanity_percentage.png",
         "initial_quantity": 100,
         "min_quantity": 0,
         "max_quantity": 100,

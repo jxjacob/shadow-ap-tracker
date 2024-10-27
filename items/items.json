@@ -96,7 +96,7 @@
     {
         "name": "Glyphic Canyon - Aliens",
         "type": "consumable",
-        "max_quantity": 45,
+        "max_quantity": 60,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
         "codes": "gc_alien"
@@ -147,12 +147,12 @@
         "codes": "pi_gun"
     },
     {
-        "name": "Prison Island - Data Disks",
+        "name": "Prison Island - Data Discs",
         "type": "consumable",
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/disk.png",
-        "codes": "pi_disk"
+        "codes": "pi_disc"
     },
 
     {
@@ -345,7 +345,7 @@
         "type": "consumable",
         "max_quantity": 6,
         "overlay_background": "#000000",
-        "img": "/images/defense.png",
+        "img": "/images/defense2.png",
         "codes": "sg_defense"
     },
 

@@ -17,7 +17,7 @@
                           ["wo_stage", "wo_gun", "wo_alien", "", "lh_stage", "lh_tank", "", "li_stage", "li_chaos"],
                           ["gc_stage", "gc_jewel", "gc_alien", "", "cp_stage", "cp_gun", "", "gf_stage", "gf_computer" ],
                           ["cc_stage", "cc_lantern", "cc_cream", "", "dr_stage", "dr_alien", "", "bc_stage", "bc_gun"],
-                          ["pi_stage", "pi_gun", "pi_disk", "",  "ta_stage", "ta_defense",  "", "ls_stage", "ls_lava"],
+                          ["pi_stage", "pi_gun", "pi_disc", "",  "ta_stage", "ta_defense",  "", "ls_stage", "ls_lava"],
                           ["ci_stage", "ci_big", "ci_small", "",  "sg_stage", "sg_defense",  "", "fh_stage", "fh_switch"],
                           ["td_stage", "td_gun", "td_researcher", "", "dc_stage", "", "", "cf_stage"],
                           ["st_stage", "st_ship", "st_jewel"],
