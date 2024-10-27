@@ -1,0 +1,21 @@
+{
+	"versions":[
+		{
+			"package_version": "0.0.2",
+			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.2",
+			"sha256": "pleasereplacethis",
+			"changelog": [
+				"Updated item IDs for 0.0.3 of Shadow AP",
+				"Added autotracking for (almost) all settings"
+			]
+		},
+		{
+			"package_version": "0.0.1",
+			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.1",
+			"sha256": "pleasereplacethis",
+			"changelog": [
+				"Initial release. Missing features"
+			]
+		}
+	]
+}
