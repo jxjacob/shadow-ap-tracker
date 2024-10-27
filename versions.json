@@ -12,9 +12,9 @@
 		{
 			"package_version": "0.0.1",
 			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.1",
-			"sha256": "pleasereplacethis",
+			"sha256": "21fe45802ac4b6df308bb97175e5ca18b2c339dc9649e404ed7793a0e8d68f5b",
 			"changelog": [
-				"Initial release. Missing features"
+				"Initial release. Missing some features. Don't worry about it."
 			]
 		}
 	]
