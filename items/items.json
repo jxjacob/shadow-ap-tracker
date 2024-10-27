@@ -72,6 +72,12 @@
         "img": "/images/lethal.png",
         "codes": "lh_stage"
     },
+    {
+        "name": "Lethal Highway - Tank",
+        "type": "toggle",
+        "img": "/images/tank.png",
+        "codes": "lh_tank"
+    },
 
     {
         "name": "Stage: Glyphic Canyon",
@@ -90,7 +96,7 @@
     {
         "name": "Glyphic Canyon - Aliens",
         "type": "consumable",
-        "max_quantity": 45,
+        "max_quantity": 60,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
         "codes": "gc_alien"
@@ -141,12 +147,12 @@
         "codes": "pi_gun"
     },
     {
-        "name": "Prison Island - Data Disks",
+        "name": "Prison Island - Data Discs",
         "type": "consumable",
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/disk.png",
-        "codes": "pi_disk"
+        "codes": "pi_disc"
     },
 
     {
@@ -293,6 +299,12 @@
         "codes": "af_stage"
     },
     {
+        "name": "Air Fleet - The President's Aircraft",
+        "type": "toggle",
+        "img": "/images/president.png",
+        "codes": "af_president"
+    },
+    {
         "name": "Air Fleet - Aliens",
         "type": "consumable",
         "max_quantity": 35,
@@ -315,6 +327,12 @@
         "img": "/images/gun.png",
         "codes": "ij_gun"
     },
+    {
+        "name": "Iron Jungle - Egg Balloon",
+        "type": "toggle",
+        "img": "/images/balloon.png",
+        "codes": "ij_balloon"
+    },
 
     {
         "name": "Stage: Space Gadget",
@@ -327,7 +345,7 @@
         "type": "consumable",
         "max_quantity": 6,
         "overlay_background": "#000000",
-        "img": "/images/defense.png",
+        "img": "/images/defense2.png",
         "codes": "sg_defense"
     },
 
