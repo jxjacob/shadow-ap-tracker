@@ -2,7 +2,7 @@
 
 [Poptracker](https://github.com/black-sliver/PopTracker/) pack built for the [Shadow the Hedgehog Archipelago](https://github.com/choatix/Archipelago).
 
-Currently supports version **0.0.2** of the Shadow AP.
+Currently supports version **0.0.3** of the Shadow AP.
 
 ---
 
