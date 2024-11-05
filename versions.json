@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.0.3",
 			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.3",
-			"sha256": "4d06d8989c2bed3aff443e7447c83fbfa15846c1cf5457fe7f88e87dcd5a0a3e",
+			"sha256": "4D06D8989C2BED3AFF443E7447C83FBFA15846C1CF5457FE7F88E87DCD5A0A3E",
 			"changelog": [
 				"Fixed alot of incorrect behavior regarding Mission Tokens",
 			]
