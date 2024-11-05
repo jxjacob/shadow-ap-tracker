@@ -1,111 +1,132 @@
 [
     {
-		"name": "Character Sanity",
-		"chest_unopened_img": "images/CheckNotDone.png",
-		"chest_opened_img": "images/CheckDone.png",
+        "name": "Character Sanity",
+        "chest_unopened_img": "images/CheckNotDone.png",
+        "chest_opened_img": "images/CheckDone.png",
         "visibility_rules": [ "charactersanity_enabled" ],
-		"sections": [
+        "sections": [
             {
-				"name": "Amy",
+                "name": "Amy",
                 "access_rules": [ "cc_stage" ],
-				"item_count": 1
-			},
-			{
-				"name": "Black Doom",
+                "item_count": 1
+            },
+            {
+                "name": "Black Doom",
                 "access_rules": [ "wo_stage", "dc_stage", "gc_stage", "lh_stage", "pi_stage", "ci_stage", "td_stage", "st_stage", "mm_stage", "dr_stage", "ta_stage", "af_stage", "sg_stage", "gf_stage", "bc_stage", "cf_stage", "fh_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Charmy",
+                "name": "Charmy",
                 "access_rules": [ "pi_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Dr Eggman",
+                "name": "Dr Eggman",
                 "access_rules": [ "cc_stage", "st_stage", "ij_stage", "ls_stage", "cp_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Espio",
+                "name": "Espio",
                 "access_rules": [ "mm_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Knuckles",
+                "name": "Knuckles",
                 "access_rules": [ "gc_stage", "ci_stage", "bc_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Maria",
+                "name": "Maria",
                 "access_rules": [ "td_stage", "li_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Omega",
+                "name": "Omega",
                 "access_rules": [ "ij_stage", "ls_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Rouge",
+                "name": "Rouge",
                 "access_rules": [ "dc_stage", "dr_stage", "gf_stage" ],
-				"item_count": 1
-			},
-			{
-				"name": "Sonic",
+                "item_count": 1
+            },
+            {
+                "name": "Sonic",
                 "access_rules": [ "wo_stage", "lh_stage", "sg_stage", "fh_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Tails",
+                "name": "Tails",
                 "access_rules": [ "cp_stage", "af_stage" ],
-				"item_count": 1
-			},
+                "item_count": 1
+            },
             {
-				"name": "Vector",
+                "name": "Vector",
                 "access_rules": [ "cf_stage" ],
-				"item_count": 1
-			}
-		],
-		"map_locations": [
-			{
-				"map": "menu",
-				"x": 50,
-				"y": 50
-			}
-		]
-	},
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
 
 
-	{
-		"name": "The Last Way",
-	    "chest_unopened_img": "images/CheckNotDone.png",
-		"chest_opened_img": "images/CheckDone.png",
-	    "access_rules": [ "$CanReachLast" ],
-		"sections": [
-	        {
-	            "name": "Devil Doom",
-	            "item_count": 1
-	        }
+    {
+        "name": "The Last Way",
+        "chest_unopened_img": "images/CheckNotDone.png",
+        "chest_opened_img": "images/CheckDone.png",
+        "access_rules": [ "$CanReachLast" ],
+        "sections": [
+            {
+                "name": "Devil Doom",
+                "item_count": 1
+            }
 
-	 
-	    ],
-	    "map_locations": [
-	        {
-	            "map": "menu",
-	            "x": 50,
-	            "y": 325
-	        }
-	    ]
-	},
+     
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 50,
+                "y": 325
+            }
+        ]
+    },
 {
     "name": "Westopolis",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|wo|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|wo|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|wo|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|wo|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -115,8 +136,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|wo|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|wo|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|wo|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|wo|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -132,10 +180,10 @@
 {
     "name": "Westopolis - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:3"],
@@ -323,10 +371,10 @@
 {
     "name": "Westopolis - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Alien 1",
             "visibility_rules": ["objective_percentage:3"],
@@ -564,10 +612,10 @@
 {
     "name": "Westopolis - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -604,7 +652,7 @@
 {
     "name": "Westopolis - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -633,10 +681,10 @@
 },{
     "name": "Westopolis - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "wo_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -670,16 +718,40 @@
 {
     "name": "Digital Circuit",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dc_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "item_count": 1
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
             "item_count": 1
         }
  
@@ -695,10 +767,10 @@
 {
     "name": "Digital Circuit - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dc_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -739,7 +811,7 @@
 {
     "name": "Digital Circuit - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dc_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -768,10 +840,10 @@
 },{
     "name": "Digital Circuit - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dc_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -805,12 +877,33 @@
 {
     "name": "Glyphic Canyon",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|gc|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|gc|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|gc|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|gc|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -820,8 +913,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|gc|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|gc|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|gc|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|gc|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -837,10 +957,10 @@
 {
     "name": "Glyphic Canyon - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Temple Jewel 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -878,10 +998,10 @@
 {
     "name": "Glyphic Canyon - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Alien 1",
             "visibility_rules": ["objective_percentage:2"],
@@ -1194,10 +1314,10 @@
 {
     "name": "Glyphic Canyon - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -1242,7 +1362,7 @@
 {
     "name": "Glyphic Canyon - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -1271,10 +1391,10 @@
 },{
     "name": "Glyphic Canyon - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gc_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -1308,17 +1428,50 @@
 {
     "name": "Lethal Highway",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "lh_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "item_count": 1
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|lh|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|lh|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|lh|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|lh|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -1334,10 +1487,10 @@
 {
     "name": "Lethal Highway - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "lh_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Tank 1",
             "visibility_rules": ["objective_percentage:0"],
@@ -1355,10 +1508,10 @@
 {
     "name": "Lethal Highway - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "lh_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -1391,7 +1544,7 @@
 {
     "name": "Lethal Highway - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "lh_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -1420,10 +1573,10 @@
 },{
     "name": "Lethal Highway - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "lh_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -1457,12 +1610,33 @@
 {
     "name": "Cryptic Castle",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|cc|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|cc|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|cc|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|cc|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -1472,8 +1646,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|cc|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|cc|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|cc|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|cc|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -1489,10 +1690,10 @@
 {
     "name": "Cryptic Castle - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Lantern 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -1530,10 +1731,10 @@
 {
     "name": "Cryptic Castle - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Cream & Cheese 1",
             "visibility_rules": ["objective_percentage:50"],
@@ -1556,10 +1757,10 @@
 {
     "name": "Cryptic Castle - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -1604,7 +1805,7 @@
 {
     "name": "Cryptic Castle - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -1633,10 +1834,10 @@
 },{
     "name": "Cryptic Castle - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cc_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -1670,12 +1871,33 @@
 {
     "name": "Prison Island",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|pi|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|pi|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|pi|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|pi|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -1685,8 +1907,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|pi|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|pi|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|pi|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|pi|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -1702,10 +1951,10 @@
 {
     "name": "Prison Island - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:3"],
@@ -1918,10 +2167,10 @@
 {
     "name": "Prison Island - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Disc 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -1959,10 +2208,10 @@
 {
     "name": "Prison Island - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -2003,7 +2252,7 @@
 {
     "name": "Prison Island - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -2032,10 +2281,10 @@
 },{
     "name": "Prison Island - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "pi_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -2069,12 +2318,33 @@
 {
     "name": "Circus Park",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cp_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|cp|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|cp|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|cp|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|cp|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -2084,7 +2354,25 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
             "item_count": 1
         }
  
@@ -2100,10 +2388,10 @@
 {
     "name": "Circus Park - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cp_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:5"],
@@ -2216,10 +2504,10 @@
 {
     "name": "Circus Park - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cp_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -2260,7 +2548,7 @@
 {
     "name": "Circus Park - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cp_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -2289,10 +2577,10 @@
 },{
     "name": "Circus Park - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cp_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -2326,9 +2614,9 @@
 {
     "name": "Central City",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|ci|1"], 
@@ -2336,8 +2624,50 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ci|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|ci|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ci|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|ci|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ci|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|ci|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ci|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -2353,10 +2683,10 @@
 {
     "name": "Central City - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Big Bomb 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -2394,10 +2724,10 @@
 {
     "name": "Central City - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Small Bomb 1",
             "visibility_rules": ["objective_percentage:5"],
@@ -2510,10 +2840,10 @@
 {
     "name": "Central City - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -2550,10 +2880,10 @@
 {
     "name": "Central City - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ci_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -2587,12 +2917,33 @@
 {
     "name": "The Doom",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|td|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|td|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|td|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|td|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -2602,8 +2953,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|td|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|td|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|td|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|td|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -2619,10 +2997,10 @@
 {
     "name": "The Doom - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:2"],
@@ -2935,10 +3313,10 @@
 {
     "name": "The Doom - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Researcher 1",
             "visibility_rules": ["objective_percentage:10"],
@@ -3001,10 +3379,10 @@
 {
     "name": "The Doom - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -3041,7 +3419,7 @@
 {
     "name": "The Doom - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -3063,10 +3441,10 @@
 },{
     "name": "The Doom - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "td_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -3100,12 +3478,33 @@
 {
     "name": "Sky Troops",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|st|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|st|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|st|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|st|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -3115,8 +3514,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|st|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|st|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|st|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|st|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -3132,10 +3558,10 @@
 {
     "name": "Sky Troops - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Egg Ship 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -3173,10 +3599,10 @@
 {
     "name": "Sky Troops - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Temple Jewel 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -3214,10 +3640,10 @@
 {
     "name": "Sky Troops - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -3262,7 +3688,7 @@
 {
     "name": "Sky Troops - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -3291,10 +3717,10 @@
 },{
     "name": "Sky Troops - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "st_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -3328,12 +3754,33 @@
 {
     "name": "Mad Matrix",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|mm|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|mm|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|mm|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|mm|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -3343,8 +3790,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|mm|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|mm|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|mm|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|mm|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -3360,10 +3834,10 @@
 {
     "name": "Mad Matrix - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Bomb 1",
             "visibility_rules": ["objective_percentage:4"],
@@ -3526,10 +4000,10 @@
 {
     "name": "Mad Matrix - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Data Terminal 1",
             "visibility_rules": ["objective_percentage:25"],
@@ -3562,10 +4036,10 @@
 {
     "name": "Mad Matrix - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -3602,7 +4076,7 @@
 {
     "name": "Mad Matrix - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -3631,10 +4105,10 @@
 },{
     "name": "Mad Matrix - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "mm_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -3668,17 +4142,50 @@
 {
     "name": "Death Ruins",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dr_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "item_count": 1
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|dr|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|dr|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|dr|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|dr|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -3694,10 +4201,10 @@
 {
     "name": "Death Ruins - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dr_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Alien 1",
             "visibility_rules": ["objective_percentage:2"],
@@ -3960,10 +4467,10 @@
 {
     "name": "Death Ruins - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dr_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -4004,7 +4511,7 @@
 {
     "name": "Death Ruins - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dr_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -4033,10 +4540,10 @@
 },{
     "name": "Death Ruins - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "dr_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -4070,9 +4577,9 @@
 {
     "name": "The Ark",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|ta|1"], 
@@ -4080,7 +4587,34 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ta|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|ta|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ta|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Neutral Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
             "item_count": 1
         }
  
@@ -4096,10 +4630,10 @@
 {
     "name": "The Ark - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Defense Unit 1",
             "visibility_rules": ["objective_percentage:25"],
@@ -4132,10 +4666,10 @@
 {
     "name": "The Ark - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -4180,7 +4714,7 @@
 {
     "name": "The Ark - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -4209,10 +4743,10 @@
 },{
     "name": "The Ark - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ta_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -4246,12 +4780,33 @@
 {
     "name": "Air Fleet",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|af|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|af|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|af|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|af|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -4261,8 +4816,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|af|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|af|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|af|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|af|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -4278,10 +4860,10 @@
 {
     "name": "Air Fleet - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "President Aircraft 1",
             "visibility_rules": ["objective_percentage:0"],
@@ -4299,10 +4881,10 @@
 {
     "name": "Air Fleet - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Alien 1",
             "visibility_rules": ["objective_percentage:3"],
@@ -4490,10 +5072,10 @@
 {
     "name": "Air Fleet - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -4538,7 +5120,7 @@
 {
     "name": "Air Fleet - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -4567,10 +5149,10 @@
 },{
     "name": "Air Fleet - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "af_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -4604,12 +5186,33 @@
 {
     "name": "Iron Jungle",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|ij|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ij|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|ij|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ij|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -4619,8 +5222,35 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|ij|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ij|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|ij|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ij|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -4636,10 +5266,10 @@
 {
     "name": "Iron Jungle - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:4"],
@@ -4792,10 +5422,10 @@
 {
     "name": "Iron Jungle - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Egg Balloon 1",
             "visibility_rules": ["objective_percentage:0"],
@@ -4813,10 +5443,10 @@
 {
     "name": "Iron Jungle - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -4861,7 +5491,7 @@
 {
     "name": "Iron Jungle - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -4890,10 +5520,10 @@
 },{
     "name": "Iron Jungle - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ij_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -4927,12 +5557,33 @@
 {
     "name": "Space Gadget",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "sg_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|sg|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|sg|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|sg|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|sg|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
 
@@ -4942,7 +5593,25 @@
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
             "item_count": 1
         }
  
@@ -4958,10 +5627,10 @@
 {
     "name": "Space Gadget - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "sg_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Defense Unit 1",
             "visibility_rules": ["objective_percentage:17"],
@@ -5004,10 +5673,10 @@
 {
     "name": "Space Gadget - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "sg_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -5052,7 +5721,7 @@
 {
     "name": "Space Gadget - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "sg_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -5081,10 +5750,10 @@
 },{
     "name": "Space Gadget - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "sg_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -5118,17 +5787,44 @@
 {
     "name": "Lost Impact",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "li_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Neutral Mission",
             "item_count": 1
         },
 
         {
+            "name": "Neutral Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
             "access_rules": ["$objective_clearable|li|0"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "access_rules": ["$objective_clearable|li|0"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "access_rules": ["$objective_clearable|li|0"], 
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Objective Token",
+            "access_rules": ["$objective_clearable|li|0"], 
+            "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
  
@@ -5144,10 +5840,10 @@
 {
     "name": "Lost Impact - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "li_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Artificial Chaos 1",
             "visibility_rules": ["objective_percentage:3"],
@@ -5335,10 +6031,10 @@
 {
     "name": "Lost Impact - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "li_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -5383,7 +6079,7 @@
 {
     "name": "Lost Impact - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "li_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -5412,10 +6108,10 @@
 },{
     "name": "Lost Impact - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "li_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -5449,9 +6145,9 @@
 {
     "name": "Gun Fortress",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|gf|1"], 
@@ -5459,7 +6155,53 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|gf|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|gf|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|gf|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Final Token",
+            "access_rules": ["$objective_clearable|gf|1"], 
+            "visibility_rules": ["goal_final_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
             "item_count": 1
         }
  
@@ -5475,10 +6217,10 @@
 {
     "name": "Gun Fortress - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Computer 1",
             "visibility_rules": ["objective_percentage:34"],
@@ -5506,10 +6248,10 @@
 {
     "name": "Gun Fortress - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -5550,7 +6292,7 @@
 {
     "name": "Gun Fortress - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -5579,10 +6321,10 @@
 },{
     "name": "Gun Fortress - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "gf_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -5616,9 +6358,9 @@
 {
     "name": "Black Comet",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "bc_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|bc|1"], 
@@ -5626,7 +6368,53 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|bc|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|bc|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|bc|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Final Token",
+            "access_rules": ["$objective_clearable|bc|1"], 
+            "visibility_rules": ["goal_final_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
             "item_count": 1
         }
  
@@ -5642,10 +6430,10 @@
 {
     "name": "Black Comet - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "bc_stage" ],
     "visibility_rules": ["objectivesanity_enabled , enemy_objectivesanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Soldier 1",
             "visibility_rules": ["objective_percentage:2"],
@@ -5908,10 +6696,10 @@
 {
     "name": "Black Comet - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "bc_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -5956,7 +6744,7 @@
 {
     "name": "Black Comet - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "bc_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -5985,10 +6773,10 @@
 },{
     "name": "Black Comet - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "bc_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -6022,9 +6810,9 @@
 {
     "name": "Lava Shelter",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ls_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|ls|1"], 
@@ -6032,7 +6820,53 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|ls|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|ls|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|ls|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Final Token",
+            "access_rules": ["$objective_clearable|ls|1"], 
+            "visibility_rules": ["goal_final_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
             "item_count": 1
         }
  
@@ -6048,10 +6882,10 @@
 {
     "name": "Lava Shelter - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ls_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Lava Defense Unit 1",
             "visibility_rules": ["objective_percentage:20"],
@@ -6089,10 +6923,10 @@
 {
     "name": "Lava Shelter - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ls_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -6137,7 +6971,7 @@
 {
     "name": "Lava Shelter - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ls_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -6159,10 +6993,10 @@
 },{
     "name": "Lava Shelter - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "ls_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -6196,16 +7030,52 @@
 {
     "name": "Cosmic Fall",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cf_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "item_count": 1
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
             "item_count": 1
         }
  
@@ -6221,10 +7091,10 @@
 {
     "name": "Cosmic Fall - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cf_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -6265,7 +7135,7 @@
 {
     "name": "Cosmic Fall - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cf_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -6294,10 +7164,10 @@
 },{
     "name": "Cosmic Fall - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "cf_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -6331,9 +7201,9 @@
 {
     "name": "Final Haunt",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "fh_stage" ],
-	"sections": [
+    "sections": [
         {
             "name": "Dark Mission",
             "access_rules": ["$objective_clearable|fh|1"], 
@@ -6341,7 +7211,53 @@
         },
 
         {
+            "name": "Dark Mission - Mission Token",
+            "access_rules": ["$objective_clearable|fh|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Dark Token",
+            "access_rules": ["$objective_clearable|fh|1"], 
+            "visibility_rules": ["goal_dark_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Objective Token",
+            "access_rules": ["$objective_clearable|fh|1"], 
+            "visibility_rules": ["goal_objective_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Dark Mission - Final Token",
+            "access_rules": ["$objective_clearable|fh|1"], 
+            "visibility_rules": ["goal_final_missions:1"],
+            "item_count": 1
+        },
+
+        {
             "name": "Hero Mission",
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Hero Token",
+            "visibility_rules": ["goal_hero_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Hero Mission - Final Token",
+            "visibility_rules": ["goal_final_missions:1"],
             "item_count": 1
         }
  
@@ -6357,10 +7273,10 @@
 {
     "name": "Final Haunt - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "fh_stage" ],
     "visibility_rules": ["objectivesanity_enabled "],
-	"sections": [
+    "sections": [
         {
             "name": "Shield 1",
             "visibility_rules": ["objective_percentage:25"],
@@ -6393,10 +7309,10 @@
 {
     "name": "Final Haunt - Checkpoints",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "fh_stage" ],
     "visibility_rules": ["checkpointsanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Checkpoint 1",
             "item_count": 1
@@ -6441,7 +7357,7 @@
 {
     "name": "Final Haunt - Enemies",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "fh_stage" ],
     "visibility_rules": ["enemysanity_enabled"],
     "sections": [
@@ -6463,10 +7379,10 @@
 },{
     "name": "Final Haunt - Keys",
     "chest_unopened_img": "images/CheckNotDone.png",
-	"chest_opened_img": "images/CheckDone.png",
+    "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "fh_stage" ],
     "visibility_rules": ["keysanity_enabled"],
-	"sections": [
+    "sections": [
         {
             "name": "Key 1",
             "item_count": 1
@@ -6498,5 +7414,5 @@
 }
 
 
-	
+
 ]

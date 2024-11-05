@@ -451,7 +451,7 @@
         "codes": "token_dark"
     },
     {
-        "name": "Token - NORMAL",
+        "name": "Token - MISSION",
         "type": "consumable",
         "overlay_background": "#000000",
         "img": "/images/token_normal.png",
