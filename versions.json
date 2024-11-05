@@ -1,9 +1,17 @@
 {
 	"versions":[
 		{
+			"package_version": "0.0.3",
+			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.3",
+			"sha256": "4d06d8989c2bed3aff443e7447c83fbfa15846c1cf5457fe7f88e87dcd5a0a3e",
+			"changelog": [
+				"Fixed alot of incorrect behavior regarding Mission Tokens",
+			]
+		},
+		{
 			"package_version": "0.0.2",
 			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.2",
-			"sha256": "9a781cf9c4c12c558a270ebe9cf8c73f0e3c9507dd87e0e799823599ca317b98",
+			"sha256": "e1b5fbaf3e72f97d11d073f88a2966314d43981ace73367888655ae4cbbcb852",
 			"changelog": [
 				"Updated item IDs for 0.0.3 of Shadow AP",
 				"Added autotracking for (almost) all settings"
@@ -12,7 +20,7 @@
 		{
 			"package_version": "0.0.1",
 			"download_url": "https://codeload.github.com/jxjacob/shadow-ap-tracker/zip/refs/tags/v0.0.1",
-			"sha256": "21fe45802ac4b6df308bb97175e5ca18b2c339dc9649e404ed7793a0e8d68f5b",
+			"sha256": "d9b1a5864db9ef84484d1c97a4c3addb257c5dcce73ebb998232e06d9fb7e756",
 			"changelog": [
 				"Initial release. Missing some features. Don't worry about it."
 			]
