@@ -35,6 +35,70 @@
         "img": "images/keysanity.png",
         "codes": "keysanity_enabled"
     },
+    {
+        "name": "Weaponsanity",
+        "type": "toggle",
+        "img": "images/weaponsanity.png",
+        "codes": "weaponsanity_enabled"
+    },
+    {
+        "name": "Vehiclesanity (logic only)",
+        "type": "toggle",
+        "img": "images/vehiclesanity.png",
+        "codes": "vehiclesanity_enabled"
+    },
+
+
+
+    {
+        "name": "Logic Progression",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/selectmode.png",
+                "name": "Logic Progression - Select",
+                "codes": "level_progression,level_progression_select",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/storymode.png",
+                "name": "Logic Progression - Story",
+                "codes": "level_progression,level_progression_story",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/storyselectmode.png",
+                "name": "Logic Progression - Both",
+                "codes": "level_progression,level_progression_both",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    {
+        "name": "Weaponsanity Hold - Off",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "codes": "weaponsanity_hold_enabled",
+        "stages": [
+            {
+                "img": "images/weaponsanityholdunlock.png",
+                "name": "Weaponsanity Hold - Unlocked Weapons",
+                "codes": "weaponsanity_hold_enabled,weaponsanity_hold_unlocked",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/weaponsanityhold.png",
+                "name": "Weaponsanity Hold - All Weapons",
+                "codes": "weaponsanity_hold_enabled,weaponsanity_hold_all",
+                "inherit_codes": false
+            }
+            
+        ]
+    },
 
 
 
@@ -52,7 +116,7 @@
         "codes": "objective_percentage"
     },
     {
-        "name": "Objective Item Percentage",
+        "name": "Objective Completion Percentage",
         "type": "consumable",
         "img": "images/objectivesanity_percentage.png",
         "initial_quantity": 100,
@@ -60,7 +124,29 @@
         "max_quantity": 100,
         "increment": 1,
         "overlay_background": "#000000",
-        "codes": "objective_item_percentage"
+        "codes": "objective_completion_percentage"
+    },
+    {
+        "name": "Objective Enemy Percentage",
+        "type": "consumable",
+        "img": "images/enemy-objectivesanity_percentage.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_enemy_percentage"
+    },
+    {
+        "name": "Objective Enemy Completion Percentage",
+        "type": "consumable",
+        "img": "images/enemy-objectivesanity_percentage.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_completion_enemy_percentage"
     },
     {
         "name": "Enemysanity Percentage",

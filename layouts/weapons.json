@@ -1,0 +1,31 @@
+{
+    "weapon_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["pistol_weapon", "sub_machine_gun_weapon","semi_automatic_rifle_weapon", "heavy_machine_gun_weapon", "gatling_gun_weapon", "egg_gun_weapon", "light_shot_weapon", "flash_shot_weapon" ],
+                            [ "ring_shot_weapon","heavy_shot_weapon", "grenade_launcher_weapon", "bazooka_weapon", "tank_cannon_weapon", "black_barrel_weapon", "big_barrel_weapon", "egg_bazooka_weapon"],
+                            [ "rpg_weapon", "4_shot_rpg_weapon", "8_shot_rpg_weapon", "worm_shooter_weapon", "wide_worm_shooter_weapon", "big_worm_shooter_weapon", "vacuum_pod_weapon","laser_rifle_weapon" ],
+                            [ "splitter_weapon", "refractor_weapon", "survival_knife_weapon", "black_sword_weapon","dark_hammer_weapon", "egg_spear_weapon" ],
+                            [ "speed_limit_sign_weapon", "digital_pole_weapon", "canyon_pole_weapon", "lethal_pole_weapon", "cryptic_torch_weapon","prison_branch_weapon", "circus_pole_weapon","stop_sign_weapon" ],
+                            [ "doom_pole_weapon", "sky_pole_weapon", "matrix_pole_weapon", "ruins_branch_weapon", "fleet_pole_weapon","iron_pole_weapon", "gadget_pole_weapon","impact_pole_weapon" ],
+                            [ "fortress_pole_weapon", "lava_shovel_weapon", "cosmic_pole_weapon", "haunt_pole_weapon"],
+                            ["samurai_blade_weapon","satellite_gun_weapon", "egg_vacuum_weapon", "omochao_gun_weapon", "heal_cannon_weapon", "shadow_rifle_weapon" ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

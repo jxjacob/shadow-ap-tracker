@@ -32,6 +32,29 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
+    SLOT_DATA = slot_data
+    CUR_INDEX = -1
+
+    for _, v in pairs(ITEM_MAPPING) do
+        if v[1] then
+            local obj = Tracker:FindObjectForCode(v[1])
+            if obj then
+                if v[2] == "toggle" then
+                    obj.Active = false
+                elseif v[2] == "progressive" then
+                    if obj.Active then
+                        obj.CurrentStage = 0
+                    else
+                        obj.Active = true
+                    end
+                elseif v[2] == "consumable" then
+                    obj.AcquiredCount = 0
+                end
+            end
+        end
+    end
+
+
     for k, v in pairs(LOCATION_MAPPING) do
         local loc_list = LOCATION_MAPPING[k]
         for i, loc in ipairs(loc_list) do
@@ -45,11 +68,18 @@ function onClear(slot_data)
             end
         end
     end
+
+    --print(dump_table(slot_data))
     
     -- sanities
     if slot_data['objective_sanity'] then
         local objsanity = Tracker:FindObjectForCode("objectivesanity_enabled")
         objsanity.Active = (slot_data['objective_sanity'])
+    end
+
+    if slot_data['objective_enemy_sanity'] then
+        local objsanity = Tracker:FindObjectForCode("enemy_objectivesanity_enabled")
+        objsanity.Active = (slot_data['objective_enemy_sanity'])
     end
 
     if slot_data['checkpoint_sanity'] then
@@ -67,15 +97,53 @@ function onClear(slot_data)
         charsanity.Active = (slot_data['character_sanity'])
     end
 
+    if slot_data['weapon_sanity_unlock'] then
+        local weapsanity = Tracker:FindObjectForCode("weaponsanity_enabled")
+        weapsanity.Active = (slot_data['weapon_sanity_unlock'])
+    end
+
+    if slot_data['weapon_sanity_hold'] then
+        local weaponholdsanity = Tracker:FindObjectForCode("weaponsanity_hold_enabled")
+        weaponholdsanity.CurrentStage = (slot_data['weapon_sanity_hold'])
+    end
+
+    if slot_data['story_mode_available'] then
+        local stagemode = 0
+        if slot_data['story_mode_available'] == true then
+            stagemode = 1
+            if slot_data['select_mode_available'] == true then
+                stagemode = 2
+            end
+        end
+        local levelprog = Tracker:FindObjectForCode("level_progression")
+        levelprog.CurrentStage = (stagemode)
+    end
+
+    if slot_data['vehicle_logic'] then
+        local objsanity = Tracker:FindObjectForCode("vehiclesanity_enabled")
+        objsanity.Active = (slot_data['vehicle_logic'])
+    end
+
+
     -- objective percentages
     if slot_data['objective_percentage'] then
         local obj_perc = Tracker:FindObjectForCode("objective_percentage")
         obj_perc.AcquiredCount = (slot_data['objective_percentage'])
     end
 
-    if slot_data['objective_item_percentage'] then
-        local obj_item_perc = Tracker:FindObjectForCode("objective_item_percentage")
-        obj_item_perc.AcquiredCount = (slot_data['objective_item_percentage'])
+    if slot_data['objective_enemy_percentage'] then
+        local obj_enemy_perc = Tracker:FindObjectForCode("objective_enemy_percentage")
+        obj_enemy_perc.AcquiredCount = (slot_data['objective_enemy_percentage'])
+    end
+
+    if slot_data['objective_completion_percentage'] then
+        local obj_item_perc = Tracker:FindObjectForCode("objective_completion_percentage")
+        obj_item_perc.AcquiredCount = (slot_data['objective_completion_percentage'])
+    end
+
+    if slot_data['objective_completion_enemy_percentage'] then
+        local obj_item_enemy_perc = Tracker:FindObjectForCode("objective_completion_enemy_percentage")
+        obj_item_enemy_perc.AcquiredCount = (slot_data['objective_completion_enemy_percentage'])
     end
 
     -- wincon
@@ -146,6 +214,7 @@ end
 
 function onLocation(location_id, location_name)
     local loc_list = LOCATION_MAPPING[location_id]
+    --print(string.format("onLocation: debug for %s %s",location_id, location_name))
 
     for i, loc in ipairs(loc_list) do
         if not loc then
@@ -158,6 +227,8 @@ function onLocation(location_id, location_name)
             else
                 obj.Active = true
             end
+        else
+            print(string.format("onLocation: could not find location for code %s %s %s", loc, location_id, location_name))
         end
     end
 end

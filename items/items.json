@@ -470,5 +470,425 @@
         "overlay_background": "#000000",
         "img": "/images/token_objective.png",
         "codes": "token_objective"
+    },
+
+    {
+        "name": "Pistol",
+        "type": "toggle",
+        "img": "/images/pistol_weapon.png",
+        "codes": "pistol_weapon"
+    },
+    {
+        "name": "Sub Machine Gun",
+        "type": "toggle",
+        "img": "/images/sub_machine_gun_weapon.png",
+        "codes": "sub_machine_gun_weapon"
+    },
+    {
+        "name": "Semi Automatic Rifle",
+        "type": "toggle",
+        "img": "/images/semi_automatic_rifle_weapon.png",
+        "codes": "semi_automatic_rifle_weapon"
+    },
+    {
+        "name": "Heavy Machine Gun",
+        "type": "toggle",
+        "img": "/images/heavy_machine_gun_weapon.png",
+        "codes": "heavy_machine_gun_weapon"
+    },
+    {
+        "name": "Gatling Gun",
+        "type": "toggle",
+        "img": "/images/gatling_gun_weapon.png",
+        "codes": "gatling_gun_weapon"
+    },
+    {
+        "name": "Egg Gun",
+        "type": "toggle",
+        "img": "/images/egg_gun_weapon.png",
+        "codes": "egg_gun_weapon"
+    },
+    {
+        "name": "Light Shot",
+        "type": "toggle",
+        "img": "/images/light_shot_weapon.png",
+        "codes": "light_shot_weapon"
+    },
+    {
+        "name": "Flash Shot",
+        "type": "toggle",
+        "img": "/images/flash_shot_weapon.png",
+        "codes": "flash_shot_weapon"
+    },
+    {
+        "name": "Ring Shot",
+        "type": "toggle",
+        "img": "/images/ring_shot_weapon.png",
+        "codes": "ring_shot_weapon"
+    },
+    {
+        "name": "Heavy Shot",
+        "type": "toggle",
+        "img": "/images/heavy_shot_weapon.png",
+        "codes": "heavy_shot_weapon"
+    },
+    {
+        "name": "Grenade Launcher",
+        "type": "toggle",
+        "img": "/images/grenade_launcher_weapon.png",
+        "codes": "grenade_launcher_weapon"
+    },
+    {
+        "name": "Bazooka",
+        "type": "toggle",
+        "img": "/images/bazooka_weapon.png",
+        "codes": "bazooka_weapon"
+    },
+    {
+        "name": "Tank Cannon",
+        "type": "toggle",
+        "img": "/images/tank_cannon_weapon.png",
+        "codes": "tank_cannon_weapon"
+    },
+    {
+        "name": "Black Barrel",
+        "type": "toggle",
+        "img": "/images/black_barrel_weapon.png",
+        "codes": "black_barrel_weapon"
+    },
+    {
+        "name": "Big Barrel",
+        "type": "toggle",
+        "img": "/images/big_barrel_weapon.png",
+        "codes": "big_barrel_weapon"
+    },
+    {
+        "name": "Egg Bazooka",
+        "type": "toggle",
+        "img": "/images/egg_bazooka_weapon.png",
+        "codes": "egg_bazooka_weapon"
+    },
+    {
+        "name": "Rpg",
+        "type": "toggle",
+        "img": "/images/rpg_weapon.png",
+        "codes": "rpg_weapon"
+    },
+    {
+        "name": "4-Shot Rpg",
+        "type": "toggle",
+        "img": "/images/4_shot_rpg_weapon.png",
+        "codes": "4_shot_rpg_weapon"
+    },
+    {
+        "name": "8-Shot Rpg",
+        "type": "toggle",
+        "img": "/images/8_shot_rpg_weapon.png",
+        "codes": "8_shot_rpg_weapon"
+    },
+    {
+        "name": "Worm Shooter",
+        "type": "toggle",
+        "img": "/images/worm_shooter_weapon.png",
+        "codes": "worm_shooter_weapon"
+    },
+    {
+        "name": "Wide Worm Shooter",
+        "type": "toggle",
+        "img": "/images/wide_worm_shooter_weapon.png",
+        "codes": "wide_worm_shooter_weapon"
+    },
+    {
+        "name": "Big Worm Shooter",
+        "type": "toggle",
+        "img": "/images/big_worm_shooter_weapon.png",
+        "codes": "big_worm_shooter_weapon"
+    },
+    {
+        "name": "Vacuum Pod",
+        "type": "toggle",
+        "img": "/images/vacuum_pod_weapon.png",
+        "codes": "vacuum_pod_weapon"
+    },
+    {
+        "name": "Laser Rifle",
+        "type": "toggle",
+        "img": "/images/laser_rifle_weapon.png",
+        "codes": "laser_rifle_weapon"
+    },
+    {
+        "name": "Splitter",
+        "type": "toggle",
+        "img": "/images/splitter_weapon.png",
+        "codes": "splitter_weapon"
+    },
+    {
+        "name": "Refractor",
+        "type": "toggle",
+        "img": "/images/refractor_weapon.png",
+        "codes": "refractor_weapon"
+    },
+    {
+        "name": "Survival Knife",
+        "type": "toggle",
+        "img": "/images/survival_knife_weapon.png",
+        "codes": "survival_knife_weapon"
+    },
+    {
+        "name": "Black Sword",
+        "type": "toggle",
+        "img": "/images/black_sword_weapon.png",
+        "codes": "black_sword_weapon"
+    },
+    {
+        "name": "Dark Hammer",
+        "type": "toggle",
+        "img": "/images/dark_hammer_weapon.png",
+        "codes": "dark_hammer_weapon"
+    },
+    {
+        "name": "Egg Spear",
+        "type": "toggle",
+        "img": "/images/egg_spear_weapon.png",
+        "codes": "egg_spear_weapon"
+    },
+    {
+        "name": "Speed Limit Sign",
+        "type": "toggle",
+        "img": "/images/speed_limit_sign_weapon.png",
+        "codes": "speed_limit_sign_weapon"
+    },
+    {
+        "name": "Digital Pole",
+        "type": "toggle",
+        "img": "/images/digital_pole_weapon.png",
+        "codes": "digital_pole_weapon"
+    },
+    {
+        "name": "Canyon Pole",
+        "type": "toggle",
+        "img": "/images/canyon_pole_weapon.png",
+        "codes": "canyon_pole_weapon"
+    },
+    {
+        "name": "Lethal Pole",
+        "type": "toggle",
+        "img": "/images/lethal_pole_weapon.png",
+        "codes": "lethal_pole_weapon"
+    },
+    {
+        "name": "Cryptic Torch",
+        "type": "toggle",
+        "img": "/images/cryptic_torch_weapon.png",
+        "codes": "cryptic_torch_weapon"
+    },
+    {
+        "name": "Prison Branch",
+        "type": "toggle",
+        "img": "/images/prison_branch_weapon.png",
+        "codes": "prison_branch_weapon"
+    },
+    {
+        "name": "Circus Pole",
+        "type": "toggle",
+        "img": "/images/circus_pole_weapon.png",
+        "codes": "circus_pole_weapon"
+    },
+    {
+        "name": "Stop Sign",
+        "type": "toggle",
+        "img": "/images/stop_sign_weapon.png",
+        "codes": "stop_sign_weapon"
+    },
+    {
+        "name": "Doom Pole",
+        "type": "toggle",
+        "img": "/images/doom_pole_weapon.png",
+        "codes": "doom_pole_weapon"
+    },
+    {
+        "name": "Sky Pole",
+        "type": "toggle",
+        "img": "/images/sky_pole_weapon.png",
+        "codes": "sky_pole_weapon"
+    },
+    {
+        "name": "Matrix Pole",
+        "type": "toggle",
+        "img": "/images/matrix_pole_weapon.png",
+        "codes": "matrix_pole_weapon"
+    },
+    {
+        "name": "Ruins Branch",
+        "type": "toggle",
+        "img": "/images/ruins_branch_weapon.png",
+        "codes": "ruins_branch_weapon"
+    },
+    {
+        "name": "Fleet Pole",
+        "type": "toggle",
+        "img": "/images/fleet_pole_weapon.png",
+        "codes": "fleet_pole_weapon"
+    },
+    {
+        "name": "Iron Pole",
+        "type": "toggle",
+        "img": "/images/iron_pole_weapon.png",
+        "codes": "iron_pole_weapon"
+    },
+    {
+        "name": "Gadget Pole",
+        "type": "toggle",
+        "img": "/images/gadget_pole_weapon.png",
+        "codes": "gadget_pole_weapon"
+    },
+    {
+        "name": "Impact Pole",
+        "type": "toggle",
+        "img": "/images/impact_pole_weapon.png",
+        "codes": "impact_pole_weapon"
+    },
+    {
+        "name": "Fortress Pole",
+        "type": "toggle",
+        "img": "/images/fortress_pole_weapon.png",
+        "codes": "fortress_pole_weapon"
+    },
+    {
+        "name": "Lava Shovel",
+        "type": "toggle",
+        "img": "/images/lava_pole_weapon.png",
+        "codes": "lava_shovel_weapon"
+    },
+    {
+        "name": "Cosmic Pole",
+        "type": "toggle",
+        "img": "/images/cosmic_pole_weapon.png",
+        "codes": "cosmic_pole_weapon"
+    },
+    {
+        "name": "Haunt Pole",
+        "type": "toggle",
+        "img": "/images/haunt_pole_weapon.png",
+        "codes": "haunt_pole_weapon"
+    },
+    {
+        "name": "Last Pole",
+        "type": "toggle",
+        "img": "/images/last_pole_weapon.png",
+        "codes": "last_pole_weapon"
+    },
+    {
+        "name": "Samurai Blade",
+        "type": "toggle",
+        "img": "/images/samurai_blade_weapon.png",
+        "codes": "samurai_blade_weapon"
+    },
+    {
+        "name": "Satellite Gun",
+        "type": "toggle",
+        "img": "/images/satellite_gun_weapon.png",
+        "codes": "satellite_gun_weapon"
+    },
+    {
+        "name": "Egg Vacuum",
+        "type": "toggle",
+        "img": "/images/egg_vacuum_weapon.png",
+        "codes": "egg_vacuum_weapon"
+    },
+    {
+        "name": "Omochao Gun",
+        "type": "toggle",
+        "img": "/images/omochao_gun_weapon.png",
+        "codes": "omochao_gun_weapon"
+    },
+    {
+        "name": "Heal Cannon",
+        "type": "toggle",
+        "img": "/images/heal_cannon_weapon.png",
+        "codes": "heal_cannon_weapon"
+    },
+    {
+        "name": "Shadow Rifle",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_weapon"
+    },
+
+
+
+
+    {
+        "name": "Standard Car",
+        "type": "toggle",
+        "img": "/images/standard_car_vehicle.png",
+        "codes": "standard_car_vehicle"
+    },
+    {
+        "name": "Convertable",
+        "type": "toggle",
+        "img": "/images/convertible_vehicle.png",
+        "codes": "convertible_vehicle"
+    },
+    {
+        "name": "Armored Car",
+        "type": "toggle",
+        "img": "/images/armored_car_vehicle.png",
+        "codes": "armored_car_vehicle"
+    },
+    {
+        "name": "GUN Motorcycle",
+        "type": "toggle",
+        "img": "/images/gun_motorcycle_vehicle.png",
+        "codes": "gun_motorcycle_vehicle"
+    },
+    {
+        "name": "GUN Jumper",
+        "type": "toggle",
+        "img": "/images/gun_jumper_vehicle.png",
+        "codes": "gun_jumper_vehicle"
+    },
+    {
+        "name": "GUN Jumper (Cannon)",
+        "type": "toggle",
+        "img": "/images/gun_cannon_vehicle.png",
+        "codes": "gun_cannon_vehicle"
+    },
+    {
+        "name": "Air Saucer",
+        "type": "toggle",
+        "img": "/images/air_saucer_vehicle.png",
+        "codes": "air_saucer_vehicle"
+    },
+    {
+        "name": "Black Hawk",
+        "type": "toggle",
+        "img": "/images/black_hawk_vehicle.png",
+        "codes": "black_hawk_vehicle"
+    },
+    {
+        "name": "Black Volt",
+        "type": "toggle",
+        "img": "/images/black_volt_vehicle.png",
+        "codes": "black_volt_vehicle"
+    },
+    {
+        "name": "GUN Turret",
+        "type": "toggle",
+        "img": "/images/gun_turret_vehicle.png",
+        "codes": "gun_turret_vehicle"
+    },
+    {
+        "name": "Black Arms Turret",
+        "type": "toggle",
+        "img": "/images/black_turret_vehicle.png",
+        "codes": "black_turret_vehicle"
+    },
+    {
+        "name": "GUN Lift",
+        "type": "toggle",
+        "img": "/images/gun_lift_vehicle.png",
+        "codes": "gun_lift_vehicle"
     }
+
 ]

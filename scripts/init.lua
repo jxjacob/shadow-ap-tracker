@@ -16,6 +16,8 @@ Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/wincon.json")
+Tracker:AddLayouts("layouts/weapons.json")
+Tracker:AddLayouts("layouts/vehicles.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

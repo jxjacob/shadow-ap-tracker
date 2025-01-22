@@ -1,0 +1,25 @@
+{
+    "vehicle_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [ "standard_car_vehicle", "convertible_vehicle","armored_car_vehicle", "gun_motorcycle_vehicle", "gun_jumper_vehicle", "gun_cannon_vehicle"],
+                            [ "air_saucer_vehicle", "black_hawk_vehicle", "black_volt_vehicle","gun_turret_vehicle", "black_turret_vehicle", "gun_lift_vehicle"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
