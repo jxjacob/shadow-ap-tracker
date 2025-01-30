@@ -2,7 +2,7 @@
 
 [Poptracker](https://github.com/black-sliver/PopTracker/) pack built for the [Shadow the Hedgehog Archipelago](https://github.com/choatix/Archipelago).
 
-Currently supports version **0.0.3** of the Shadow AP.
+Currently supports version **0.0.9** of the Shadow AP.
 
 ---
 
@@ -14,3 +14,5 @@ Supported Features:
 Planned features:
 
 - Enemysanity Percentage support
+- Percent overrides
+- Features in v0.1.0+
