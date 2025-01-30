@@ -395,7 +395,6 @@
             }
         ]
     },
-
 {
     "name": "Westopolis",
     "chest_unopened_img": "images/CheckNotDone.png",
@@ -485,177 +484,177 @@
     "sections": [
         {
             "name": "Soldier 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|wo|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|wo|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|wo|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|wo|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|wo|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|wo|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|wo|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|wo|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|wo|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|wo|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|wo|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
-            "visibility_rules": ["objective_enemy_percentage:34"],
+            "visibility_rules": ["$objective_visible|wo|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
-            "visibility_rules": ["objective_enemy_percentage:37"],
+            "visibility_rules": ["$objective_visible|wo|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|wo|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|wo|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|wo|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|wo|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|wo|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
-            "visibility_rules": ["objective_enemy_percentage:54"],
+            "visibility_rules": ["$objective_visible|wo|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|wo|1|20"],
             "item_count": 1
         },
         {
             "name": "Soldier 21",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|wo|1|21"],
             "item_count": 1
         },
         {
             "name": "Soldier 22",
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|wo|1|22"],
             "item_count": 1
         },
         {
             "name": "Soldier 23",
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|wo|1|23"],
             "item_count": 1
         },
         {
             "name": "Soldier 24",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|wo|1|24"],
             "item_count": 1
         },
         {
             "name": "Soldier 25",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|wo|1|25"],
             "item_count": 1
         },
         {
             "name": "Soldier 26",
-            "visibility_rules": ["objective_enemy_percentage:74"],
+            "visibility_rules": ["$objective_visible|wo|1|26"],
             "item_count": 1
         },
         {
             "name": "Soldier 27",
-            "visibility_rules": ["objective_enemy_percentage:77"],
+            "visibility_rules": ["$objective_visible|wo|1|27"],
             "item_count": 1
         },
         {
             "name": "Soldier 28",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|wo|1|28"],
             "item_count": 1
         },
         {
             "name": "Soldier 29",
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|wo|1|29"],
             "item_count": 1
         },
         {
             "name": "Soldier 30",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|wo|1|30"],
             "item_count": 1
         },
         {
             "name": "Soldier 31",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|wo|1|31"],
             "item_count": 1
         },
         {
             "name": "Soldier 32",
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|wo|1|32"],
             "item_count": 1
         },
         {
             "name": "Soldier 33",
-            "visibility_rules": ["objective_enemy_percentage:94"],
+            "visibility_rules": ["$objective_visible|wo|1|33"],
             "item_count": 1
         },
         {
             "name": "Soldier 34",
-            "visibility_rules": ["objective_enemy_percentage:97"],
+            "visibility_rules": ["$objective_visible|wo|1|34"],
             "item_count": 1
         },
         {
             "name": "Soldier 35",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|wo|1|35"],
             "item_count": 1
         }
     ],
@@ -676,227 +675,227 @@
     "sections": [
         {
             "name": "Alien 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|wo|0|1"],
             "item_count": 1
         },
         {
             "name": "Alien 2",
-            "visibility_rules": ["objective_enemy_percentage:4"],
+            "visibility_rules": ["$objective_visible|wo|0|2"],
             "item_count": 1
         },
         {
             "name": "Alien 3",
-            "visibility_rules": ["objective_enemy_percentage:6"],
+            "visibility_rules": ["$objective_visible|wo|0|3"],
             "item_count": 1
         },
         {
             "name": "Alien 4",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|wo|0|4"],
             "item_count": 1
         },
         {
             "name": "Alien 5",
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|wo|0|5"],
             "item_count": 1
         },
         {
             "name": "Alien 6",
-            "visibility_rules": ["objective_enemy_percentage:13"],
+            "visibility_rules": ["$objective_visible|wo|0|6"],
             "item_count": 1
         },
         {
             "name": "Alien 7",
-            "visibility_rules": ["objective_enemy_percentage:15"],
+            "visibility_rules": ["$objective_visible|wo|0|7"],
             "item_count": 1
         },
         {
             "name": "Alien 8",
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|wo|0|8"],
             "item_count": 1
         },
         {
             "name": "Alien 9",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|wo|0|9"],
             "item_count": 1
         },
         {
             "name": "Alien 10",
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|wo|0|10"],
             "item_count": 1
         },
         {
             "name": "Alien 11",
-            "visibility_rules": ["objective_enemy_percentage:24"],
+            "visibility_rules": ["$objective_visible|wo|0|11"],
             "item_count": 1
         },
         {
             "name": "Alien 12",
-            "visibility_rules": ["objective_enemy_percentage:26"],
+            "visibility_rules": ["$objective_visible|wo|0|12"],
             "item_count": 1
         },
         {
             "name": "Alien 13",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|wo|0|13"],
             "item_count": 1
         },
         {
             "name": "Alien 14",
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|wo|0|14"],
             "item_count": 1
         },
         {
             "name": "Alien 15",
-            "visibility_rules": ["objective_enemy_percentage:33"],
+            "visibility_rules": ["$objective_visible|wo|0|15"],
             "item_count": 1
         },
         {
             "name": "Alien 16",
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|wo|0|16"],
             "item_count": 1
         },
         {
             "name": "Alien 17",
-            "visibility_rules": ["objective_enemy_percentage:37"],
+            "visibility_rules": ["$objective_visible|wo|0|17"],
             "item_count": 1
         },
         {
             "name": "Alien 18",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|wo|0|18"],
             "item_count": 1
         },
         {
             "name": "Alien 19",
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|wo|0|19"],
             "item_count": 1
         },
         {
             "name": "Alien 20",
-            "visibility_rules": ["objective_enemy_percentage:44"],
+            "visibility_rules": ["$objective_visible|wo|0|20"],
             "item_count": 1
         },
         {
             "name": "Alien 21",
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|wo|0|21"],
             "item_count": 1
         },
         {
             "name": "Alien 22",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|wo|0|22"],
             "item_count": 1
         },
         {
             "name": "Alien 23",
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|wo|0|23"],
             "item_count": 1
         },
         {
             "name": "Alien 24",
-            "visibility_rules": ["objective_enemy_percentage:53"],
+            "visibility_rules": ["$objective_visible|wo|0|24"],
             "item_count": 1
         },
         {
             "name": "Alien 25",
-            "visibility_rules": ["objective_enemy_percentage:55"],
+            "visibility_rules": ["$objective_visible|wo|0|25"],
             "item_count": 1
         },
         {
             "name": "Alien 26",
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|wo|0|26"],
             "item_count": 1
         },
         {
             "name": "Alien 27",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|wo|0|27"],
             "item_count": 1
         },
         {
             "name": "Alien 28",
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|wo|0|28"],
             "item_count": 1
         },
         {
             "name": "Alien 29",
-            "visibility_rules": ["objective_enemy_percentage:64"],
+            "visibility_rules": ["$objective_visible|wo|0|29"],
             "item_count": 1
         },
         {
             "name": "Alien 30",
-            "visibility_rules": ["objective_enemy_percentage:66"],
+            "visibility_rules": ["$objective_visible|wo|0|30"],
             "item_count": 1
         },
         {
             "name": "Alien 31",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|wo|0|31"],
             "item_count": 1
         },
         {
             "name": "Alien 32",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|wo|0|32"],
             "item_count": 1
         },
         {
             "name": "Alien 33",
-            "visibility_rules": ["objective_enemy_percentage:73"],
+            "visibility_rules": ["$objective_visible|wo|0|33"],
             "item_count": 1
         },
         {
             "name": "Alien 34",
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|wo|0|34"],
             "item_count": 1
         },
         {
             "name": "Alien 35",
-            "visibility_rules": ["objective_enemy_percentage:77"],
+            "visibility_rules": ["$objective_visible|wo|0|35"],
             "item_count": 1
         },
         {
             "name": "Alien 36",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|wo|0|36"],
             "item_count": 1
         },
         {
             "name": "Alien 37",
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|wo|0|37"],
             "item_count": 1
         },
         {
             "name": "Alien 38",
-            "visibility_rules": ["objective_enemy_percentage:84"],
+            "visibility_rules": ["$objective_visible|wo|0|38"],
             "item_count": 1
         },
         {
             "name": "Alien 39",
-            "visibility_rules": ["objective_enemy_percentage:86"],
+            "visibility_rules": ["$objective_visible|wo|0|39"],
             "item_count": 1
         },
         {
             "name": "Alien 40",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|wo|0|40"],
             "item_count": 1
         },
         {
             "name": "Alien 41",
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|wo|0|41"],
             "item_count": 1
         },
         {
             "name": "Alien 42",
-            "visibility_rules": ["objective_enemy_percentage:93"],
+            "visibility_rules": ["$objective_visible|wo|0|42"],
             "item_count": 1
         },
         {
             "name": "Alien 43",
-            "visibility_rules": ["objective_enemy_percentage:95"],
+            "visibility_rules": ["$objective_visible|wo|0|43"],
             "item_count": 1
         },
         {
             "name": "Alien 44",
-            "visibility_rules": ["objective_enemy_percentage:97"],
+            "visibility_rules": ["$objective_visible|wo|0|44"],
             "item_count": 1
         },
         {
             "name": "Alien 45",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|wo|0|45"],
             "item_count": 1
         }
     ],
@@ -1262,27 +1261,27 @@
     "sections": [
         {
             "name": "Temple Jewel 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|gc|1|1"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 2",
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|gc|1|2"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 3",
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|gc|1|3"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 4",
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|gc|1|4"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 5",
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|gc|1|5"],
             "item_count": 1
         }
     ],
@@ -1303,302 +1302,302 @@
     "sections": [
         {
             "name": "Alien 1",
-            "visibility_rules": ["objective_enemy_percentage:1"],
+            "visibility_rules": ["$objective_visible|gc|0|1"],
             "item_count": 1
         },
         {
             "name": "Alien 2",
-            "visibility_rules": ["objective_enemy_percentage:3"],
+            "visibility_rules": ["$objective_visible|gc|0|2"],
             "item_count": 1
         },
         {
             "name": "Alien 3",
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|gc|0|3"],
             "item_count": 1
         },
         {
             "name": "Alien 4",
-            "visibility_rules": ["objective_enemy_percentage:6"],
+            "visibility_rules": ["$objective_visible|gc|0|4"],
             "item_count": 1
         },
         {
             "name": "Alien 5",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|gc|0|5"],
             "item_count": 1
         },
         {
             "name": "Alien 6",
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|gc|0|6"],
             "item_count": 1
         },
         {
             "name": "Alien 7",
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|gc|0|7"],
             "item_count": 1
         },
         {
             "name": "Alien 8",
-            "visibility_rules": ["objective_enemy_percentage:13"],
+            "visibility_rules": ["$objective_visible|gc|0|8"],
             "item_count": 1
         },
         {
             "name": "Alien 9",
-            "visibility_rules": ["objective_enemy_percentage:15"],
+            "visibility_rules": ["$objective_visible|gc|0|9"],
             "item_count": 1
         },
         {
             "name": "Alien 10",
-            "visibility_rules": ["objective_enemy_percentage:16"],
+            "visibility_rules": ["$objective_visible|gc|0|10"],
             "item_count": 1
         },
         {
             "name": "Alien 11",
-            "visibility_rules": ["objective_enemy_percentage:18"],
+            "visibility_rules": ["$objective_visible|gc|0|11"],
             "item_count": 1
         },
         {
             "name": "Alien 12",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|gc|0|12"],
             "item_count": 1
         },
         {
             "name": "Alien 13",
-            "visibility_rules": ["objective_enemy_percentage:21"],
+            "visibility_rules": ["$objective_visible|gc|0|13"],
             "item_count": 1
         },
         {
             "name": "Alien 14",
-            "visibility_rules": ["objective_enemy_percentage:23"],
+            "visibility_rules": ["$objective_visible|gc|0|14"],
             "item_count": 1
         },
         {
             "name": "Alien 15",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|gc|0|15"],
             "item_count": 1
         },
         {
             "name": "Alien 16",
-            "visibility_rules": ["objective_enemy_percentage:26"],
+            "visibility_rules": ["$objective_visible|gc|0|16"],
             "item_count": 1
         },
         {
             "name": "Alien 17",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|gc|0|17"],
             "item_count": 1
         },
         {
             "name": "Alien 18",
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|gc|0|18"],
             "item_count": 1
         },
         {
             "name": "Alien 19",
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|gc|0|19"],
             "item_count": 1
         },
         {
             "name": "Alien 20",
-            "visibility_rules": ["objective_enemy_percentage:33"],
+            "visibility_rules": ["$objective_visible|gc|0|20"],
             "item_count": 1
         },
         {
             "name": "Alien 21",
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|gc|0|21"],
             "item_count": 1
         },
         {
             "name": "Alien 22",
-            "visibility_rules": ["objective_enemy_percentage:36"],
+            "visibility_rules": ["$objective_visible|gc|0|22"],
             "item_count": 1
         },
         {
             "name": "Alien 23",
-            "visibility_rules": ["objective_enemy_percentage:38"],
+            "visibility_rules": ["$objective_visible|gc|0|23"],
             "item_count": 1
         },
         {
             "name": "Alien 24",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|gc|0|24"],
             "item_count": 1
         },
         {
             "name": "Alien 25",
-            "visibility_rules": ["objective_enemy_percentage:41"],
+            "visibility_rules": ["$objective_visible|gc|0|25"],
             "item_count": 1
         },
         {
             "name": "Alien 26",
-            "visibility_rules": ["objective_enemy_percentage:43"],
+            "visibility_rules": ["$objective_visible|gc|0|26"],
             "item_count": 1
         },
         {
             "name": "Alien 27",
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|gc|0|27"],
             "item_count": 1
         },
         {
             "name": "Alien 28",
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|gc|0|28"],
             "item_count": 1
         },
         {
             "name": "Alien 29",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|gc|0|29"],
             "item_count": 1
         },
         {
             "name": "Alien 30",
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|gc|0|30"],
             "item_count": 1
         },
         {
             "name": "Alien 31",
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|gc|0|31"],
             "item_count": 1
         },
         {
             "name": "Alien 32",
-            "visibility_rules": ["objective_enemy_percentage:53"],
+            "visibility_rules": ["$objective_visible|gc|0|32"],
             "item_count": 1
         },
         {
             "name": "Alien 33",
-            "visibility_rules": ["objective_enemy_percentage:55"],
+            "visibility_rules": ["$objective_visible|gc|0|33"],
             "item_count": 1
         },
         {
             "name": "Alien 34",
-            "visibility_rules": ["objective_enemy_percentage:56"],
+            "visibility_rules": ["$objective_visible|gc|0|34"],
             "item_count": 1
         },
         {
             "name": "Alien 35",
-            "visibility_rules": ["objective_enemy_percentage:58"],
+            "visibility_rules": ["$objective_visible|gc|0|35"],
             "item_count": 1
         },
         {
             "name": "Alien 36",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|gc|0|36"],
             "item_count": 1
         },
         {
             "name": "Alien 37",
-            "visibility_rules": ["objective_enemy_percentage:61"],
+            "visibility_rules": ["$objective_visible|gc|0|37"],
             "item_count": 1
         },
         {
             "name": "Alien 38",
-            "visibility_rules": ["objective_enemy_percentage:63"],
+            "visibility_rules": ["$objective_visible|gc|0|38"],
             "item_count": 1
         },
         {
             "name": "Alien 39",
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|gc|0|39"],
             "item_count": 1
         },
         {
             "name": "Alien 40",
-            "visibility_rules": ["objective_enemy_percentage:66"],
+            "visibility_rules": ["$objective_visible|gc|0|40"],
             "item_count": 1
         },
         {
             "name": "Alien 41",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|gc|0|41"],
             "item_count": 1
         },
         {
             "name": "Alien 42",
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|gc|0|42"],
             "item_count": 1
         },
         {
             "name": "Alien 43",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|gc|0|43"],
             "item_count": 1
         },
         {
             "name": "Alien 44",
-            "visibility_rules": ["objective_enemy_percentage:73"],
+            "visibility_rules": ["$objective_visible|gc|0|44"],
             "item_count": 1
         },
         {
             "name": "Alien 45",
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|gc|0|45"],
             "item_count": 1
         },
         {
             "name": "Alien 46",
-            "visibility_rules": ["objective_enemy_percentage:76"],
+            "visibility_rules": ["$objective_visible|gc|0|46"],
             "item_count": 1
         },
         {
             "name": "Alien 47",
-            "visibility_rules": ["objective_enemy_percentage:78"],
+            "visibility_rules": ["$objective_visible|gc|0|47"],
             "item_count": 1
         },
         {
             "name": "Alien 48",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|gc|0|48"],
             "item_count": 1
         },
         {
             "name": "Alien 49",
-            "visibility_rules": ["objective_enemy_percentage:81"],
+            "visibility_rules": ["$objective_visible|gc|0|49"],
             "item_count": 1
         },
         {
             "name": "Alien 50",
-            "visibility_rules": ["objective_enemy_percentage:83"],
+            "visibility_rules": ["$objective_visible|gc|0|50"],
             "item_count": 1
         },
         {
             "name": "Alien 51",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|gc|0|51"],
             "item_count": 1
         },
         {
             "name": "Alien 52",
-            "visibility_rules": ["objective_enemy_percentage:86"],
+            "visibility_rules": ["$objective_visible|gc|0|52"],
             "item_count": 1
         },
         {
             "name": "Alien 53",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|gc|0|53"],
             "item_count": 1
         },
         {
             "name": "Alien 54",
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|gc|0|54"],
             "item_count": 1
         },
         {
             "name": "Alien 55",
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|gc|0|55"],
             "item_count": 1
         },
         {
             "name": "Alien 56",
-            "visibility_rules": ["objective_enemy_percentage:93"],
+            "visibility_rules": ["$objective_visible|gc|0|56"],
             "item_count": 1
         },
         {
             "name": "Alien 57",
-            "visibility_rules": ["objective_enemy_percentage:95"],
+            "visibility_rules": ["$objective_visible|gc|0|57"],
             "item_count": 1
         },
         {
             "name": "Alien 58",
-            "visibility_rules": ["objective_enemy_percentage:96"],
+            "visibility_rules": ["$objective_visible|gc|0|58"],
             "item_count": 1
         },
         {
             "name": "Alien 59",
-            "visibility_rules": ["objective_enemy_percentage:98"],
+            "visibility_rules": ["$objective_visible|gc|0|59"],
             "item_count": 1
         },
         {
             "name": "Alien 60",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|gc|0|60"],
             "item_count": 1
         }
     ],
@@ -1792,7 +1791,7 @@
     "sections": [
         {
             "name": "Tank 1",
-            "visibility_rules": ["objective_percentage:0"],
+            "visibility_rules": ["$objective_visible|lh|0|1"],
             "item_count": 1
         }
     ],
@@ -1998,31 +1997,31 @@
         {
             "name": "Lantern 1",
             "access_rules": [ "$region_accessible|cc|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|cc|1|1"],
             "item_count": 1
         },
         {
             "name": "Lantern 2",
             "access_rules": [ "$region_accessible|cc|1"],
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|cc|1|2"],
             "item_count": 1
         },
         {
             "name": "Lantern 3",
             "access_rules": [ "$region_accessible|cc|2"],
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|cc|1|3"],
             "item_count": 1
         },
         {
             "name": "Lantern 4",
             "access_rules": [ "$region_accessible|cc|2"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|cc|1|4"],
             "item_count": 1
         },
         {
             "name": "Lantern 5",
             "access_rules": [ "$region_accessible|cc|2"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|cc|1|5"],
             "item_count": 1
         }
     ],
@@ -2044,13 +2043,13 @@
         {
             "name": "Cream & Cheese 1",
             "access_rules": [ "$region_accessible|cc|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|cc|0|1"],
             "item_count": 1
         },
         {
             "name": "Cream & Cheese 2",
             "access_rules": [ "$region_accessible|cc|2"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|cc|0|2"],
             "item_count": 1
         }
     ],
@@ -2278,241 +2277,241 @@
     "sections": [
         {
             "name": "Soldier 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|pi|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|pi|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:7"],
+            "visibility_rules": ["$objective_visible|pi|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|pi|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:12"],
+            "visibility_rules": ["$objective_visible|pi|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:15"],
+            "visibility_rules": ["$objective_visible|pi|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|pi|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|pi|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|pi|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|pi|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:27"],
+            "visibility_rules": ["$objective_visible|pi|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|pi|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:32"],
+            "visibility_rules": ["$objective_visible|pi|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|pi|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:37"],
+            "visibility_rules": ["$objective_visible|pi|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|pi|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|pi|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|pi|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:47"],
+            "visibility_rules": ["$objective_visible|pi|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|pi|1|20"],
             "item_count": 1
         },
         {
             "name": "Soldier 21",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:52"],
+            "visibility_rules": ["$objective_visible|pi|1|21"],
             "item_count": 1
         },
         {
             "name": "Soldier 22",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:55"],
+            "visibility_rules": ["$objective_visible|pi|1|22"],
             "item_count": 1
         },
         {
             "name": "Soldier 23",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|pi|1|23"],
             "item_count": 1
         },
         {
             "name": "Soldier 24",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|pi|1|24"],
             "item_count": 1
         },
         {
             "name": "Soldier 25",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|pi|1|25"],
             "item_count": 1
         },
         {
             "name": "Soldier 26",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|pi|1|26"],
             "item_count": 1
         },
         {
             "name": "Soldier 27",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:67"],
+            "visibility_rules": ["$objective_visible|pi|1|27"],
             "item_count": 1
         },
         {
             "name": "Soldier 28",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|pi|1|28"],
             "item_count": 1
         },
         {
             "name": "Soldier 29",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:72"],
+            "visibility_rules": ["$objective_visible|pi|1|29"],
             "item_count": 1
         },
         {
             "name": "Soldier 30",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|pi|1|30"],
             "item_count": 1
         },
         {
             "name": "Soldier 31",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:77"],
+            "visibility_rules": ["$objective_visible|pi|1|31"],
             "item_count": 1
         },
         {
             "name": "Soldier 32",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|pi|1|32"],
             "item_count": 1
         },
         {
             "name": "Soldier 33",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|pi|1|33"],
             "item_count": 1
         },
         {
             "name": "Soldier 34",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|pi|1|34"],
             "item_count": 1
         },
         {
             "name": "Soldier 35",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:87"],
+            "visibility_rules": ["$objective_visible|pi|1|35"],
             "item_count": 1
         },
         {
             "name": "Soldier 36",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|pi|1|36"],
             "item_count": 1
         },
         {
             "name": "Soldier 37",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:92"],
+            "visibility_rules": ["$objective_visible|pi|1|37"],
             "item_count": 1
         },
         {
             "name": "Soldier 38",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:95"],
+            "visibility_rules": ["$objective_visible|pi|1|38"],
             "item_count": 1
         },
         {
             "name": "Soldier 39",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:97"],
+            "visibility_rules": ["$objective_visible|pi|1|39"],
             "item_count": 1
         },
         {
             "name": "Soldier 40",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|pi|1|40"],
             "item_count": 1
         }
     ],
@@ -2533,31 +2532,31 @@
     "sections": [
         {
             "name": "Disc 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|pi|0|1"],
             "item_count": 1
         },
         {
             "name": "Disc 2",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|pi|0|2"],
             "item_count": 1
         },
         {
             "name": "Disc 3",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|pi|0|3"],
             "item_count": 1
         },
         {
             "name": "Disc 4",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|pi|0|4"],
             "item_count": 1
         },
         {
             "name": "Disc 5",
             "access_rules": [ "$region_accessible|pi|1"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|pi|0|5"],
             "item_count": 1
         }
     ],
@@ -2767,102 +2766,102 @@
     "sections": [
         {
             "name": "Soldier 1",
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|cp|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|cp|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
-            "visibility_rules": ["objective_enemy_percentage:15"],
+            "visibility_rules": ["$objective_visible|cp|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|cp|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|cp|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|cp|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|cp|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|cp|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|cp|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|cp|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
-            "visibility_rules": ["objective_enemy_percentage:55"],
+            "visibility_rules": ["$objective_visible|cp|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|cp|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|cp|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|cp|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|cp|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|cp|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|cp|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|cp|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
-            "visibility_rules": ["objective_enemy_percentage:95"],
+            "visibility_rules": ["$objective_visible|cp|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|cp|1|20"],
             "item_count": 1
         }
     ],
@@ -3062,29 +3061,29 @@
     "sections": [
         {
             "name": "Big Bomb 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|ci|1|1"],
             "item_count": 1
         },
         {
             "name": "Big Bomb 2",
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|ci|1|2"],
             "item_count": 1
         },
         {
             "name": "Big Bomb 3",
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|ci|1|3"],
             "item_count": 1
         },
         {
             "name": "Big Bomb 4",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|ci|1|4"],
             "item_count": 1
         },
         {
             "name": "Big Bomb 5",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|ci|1|5"],
             "item_count": 1
         }
     ],
@@ -3105,111 +3104,111 @@
     "sections": [
         {
             "name": "Small Bomb 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|ci|0|1"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 2",
-            "visibility_rules": ["objective_percentage:6"],
+            "visibility_rules": ["$objective_visible|ci|0|2"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 3",
-            "visibility_rules": ["objective_percentage:11"],
+            "visibility_rules": ["$objective_visible|ci|0|3"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 4",
-            "visibility_rules": ["objective_percentage:16"],
+            "visibility_rules": ["$objective_visible|ci|0|4"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 5",
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|ci|0|5"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 6",
-            "visibility_rules": ["objective_percentage:26"],
+            "visibility_rules": ["$objective_visible|ci|0|6"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 7",
-            "visibility_rules": ["objective_percentage:31"],
+            "visibility_rules": ["$objective_visible|ci|0|7"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 8",
-            "visibility_rules": ["objective_percentage:36"],
+            "visibility_rules": ["$objective_visible|ci|0|8"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 9",
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|ci|0|9"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 10",
-            "visibility_rules": ["objective_percentage:46"],
+            "visibility_rules": ["$objective_visible|ci|0|10"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 11",
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|ci|0|11"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 12",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:57"],
+            "visibility_rules": ["$objective_visible|ci|0|12"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 13",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|ci|0|13"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 14",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:66"],
+            "visibility_rules": ["$objective_visible|ci|0|14"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 15",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:71"],
+            "visibility_rules": ["$objective_visible|ci|0|15"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 16",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:76"],
+            "visibility_rules": ["$objective_visible|ci|0|16"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 17",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|ci|0|17"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 18",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:86"],
+            "visibility_rules": ["$objective_visible|ci|0|18"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 19",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:91"],
+            "visibility_rules": ["$objective_visible|ci|0|19"],
             "item_count": 1
         },
         {
             "name": "Small Bomb 20",
             "access_rules": [ "$region_accessible|ci|1"],
-            "visibility_rules": ["objective_percentage:96"],
+            "visibility_rules": ["$objective_visible|ci|0|20"],
             "item_count": 1
         }
     ],
@@ -3393,302 +3392,302 @@
     "sections": [
         {
             "name": "Soldier 1",
-            "visibility_rules": ["objective_enemy_percentage:1"],
+            "visibility_rules": ["$objective_visible|td|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
-            "visibility_rules": ["objective_enemy_percentage:3"],
+            "visibility_rules": ["$objective_visible|td|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|td|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
-            "visibility_rules": ["objective_enemy_percentage:6"],
+            "visibility_rules": ["$objective_visible|td|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|td|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|td|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|td|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
-            "visibility_rules": ["objective_enemy_percentage:13"],
+            "visibility_rules": ["$objective_visible|td|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
-            "visibility_rules": ["objective_enemy_percentage:15"],
+            "visibility_rules": ["$objective_visible|td|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
-            "visibility_rules": ["objective_enemy_percentage:16"],
+            "visibility_rules": ["$objective_visible|td|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
-            "visibility_rules": ["objective_enemy_percentage:18"],
+            "visibility_rules": ["$objective_visible|td|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|td|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
-            "visibility_rules": ["objective_enemy_percentage:21"],
+            "visibility_rules": ["$objective_visible|td|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
-            "visibility_rules": ["objective_enemy_percentage:23"],
+            "visibility_rules": ["$objective_visible|td|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|td|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
-            "visibility_rules": ["objective_enemy_percentage:26"],
+            "visibility_rules": ["$objective_visible|td|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|td|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|td|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|td|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
-            "visibility_rules": ["objective_enemy_percentage:33"],
+            "visibility_rules": ["$objective_visible|td|1|20"],
             "item_count": 1
         },
         {
             "name": "Soldier 21",
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|td|1|21"],
             "item_count": 1
         },
         {
             "name": "Soldier 22",
-            "visibility_rules": ["objective_enemy_percentage:36"],
+            "visibility_rules": ["$objective_visible|td|1|22"],
             "item_count": 1
         },
         {
             "name": "Soldier 23",
-            "visibility_rules": ["objective_enemy_percentage:38"],
+            "visibility_rules": ["$objective_visible|td|1|23"],
             "item_count": 1
         },
         {
             "name": "Soldier 24",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|td|1|24"],
             "item_count": 1
         },
         {
             "name": "Soldier 25",
-            "visibility_rules": ["objective_enemy_percentage:41"],
+            "visibility_rules": ["$objective_visible|td|1|25"],
             "item_count": 1
         },
         {
             "name": "Soldier 26",
-            "visibility_rules": ["objective_enemy_percentage:43"],
+            "visibility_rules": ["$objective_visible|td|1|26"],
             "item_count": 1
         },
         {
             "name": "Soldier 27",
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|td|1|27"],
             "item_count": 1
         },
         {
             "name": "Soldier 28",
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|td|1|28"],
             "item_count": 1
         },
         {
             "name": "Soldier 29",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|td|1|29"],
             "item_count": 1
         },
         {
             "name": "Soldier 30",
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|td|1|30"],
             "item_count": 1
         },
         {
             "name": "Soldier 31",
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|td|1|31"],
             "item_count": 1
         },
         {
             "name": "Soldier 32",
-            "visibility_rules": ["objective_enemy_percentage:53"],
+            "visibility_rules": ["$objective_visible|td|1|32"],
             "item_count": 1
         },
         {
             "name": "Soldier 33",
-            "visibility_rules": ["objective_enemy_percentage:55"],
+            "visibility_rules": ["$objective_visible|td|1|33"],
             "item_count": 1
         },
         {
             "name": "Soldier 34",
-            "visibility_rules": ["objective_enemy_percentage:56"],
+            "visibility_rules": ["$objective_visible|td|1|34"],
             "item_count": 1
         },
         {
             "name": "Soldier 35",
-            "visibility_rules": ["objective_enemy_percentage:58"],
+            "visibility_rules": ["$objective_visible|td|1|35"],
             "item_count": 1
         },
         {
             "name": "Soldier 36",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|td|1|36"],
             "item_count": 1
         },
         {
             "name": "Soldier 37",
-            "visibility_rules": ["objective_enemy_percentage:61"],
+            "visibility_rules": ["$objective_visible|td|1|37"],
             "item_count": 1
         },
         {
             "name": "Soldier 38",
-            "visibility_rules": ["objective_enemy_percentage:63"],
+            "visibility_rules": ["$objective_visible|td|1|38"],
             "item_count": 1
         },
         {
             "name": "Soldier 39",
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|td|1|39"],
             "item_count": 1
         },
         {
             "name": "Soldier 40",
-            "visibility_rules": ["objective_enemy_percentage:66"],
+            "visibility_rules": ["$objective_visible|td|1|40"],
             "item_count": 1
         },
         {
             "name": "Soldier 41",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|td|1|41"],
             "item_count": 1
         },
         {
             "name": "Soldier 42",
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|td|1|42"],
             "item_count": 1
         },
         {
             "name": "Soldier 43",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|td|1|43"],
             "item_count": 1
         },
         {
             "name": "Soldier 44",
-            "visibility_rules": ["objective_enemy_percentage:73"],
+            "visibility_rules": ["$objective_visible|td|1|44"],
             "item_count": 1
         },
         {
             "name": "Soldier 45",
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|td|1|45"],
             "item_count": 1
         },
         {
             "name": "Soldier 46",
-            "visibility_rules": ["objective_enemy_percentage:76"],
+            "visibility_rules": ["$objective_visible|td|1|46"],
             "item_count": 1
         },
         {
             "name": "Soldier 47",
-            "visibility_rules": ["objective_enemy_percentage:78"],
+            "visibility_rules": ["$objective_visible|td|1|47"],
             "item_count": 1
         },
         {
             "name": "Soldier 48",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|td|1|48"],
             "item_count": 1
         },
         {
             "name": "Soldier 49",
-            "visibility_rules": ["objective_enemy_percentage:81"],
+            "visibility_rules": ["$objective_visible|td|1|49"],
             "item_count": 1
         },
         {
             "name": "Soldier 50",
-            "visibility_rules": ["objective_enemy_percentage:83"],
+            "visibility_rules": ["$objective_visible|td|1|50"],
             "item_count": 1
         },
         {
             "name": "Soldier 51",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|td|1|51"],
             "item_count": 1
         },
         {
             "name": "Soldier 52",
-            "visibility_rules": ["objective_enemy_percentage:86"],
+            "visibility_rules": ["$objective_visible|td|1|52"],
             "item_count": 1
         },
         {
             "name": "Soldier 53",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|td|1|53"],
             "item_count": 1
         },
         {
             "name": "Soldier 54",
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|td|1|54"],
             "item_count": 1
         },
         {
             "name": "Soldier 55",
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|td|1|55"],
             "item_count": 1
         },
         {
             "name": "Soldier 56",
-            "visibility_rules": ["objective_enemy_percentage:93"],
+            "visibility_rules": ["$objective_visible|td|1|56"],
             "item_count": 1
         },
         {
             "name": "Soldier 57",
-            "visibility_rules": ["objective_enemy_percentage:95"],
+            "visibility_rules": ["$objective_visible|td|1|57"],
             "item_count": 1
         },
         {
             "name": "Soldier 58",
-            "visibility_rules": ["objective_enemy_percentage:96"],
+            "visibility_rules": ["$objective_visible|td|1|58"],
             "item_count": 1
         },
         {
             "name": "Soldier 59",
-            "visibility_rules": ["objective_enemy_percentage:98"],
+            "visibility_rules": ["$objective_visible|td|1|59"],
             "item_count": 1
         },
         {
             "name": "Soldier 60",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|td|1|60"],
             "item_count": 1
         }
     ],
@@ -3709,52 +3708,52 @@
     "sections": [
         {
             "name": "Researcher 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|td|0|1"],
             "item_count": 1
         },
         {
             "name": "Researcher 2",
-            "visibility_rules": ["objective_percentage:11"],
+            "visibility_rules": ["$objective_visible|td|0|2"],
             "item_count": 1
         },
         {
             "name": "Researcher 3",
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|td|0|3"],
             "item_count": 1
         },
         {
             "name": "Researcher 4",
-            "visibility_rules": ["objective_percentage:31"],
+            "visibility_rules": ["$objective_visible|td|0|4"],
             "item_count": 1
         },
         {
             "name": "Researcher 5",
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|td|0|5"],
             "item_count": 1
         },
         {
             "name": "Researcher 6",
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|td|0|6"],
             "item_count": 1
         },
         {
             "name": "Researcher 7",
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|td|0|7"],
             "item_count": 1
         },
         {
             "name": "Researcher 8",
-            "visibility_rules": ["objective_percentage:71"],
+            "visibility_rules": ["$objective_visible|td|0|8"],
             "item_count": 1
         },
         {
             "name": "Researcher 9",
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|td|0|9"],
             "item_count": 1
         },
         {
             "name": "Researcher 10",
-            "visibility_rules": ["objective_percentage:91"],
+            "visibility_rules": ["$objective_visible|td|0|10"],
             "item_count": 1
         }
     ],
@@ -3956,31 +3955,31 @@
     "sections": [
         {
             "name": "Egg Ship 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|st|1|1"],
             "item_count": 1
         },
         {
             "name": "Egg Ship 2",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|st|1|2"],
             "item_count": 1
         },
         {
             "name": "Egg Ship 3",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|st|1|3"],
             "item_count": 1
         },
         {
             "name": "Egg Ship 4",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|st|1|4"],
             "item_count": 1
         },
         {
             "name": "Egg Ship 5",
             "access_rules": [ "$region_accessible|st|5"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|st|1|5"],
             "item_count": 1
         }
     ],
@@ -4001,31 +4000,31 @@
     "sections": [
         {
             "name": "Temple Jewel 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|st|0|1"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 2",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|st|0|2"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 3",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|st|0|3"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 4",
             "access_rules": [ "$region_accessible|st|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|st|0|4"],
             "item_count": 1
         },
         {
             "name": "Temple Jewel 5",
             "access_rules": [ "$region_accessible|st|5"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|st|0|5"],
             "item_count": 1
         }
     ],
@@ -4254,181 +4253,181 @@
         {
             "name": "Bomb 1",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|mm|1|1"],
             "item_count": 1
         },
         {
             "name": "Bomb 2",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:5"],
+            "visibility_rules": ["$objective_visible|mm|1|2"],
             "item_count": 1
         },
         {
             "name": "Bomb 3",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:8"],
+            "visibility_rules": ["$objective_visible|mm|1|3"],
             "item_count": 1
         },
         {
             "name": "Bomb 4",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:11"],
+            "visibility_rules": ["$objective_visible|mm|1|4"],
             "item_count": 1
         },
         {
             "name": "Bomb 5",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:15"],
+            "visibility_rules": ["$objective_visible|mm|1|5"],
             "item_count": 1
         },
         {
             "name": "Bomb 6",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:18"],
+            "visibility_rules": ["$objective_visible|mm|1|6"],
             "item_count": 1
         },
         {
             "name": "Bomb 7",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|mm|1|7"],
             "item_count": 1
         },
         {
             "name": "Bomb 8",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:25"],
+            "visibility_rules": ["$objective_visible|mm|1|8"],
             "item_count": 1
         },
         {
             "name": "Bomb 9",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:28"],
+            "visibility_rules": ["$objective_visible|mm|1|9"],
             "item_count": 1
         },
         {
             "name": "Bomb 10",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:31"],
+            "visibility_rules": ["$objective_visible|mm|1|10"],
             "item_count": 1
         },
         {
             "name": "Bomb 11",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:35"],
+            "visibility_rules": ["$objective_visible|mm|1|11"],
             "item_count": 1
         },
         {
             "name": "Bomb 12",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:38"],
+            "visibility_rules": ["$objective_visible|mm|1|12"],
             "item_count": 1
         },
         {
             "name": "Bomb 13",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|mm|1|13"],
             "item_count": 1
         },
         {
             "name": "Bomb 14",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:45"],
+            "visibility_rules": ["$objective_visible|mm|1|14"],
             "item_count": 1
         },
         {
             "name": "Bomb 15",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:48"],
+            "visibility_rules": ["$objective_visible|mm|1|15"],
             "item_count": 1
         },
         {
             "name": "Bomb 16",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|mm|1|16"],
             "item_count": 1
         },
         {
             "name": "Bomb 17",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:55"],
+            "visibility_rules": ["$objective_visible|mm|1|17"],
             "item_count": 1
         },
         {
             "name": "Bomb 18",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:58"],
+            "visibility_rules": ["$objective_visible|mm|1|18"],
             "item_count": 1
         },
         {
             "name": "Bomb 19",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|mm|1|19"],
             "item_count": 1
         },
         {
             "name": "Bomb 20",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:65"],
+            "visibility_rules": ["$objective_visible|mm|1|20"],
             "item_count": 1
         },
         {
             "name": "Bomb 21",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:68"],
+            "visibility_rules": ["$objective_visible|mm|1|21"],
             "item_count": 1
         },
         {
             "name": "Bomb 22",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:71"],
+            "visibility_rules": ["$objective_visible|mm|1|22"],
             "item_count": 1
         },
         {
             "name": "Bomb 23",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:75"],
+            "visibility_rules": ["$objective_visible|mm|1|23"],
             "item_count": 1
         },
         {
             "name": "Bomb 24",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:78"],
+            "visibility_rules": ["$objective_visible|mm|1|24"],
             "item_count": 1
         },
         {
             "name": "Bomb 25",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|mm|1|25"],
             "item_count": 1
         },
         {
             "name": "Bomb 26",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:85"],
+            "visibility_rules": ["$objective_visible|mm|1|26"],
             "item_count": 1
         },
         {
             "name": "Bomb 27",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:88"],
+            "visibility_rules": ["$objective_visible|mm|1|27"],
             "item_count": 1
         },
         {
             "name": "Bomb 28",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:91"],
+            "visibility_rules": ["$objective_visible|mm|1|28"],
             "item_count": 1
         },
         {
             "name": "Bomb 29",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:95"],
+            "visibility_rules": ["$objective_visible|mm|1|29"],
             "item_count": 1
         },
         {
             "name": "Bomb 30",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:98"],
+            "visibility_rules": ["$objective_visible|mm|1|30"],
             "item_count": 1
         }
     ],
@@ -4450,25 +4449,25 @@
         {
             "name": "Data Terminal 1",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|mm|0|1"],
             "item_count": 1
         },
         {
             "name": "Data Terminal 2",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:26"],
+            "visibility_rules": ["$objective_visible|mm|0|2"],
             "item_count": 1
         },
         {
             "name": "Data Terminal 3",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|mm|0|3"],
             "item_count": 1
         },
         {
             "name": "Data Terminal 4",
             "access_rules": [ "$region_accessible|mm|1"],
-            "visibility_rules": ["objective_percentage:76"],
+            "visibility_rules": ["$objective_visible|mm|0|4"],
             "item_count": 1
         }
     ],
@@ -4664,252 +4663,252 @@
     "sections": [
         {
             "name": "Alien 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|dr|0|1"],
             "item_count": 1
         },
         {
             "name": "Alien 2",
-            "visibility_rules": ["objective_enemy_percentage:4"],
+            "visibility_rules": ["$objective_visible|dr|0|2"],
             "item_count": 1
         },
         {
             "name": "Alien 3",
-            "visibility_rules": ["objective_enemy_percentage:6"],
+            "visibility_rules": ["$objective_visible|dr|0|3"],
             "item_count": 1
         },
         {
             "name": "Alien 4",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|dr|0|4"],
             "item_count": 1
         },
         {
             "name": "Alien 5",
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|dr|0|5"],
             "item_count": 1
         },
         {
             "name": "Alien 6",
-            "visibility_rules": ["objective_enemy_percentage:12"],
+            "visibility_rules": ["$objective_visible|dr|0|6"],
             "item_count": 1
         },
         {
             "name": "Alien 7",
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|dr|0|7"],
             "item_count": 1
         },
         {
             "name": "Alien 8",
-            "visibility_rules": ["objective_enemy_percentage:16"],
+            "visibility_rules": ["$objective_visible|dr|0|8"],
             "item_count": 1
         },
         {
             "name": "Alien 9",
-            "visibility_rules": ["objective_enemy_percentage:18"],
+            "visibility_rules": ["$objective_visible|dr|0|9"],
             "item_count": 1
         },
         {
             "name": "Alien 10",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|dr|0|10"],
             "item_count": 1
         },
         {
             "name": "Alien 11",
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|dr|0|11"],
             "item_count": 1
         },
         {
             "name": "Alien 12",
-            "visibility_rules": ["objective_enemy_percentage:24"],
+            "visibility_rules": ["$objective_visible|dr|0|12"],
             "item_count": 1
         },
         {
             "name": "Alien 13",
-            "visibility_rules": ["objective_enemy_percentage:26"],
+            "visibility_rules": ["$objective_visible|dr|0|13"],
             "item_count": 1
         },
         {
             "name": "Alien 14",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|dr|0|14"],
             "item_count": 1
         },
         {
             "name": "Alien 15",
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|dr|0|15"],
             "item_count": 1
         },
         {
             "name": "Alien 16",
-            "visibility_rules": ["objective_enemy_percentage:32"],
+            "visibility_rules": ["$objective_visible|dr|0|16"],
             "item_count": 1
         },
         {
             "name": "Alien 17",
-            "visibility_rules": ["objective_enemy_percentage:34"],
+            "visibility_rules": ["$objective_visible|dr|0|17"],
             "item_count": 1
         },
         {
             "name": "Alien 18",
-            "visibility_rules": ["objective_enemy_percentage:36"],
+            "visibility_rules": ["$objective_visible|dr|0|18"],
             "item_count": 1
         },
         {
             "name": "Alien 19",
-            "visibility_rules": ["objective_enemy_percentage:38"],
+            "visibility_rules": ["$objective_visible|dr|0|19"],
             "item_count": 1
         },
         {
             "name": "Alien 20",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|dr|0|20"],
             "item_count": 1
         },
         {
             "name": "Alien 21",
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|dr|0|21"],
             "item_count": 1
         },
         {
             "name": "Alien 22",
-            "visibility_rules": ["objective_enemy_percentage:44"],
+            "visibility_rules": ["$objective_visible|dr|0|22"],
             "item_count": 1
         },
         {
             "name": "Alien 23",
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|dr|0|23"],
             "item_count": 1
         },
         {
             "name": "Alien 24",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|dr|0|24"],
             "item_count": 1
         },
         {
             "name": "Alien 25",
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|dr|0|25"],
             "item_count": 1
         },
         {
             "name": "Alien 26",
-            "visibility_rules": ["objective_enemy_percentage:52"],
+            "visibility_rules": ["$objective_visible|dr|0|26"],
             "item_count": 1
         },
         {
             "name": "Alien 27",
-            "visibility_rules": ["objective_enemy_percentage:54"],
+            "visibility_rules": ["$objective_visible|dr|0|27"],
             "item_count": 1
         },
         {
             "name": "Alien 28",
-            "visibility_rules": ["objective_enemy_percentage:56"],
+            "visibility_rules": ["$objective_visible|dr|0|28"],
             "item_count": 1
         },
         {
             "name": "Alien 29",
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|dr|0|29"],
             "item_count": 1
         },
         {
             "name": "Alien 30",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|dr|0|30"],
             "item_count": 1
         },
         {
             "name": "Alien 31",
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|dr|0|31"],
             "item_count": 1
         },
         {
             "name": "Alien 32",
-            "visibility_rules": ["objective_enemy_percentage:64"],
+            "visibility_rules": ["$objective_visible|dr|0|32"],
             "item_count": 1
         },
         {
             "name": "Alien 33",
-            "visibility_rules": ["objective_enemy_percentage:66"],
+            "visibility_rules": ["$objective_visible|dr|0|33"],
             "item_count": 1
         },
         {
             "name": "Alien 34",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|dr|0|34"],
             "item_count": 1
         },
         {
             "name": "Alien 35",
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|dr|0|35"],
             "item_count": 1
         },
         {
             "name": "Alien 36",
-            "visibility_rules": ["objective_enemy_percentage:72"],
+            "visibility_rules": ["$objective_visible|dr|0|36"],
             "item_count": 1
         },
         {
             "name": "Alien 37",
-            "visibility_rules": ["objective_enemy_percentage:74"],
+            "visibility_rules": ["$objective_visible|dr|0|37"],
             "item_count": 1
         },
         {
             "name": "Alien 38",
-            "visibility_rules": ["objective_enemy_percentage:76"],
+            "visibility_rules": ["$objective_visible|dr|0|38"],
             "item_count": 1
         },
         {
             "name": "Alien 39",
-            "visibility_rules": ["objective_enemy_percentage:78"],
+            "visibility_rules": ["$objective_visible|dr|0|39"],
             "item_count": 1
         },
         {
             "name": "Alien 40",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|dr|0|40"],
             "item_count": 1
         },
         {
             "name": "Alien 41",
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|dr|0|41"],
             "item_count": 1
         },
         {
             "name": "Alien 42",
-            "visibility_rules": ["objective_enemy_percentage:84"],
+            "visibility_rules": ["$objective_visible|dr|0|42"],
             "item_count": 1
         },
         {
             "name": "Alien 43",
-            "visibility_rules": ["objective_enemy_percentage:86"],
+            "visibility_rules": ["$objective_visible|dr|0|43"],
             "item_count": 1
         },
         {
             "name": "Alien 44",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|dr|0|44"],
             "item_count": 1
         },
         {
             "name": "Alien 45",
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|dr|0|45"],
             "item_count": 1
         },
         {
             "name": "Alien 46",
-            "visibility_rules": ["objective_enemy_percentage:92"],
+            "visibility_rules": ["$objective_visible|dr|0|46"],
             "item_count": 1
         },
         {
             "name": "Alien 47",
-            "visibility_rules": ["objective_enemy_percentage:94"],
+            "visibility_rules": ["$objective_visible|dr|0|47"],
             "item_count": 1
         },
         {
             "name": "Alien 48",
-            "visibility_rules": ["objective_enemy_percentage:96"],
+            "visibility_rules": ["$objective_visible|dr|0|48"],
             "item_count": 1
         },
         {
             "name": "Alien 49",
-            "visibility_rules": ["objective_enemy_percentage:98"],
+            "visibility_rules": ["$objective_visible|dr|0|49"],
             "item_count": 1
         },
         {
             "name": "Alien 50",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|dr|0|50"],
             "item_count": 1
         }
     ],
@@ -5096,25 +5095,25 @@
         {
             "name": "Defense Unit 1",
             "access_rules": [ "$region_accessible|ta|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|ta|1|1"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 2",
             "access_rules": [ "$region_accessible|ta|1"],
-            "visibility_rules": ["objective_percentage:26"],
+            "visibility_rules": ["$objective_visible|ta|1|2"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 3",
             "access_rules": [ "$region_accessible|ta|1"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|ta|1|3"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 4",
             "access_rules": [ "$region_accessible|ta|1"],
-            "visibility_rules": ["objective_percentage:76"],
+            "visibility_rules": ["$objective_visible|ta|1|4"],
             "item_count": 1
         }
     ],
@@ -5341,7 +5340,7 @@
     "sections": [
         {
             "name": "President Aircraft 1",
-            "visibility_rules": ["objective_percentage:0"],
+            "visibility_rules": ["$objective_visible|af|1|1"],
             "item_count": 1
         }
     ],
@@ -5362,177 +5361,177 @@
     "sections": [
         {
             "name": "Alien 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|af|0|1"],
             "item_count": 1
         },
         {
             "name": "Alien 2",
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|af|0|2"],
             "item_count": 1
         },
         {
             "name": "Alien 3",
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|af|0|3"],
             "item_count": 1
         },
         {
             "name": "Alien 4",
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|af|0|4"],
             "item_count": 1
         },
         {
             "name": "Alien 5",
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|af|0|5"],
             "item_count": 1
         },
         {
             "name": "Alien 6",
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|af|0|6"],
             "item_count": 1
         },
         {
             "name": "Alien 7",
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|af|0|7"],
             "item_count": 1
         },
         {
             "name": "Alien 8",
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|af|0|8"],
             "item_count": 1
         },
         {
             "name": "Alien 9",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|af|0|9"],
             "item_count": 1
         },
         {
             "name": "Alien 10",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|af|0|10"],
             "item_count": 1
         },
         {
             "name": "Alien 11",
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|af|0|11"],
             "item_count": 1
         },
         {
             "name": "Alien 12",
-            "visibility_rules": ["objective_enemy_percentage:34"],
+            "visibility_rules": ["$objective_visible|af|0|12"],
             "item_count": 1
         },
         {
             "name": "Alien 13",
-            "visibility_rules": ["objective_enemy_percentage:37"],
+            "visibility_rules": ["$objective_visible|af|0|13"],
             "item_count": 1
         },
         {
             "name": "Alien 14",
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|af|0|14"],
             "item_count": 1
         },
         {
             "name": "Alien 15",
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|af|0|15"],
             "item_count": 1
         },
         {
             "name": "Alien 16",
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|af|0|16"],
             "item_count": 1
         },
         {
             "name": "Alien 17",
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|af|0|17"],
             "item_count": 1
         },
         {
             "name": "Alien 18",
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|af|0|18"],
             "item_count": 1
         },
         {
             "name": "Alien 19",
-            "visibility_rules": ["objective_enemy_percentage:54"],
+            "visibility_rules": ["$objective_visible|af|0|19"],
             "item_count": 1
         },
         {
             "name": "Alien 20",
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|af|0|20"],
             "item_count": 1
         },
         {
             "name": "Alien 21",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|af|0|21"],
             "item_count": 1
         },
         {
             "name": "Alien 22",
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|af|0|22"],
             "item_count": 1
         },
         {
             "name": "Alien 23",
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|af|0|23"],
             "item_count": 1
         },
         {
             "name": "Alien 24",
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|af|0|24"],
             "item_count": 1
         },
         {
             "name": "Alien 25",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|af|0|25"],
             "item_count": 1
         },
         {
             "name": "Alien 26",
-            "visibility_rules": ["objective_enemy_percentage:74"],
+            "visibility_rules": ["$objective_visible|af|0|26"],
             "item_count": 1
         },
         {
             "name": "Alien 27",
-            "visibility_rules": ["objective_enemy_percentage:77"],
+            "visibility_rules": ["$objective_visible|af|0|27"],
             "item_count": 1
         },
         {
             "name": "Alien 28",
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|af|0|28"],
             "item_count": 1
         },
         {
             "name": "Alien 29",
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|af|0|29"],
             "item_count": 1
         },
         {
             "name": "Alien 30",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|af|0|30"],
             "item_count": 1
         },
         {
             "name": "Alien 31",
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|af|0|31"],
             "item_count": 1
         },
         {
             "name": "Alien 32",
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|af|0|32"],
             "item_count": 1
         },
         {
             "name": "Alien 33",
-            "visibility_rules": ["objective_enemy_percentage:94"],
+            "visibility_rules": ["$objective_visible|af|0|33"],
             "item_count": 1
         },
         {
             "name": "Alien 34",
-            "visibility_rules": ["objective_enemy_percentage:97"],
+            "visibility_rules": ["$objective_visible|af|0|34"],
             "item_count": 1
         },
         {
             "name": "Alien 35",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|af|0|35"],
             "item_count": 1
         }
     ],
@@ -5747,142 +5746,142 @@
     "sections": [
         {
             "name": "Soldier 1",
-            "visibility_rules": ["objective_enemy_percentage:3"],
+            "visibility_rules": ["$objective_visible|ij|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
-            "visibility_rules": ["objective_enemy_percentage:7"],
+            "visibility_rules": ["$objective_visible|ij|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|ij|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|ij|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|ij|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
-            "visibility_rules": ["objective_enemy_percentage:21"],
+            "visibility_rules": ["$objective_visible|ij|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|ij|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|ij|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
-            "visibility_rules": ["objective_enemy_percentage:32"],
+            "visibility_rules": ["$objective_visible|ij|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
-            "visibility_rules": ["objective_enemy_percentage:35"],
+            "visibility_rules": ["$objective_visible|ij|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
-            "visibility_rules": ["objective_enemy_percentage:39"],
+            "visibility_rules": ["$objective_visible|ij|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|ij|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|ij|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|ij|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
-            "visibility_rules": ["objective_enemy_percentage:53"],
+            "visibility_rules": ["$objective_visible|ij|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|ij|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|ij|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
-            "visibility_rules": ["objective_enemy_percentage:64"],
+            "visibility_rules": ["$objective_visible|ij|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
-            "visibility_rules": ["objective_enemy_percentage:67"],
+            "visibility_rules": ["$objective_visible|ij|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|ij|1|20"],
             "item_count": 1
         },
         {
             "name": "Soldier 21",
-            "visibility_rules": ["objective_enemy_percentage:75"],
+            "visibility_rules": ["$objective_visible|ij|1|21"],
             "item_count": 1
         },
         {
             "name": "Soldier 22",
-            "visibility_rules": ["objective_enemy_percentage:78"],
+            "visibility_rules": ["$objective_visible|ij|1|22"],
             "item_count": 1
         },
         {
             "name": "Soldier 23",
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|ij|1|23"],
             "item_count": 1
         },
         {
             "name": "Soldier 24",
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|ij|1|24"],
             "item_count": 1
         },
         {
             "name": "Soldier 25",
-            "visibility_rules": ["objective_enemy_percentage:89"],
+            "visibility_rules": ["$objective_visible|ij|1|25"],
             "item_count": 1
         },
         {
             "name": "Soldier 26",
-            "visibility_rules": ["objective_enemy_percentage:92"],
+            "visibility_rules": ["$objective_visible|ij|1|26"],
             "item_count": 1
         },
         {
             "name": "Soldier 27",
-            "visibility_rules": ["objective_enemy_percentage:96"],
+            "visibility_rules": ["$objective_visible|ij|1|27"],
             "item_count": 1
         },
         {
             "name": "Soldier 28",
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|ij|1|28"],
             "item_count": 1
         }
     ],
@@ -5903,7 +5902,7 @@
     "sections": [
         {
             "name": "Egg Balloon 1",
-            "visibility_rules": ["objective_percentage:0"],
+            "visibility_rules": ["$objective_visible|ij|0|1"],
             "item_count": 1
         }
     ],
@@ -6120,36 +6119,36 @@
     "sections": [
         {
             "name": "Defense Unit 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|sg|1|1"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 2",
-            "visibility_rules": ["objective_percentage:18"],
+            "visibility_rules": ["$objective_visible|sg|1|2"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 3",
             "access_rules": [ "$region_accessible|sg|1"],
-            "visibility_rules": ["objective_percentage:35"],
+            "visibility_rules": ["$objective_visible|sg|1|3"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 4",
             "access_rules": [ "$region_accessible|sg|1"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|sg|1|4"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 5",
             "access_rules": [ "$region_accessible|sg|1"],
-            "visibility_rules": ["objective_percentage:68"],
+            "visibility_rules": ["$objective_visible|sg|1|5"],
             "item_count": 1
         },
         {
             "name": "Defense Unit 6",
             "access_rules": [ "$region_accessible|sg|1"],
-            "visibility_rules": ["objective_percentage:85"],
+            "visibility_rules": ["$objective_visible|sg|1|6"],
             "item_count": 1
         }
     ],
@@ -6346,211 +6345,211 @@
     "sections": [
         {
             "name": "Artificial Chaos 1",
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|li|0|1"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 2",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:5"],
+            "visibility_rules": ["$objective_visible|li|0|2"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 3",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|li|0|3"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 4",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:11"],
+            "visibility_rules": ["$objective_visible|li|0|4"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 5",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|li|0|5"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 6",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:17"],
+            "visibility_rules": ["$objective_visible|li|0|6"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 7",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|li|0|7"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 8",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|li|0|8"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 9",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:25"],
+            "visibility_rules": ["$objective_visible|li|0|9"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 10",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|li|0|10"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 11",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:31"],
+            "visibility_rules": ["$objective_visible|li|0|11"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 12",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:34"],
+            "visibility_rules": ["$objective_visible|li|0|12"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 13",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:37"],
+            "visibility_rules": ["$objective_visible|li|0|13"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 14",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|li|0|14"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 15",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|li|0|15"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 16",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:45"],
+            "visibility_rules": ["$objective_visible|li|0|16"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 17",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|li|0|17"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 18",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:51"],
+            "visibility_rules": ["$objective_visible|li|0|18"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 19",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:54"],
+            "visibility_rules": ["$objective_visible|li|0|19"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 20",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|li|0|20"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 21",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|li|0|21"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 22",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|li|0|22"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 23",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:65"],
+            "visibility_rules": ["$objective_visible|li|0|23"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 24",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|li|0|24"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 25",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:71"],
+            "visibility_rules": ["$objective_visible|li|0|25"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 26",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:74"],
+            "visibility_rules": ["$objective_visible|li|0|26"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 27",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:77"],
+            "visibility_rules": ["$objective_visible|li|0|27"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 28",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|li|0|28"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 29",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|li|0|29"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 30",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:85"],
+            "visibility_rules": ["$objective_visible|li|0|30"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 31",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|li|0|31"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 32",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:91"],
+            "visibility_rules": ["$objective_visible|li|0|32"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 33",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:94"],
+            "visibility_rules": ["$objective_visible|li|0|33"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 34",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:97"],
+            "visibility_rules": ["$objective_visible|li|0|34"],
             "item_count": 1
         },
         {
             "name": "Artificial Chaos 35",
             "access_rules": [ "$region_accessible|li|1"],
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|li|0|35"],
             "item_count": 1
         }
     ],
@@ -6768,17 +6767,17 @@
     "sections": [
         {
             "name": "Computer 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|gf|1|1"],
             "item_count": 1
         },
         {
             "name": "Computer 2",
-            "visibility_rules": ["objective_percentage:35"],
+            "visibility_rules": ["$objective_visible|gf|1|2"],
             "item_count": 1
         },
         {
             "name": "Computer 3",
-            "visibility_rules": ["objective_percentage:68"],
+            "visibility_rules": ["$objective_visible|gf|1|3"],
             "item_count": 1
         }
     ],
@@ -6982,301 +6981,301 @@
         {
             "name": "Soldier 1",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:2"],
+            "visibility_rules": ["$objective_visible|bc|1|1"],
             "item_count": 1
         },
         {
             "name": "Soldier 2",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:4"],
+            "visibility_rules": ["$objective_visible|bc|1|2"],
             "item_count": 1
         },
         {
             "name": "Soldier 3",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:6"],
+            "visibility_rules": ["$objective_visible|bc|1|3"],
             "item_count": 1
         },
         {
             "name": "Soldier 4",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:8"],
+            "visibility_rules": ["$objective_visible|bc|1|4"],
             "item_count": 1
         },
         {
             "name": "Soldier 5",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:10"],
+            "visibility_rules": ["$objective_visible|bc|1|5"],
             "item_count": 1
         },
         {
             "name": "Soldier 6",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:12"],
+            "visibility_rules": ["$objective_visible|bc|1|6"],
             "item_count": 1
         },
         {
             "name": "Soldier 7",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:14"],
+            "visibility_rules": ["$objective_visible|bc|1|7"],
             "item_count": 1
         },
         {
             "name": "Soldier 8",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:16"],
+            "visibility_rules": ["$objective_visible|bc|1|8"],
             "item_count": 1
         },
         {
             "name": "Soldier 9",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:18"],
+            "visibility_rules": ["$objective_visible|bc|1|9"],
             "item_count": 1
         },
         {
             "name": "Soldier 10",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:20"],
+            "visibility_rules": ["$objective_visible|bc|1|10"],
             "item_count": 1
         },
         {
             "name": "Soldier 11",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:22"],
+            "visibility_rules": ["$objective_visible|bc|1|11"],
             "item_count": 1
         },
         {
             "name": "Soldier 12",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:24"],
+            "visibility_rules": ["$objective_visible|bc|1|12"],
             "item_count": 1
         },
         {
             "name": "Soldier 13",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:26"],
+            "visibility_rules": ["$objective_visible|bc|1|13"],
             "item_count": 1
         },
         {
             "name": "Soldier 14",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:28"],
+            "visibility_rules": ["$objective_visible|bc|1|14"],
             "item_count": 1
         },
         {
             "name": "Soldier 15",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:30"],
+            "visibility_rules": ["$objective_visible|bc|1|15"],
             "item_count": 1
         },
         {
             "name": "Soldier 16",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:32"],
+            "visibility_rules": ["$objective_visible|bc|1|16"],
             "item_count": 1
         },
         {
             "name": "Soldier 17",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:34"],
+            "visibility_rules": ["$objective_visible|bc|1|17"],
             "item_count": 1
         },
         {
             "name": "Soldier 18",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:36"],
+            "visibility_rules": ["$objective_visible|bc|1|18"],
             "item_count": 1
         },
         {
             "name": "Soldier 19",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:38"],
+            "visibility_rules": ["$objective_visible|bc|1|19"],
             "item_count": 1
         },
         {
             "name": "Soldier 20",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:40"],
+            "visibility_rules": ["$objective_visible|bc|1|20"],
             "item_count": 1
         },
         {
             "name": "Soldier 21",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:42"],
+            "visibility_rules": ["$objective_visible|bc|1|21"],
             "item_count": 1
         },
         {
             "name": "Soldier 22",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:44"],
+            "visibility_rules": ["$objective_visible|bc|1|22"],
             "item_count": 1
         },
         {
             "name": "Soldier 23",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:46"],
+            "visibility_rules": ["$objective_visible|bc|1|23"],
             "item_count": 1
         },
         {
             "name": "Soldier 24",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:48"],
+            "visibility_rules": ["$objective_visible|bc|1|24"],
             "item_count": 1
         },
         {
             "name": "Soldier 25",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:50"],
+            "visibility_rules": ["$objective_visible|bc|1|25"],
             "item_count": 1
         },
         {
             "name": "Soldier 26",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:52"],
+            "visibility_rules": ["$objective_visible|bc|1|26"],
             "item_count": 1
         },
         {
             "name": "Soldier 27",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:54"],
+            "visibility_rules": ["$objective_visible|bc|1|27"],
             "item_count": 1
         },
         {
             "name": "Soldier 28",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:56"],
+            "visibility_rules": ["$objective_visible|bc|1|28"],
             "item_count": 1
         },
         {
             "name": "Soldier 29",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:57"],
+            "visibility_rules": ["$objective_visible|bc|1|29"],
             "item_count": 1
         },
         {
             "name": "Soldier 30",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:60"],
+            "visibility_rules": ["$objective_visible|bc|1|30"],
             "item_count": 1
         },
         {
             "name": "Soldier 31",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:62"],
+            "visibility_rules": ["$objective_visible|bc|1|31"],
             "item_count": 1
         },
         {
             "name": "Soldier 32",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:64"],
+            "visibility_rules": ["$objective_visible|bc|1|32"],
             "item_count": 1
         },
         {
             "name": "Soldier 33",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:66"],
+            "visibility_rules": ["$objective_visible|bc|1|33"],
             "item_count": 1
         },
         {
             "name": "Soldier 34",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:68"],
+            "visibility_rules": ["$objective_visible|bc|1|34"],
             "item_count": 1
         },
         {
             "name": "Soldier 35",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:70"],
+            "visibility_rules": ["$objective_visible|bc|1|35"],
             "item_count": 1
         },
         {
             "name": "Soldier 36",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:72"],
+            "visibility_rules": ["$objective_visible|bc|1|36"],
             "item_count": 1
         },
         {
             "name": "Soldier 37",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:74"],
+            "visibility_rules": ["$objective_visible|bc|1|37"],
             "item_count": 1
         },
         {
             "name": "Soldier 38",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:76"],
+            "visibility_rules": ["$objective_visible|bc|1|38"],
             "item_count": 1
         },
         {
             "name": "Soldier 39",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:78"],
+            "visibility_rules": ["$objective_visible|bc|1|39"],
             "item_count": 1
         },
         {
             "name": "Soldier 40",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:80"],
+            "visibility_rules": ["$objective_visible|bc|1|40"],
             "item_count": 1
         },
         {
             "name": "Soldier 41",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:82"],
+            "visibility_rules": ["$objective_visible|bc|1|41"],
             "item_count": 1
         },
         {
             "name": "Soldier 42",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:84"],
+            "visibility_rules": ["$objective_visible|bc|1|42"],
             "item_count": 1
         },
         {
             "name": "Soldier 43",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:86"],
+            "visibility_rules": ["$objective_visible|bc|1|43"],
             "item_count": 1
         },
         {
             "name": "Soldier 44",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:88"],
+            "visibility_rules": ["$objective_visible|bc|1|44"],
             "item_count": 1
         },
         {
             "name": "Soldier 45",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:90"],
+            "visibility_rules": ["$objective_visible|bc|1|45"],
             "item_count": 1
         },
         {
             "name": "Soldier 46",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:92"],
+            "visibility_rules": ["$objective_visible|bc|1|46"],
             "item_count": 1
         },
         {
             "name": "Soldier 47",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:94"],
+            "visibility_rules": ["$objective_visible|bc|1|47"],
             "item_count": 1
         },
         {
             "name": "Soldier 48",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:96"],
+            "visibility_rules": ["$objective_visible|bc|1|48"],
             "item_count": 1
         },
         {
             "name": "Soldier 49",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:98"],
+            "visibility_rules": ["$objective_visible|bc|1|49"],
             "item_count": 1
         },
         {
             "name": "Soldier 50",
             "access_rules": [ "$region_accessible|bc|1"],
-            "visibility_rules": ["objective_enemy_percentage:100"],
+            "visibility_rules": ["$objective_visible|bc|1|50"],
             "item_count": 1
         }
     ],
@@ -7495,27 +7494,27 @@
     "sections": [
         {
             "name": "Lava Defense Unit 1",
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|ls|1|1"],
             "item_count": 1
         },
         {
             "name": "Lava Defense Unit 2",
-            "visibility_rules": ["objective_percentage:21"],
+            "visibility_rules": ["$objective_visible|ls|1|2"],
             "item_count": 1
         },
         {
             "name": "Lava Defense Unit 3",
-            "visibility_rules": ["objective_percentage:41"],
+            "visibility_rules": ["$objective_visible|ls|1|3"],
             "item_count": 1
         },
         {
             "name": "Lava Defense Unit 4",
-            "visibility_rules": ["objective_percentage:61"],
+            "visibility_rules": ["$objective_visible|ls|1|4"],
             "item_count": 1
         },
         {
             "name": "Lava Defense Unit 5",
-            "visibility_rules": ["objective_percentage:81"],
+            "visibility_rules": ["$objective_visible|ls|1|5"],
             "item_count": 1
         }
     ],
@@ -7912,25 +7911,25 @@
         {
             "name": "Shield 1",
             "access_rules": [ "$region_accessible|fh|1"],
-            "visibility_rules": ["objective_percentage:1"],
+            "visibility_rules": ["$objective_visible|fh|1|1"],
             "item_count": 1
         },
         {
             "name": "Shield 2",
             "access_rules": [ "$region_accessible|fh|2"],
-            "visibility_rules": ["objective_percentage:26"],
+            "visibility_rules": ["$objective_visible|fh|1|2"],
             "item_count": 1
         },
         {
             "name": "Shield 3",
             "access_rules": [ "$region_accessible|fh|2"],
-            "visibility_rules": ["objective_percentage:51"],
+            "visibility_rules": ["$objective_visible|fh|1|3"],
             "item_count": 1
         },
         {
             "name": "Shield 4",
             "access_rules": [ "$region_accessible|fh|2"],
-            "visibility_rules": ["objective_percentage:76"],
+            "visibility_rules": ["$objective_visible|fh|1|4"],
             "item_count": 1
         }
     ],
@@ -8063,7 +8062,7 @@
     "name": "Lethal Highway Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|lh|0" ],
+    "access_rules": [ "$stage_available|lh|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8084,7 +8083,7 @@
     "name": "Cryptic Castle Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|cc|0,$has_weapon_type|torch" ],
+    "access_rules": [ "$stage_available|cc|1,$has_weapon_type|torch" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8105,7 +8104,7 @@
     "name": "The Doom Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|td|0" ],
+    "access_rules": [ "$stage_available|td|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8126,7 +8125,7 @@
     "name": "Death Ruins Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|dr|0" ],
+    "access_rules": [ "$stage_available|dr|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8147,7 +8146,7 @@
     "name": "Mad Matrix Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|mm|0,$region_accessible|mm|1" ],
+    "access_rules": [ "$stage_available|mm|1,$region_accessible|mm|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8168,7 +8167,7 @@
     "name": "The Ark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|ta|0" ],
+    "access_rules": [ "$stage_available|ta|1,$region_accessible|ta|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8189,7 +8188,7 @@
     "name": "Iron Jungle Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|ij|0" ],
+    "access_rules": [ "$stage_available|ij|1,$has_vehicle|gunturret" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8210,7 +8209,7 @@
     "name": "Gun Fortress Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|gf|0" ],
+    "access_rules": [ "$stage_available|gf|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8231,7 +8230,7 @@
     "name": "Gun Fortress Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|gf|0,$objective_clearable|gf|1" ],
+    "access_rules": [ "$stage_available|gf|1,$objective_clearable|gf|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8252,7 +8251,7 @@
     "name": "Black Comet Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|bc|0" ],
+    "access_rules": [ "$stage_available|bc|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8273,7 +8272,7 @@
     "name": "Black Comet Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|bc|0,$objective_clearable|bc|1" ],
+    "access_rules": [ "$stage_available|bc|1,$objective_clearable|bc|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8294,7 +8293,7 @@
     "name": "Lava Shelter Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|ls|0" ],
+    "access_rules": [ "$stage_available|ls|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8315,7 +8314,7 @@
     "name": "Cosmic Fall Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|cf|0" ],
+    "access_rules": [ "$stage_available|cf|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8336,7 +8335,7 @@
     "name": "Cosmic Fall Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|cf|0" ],
+    "access_rules": [ "$stage_available|cf|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8357,7 +8356,7 @@
     "name": "Final Haunt Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|fh|0" ],
+    "access_rules": [ "$stage_available|fh|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8378,7 +8377,7 @@
     "name": "Final Haunt Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|fh|0,$objective_clearable|fh|1,$region_accessible|fh|1" ],
+    "access_rules": [ "$stage_available|fh|1,$objective_clearable|fh|1,$region_accessible|fh|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
@@ -8394,6 +8393,7 @@
         }
     ]
 }
+
 
 
 

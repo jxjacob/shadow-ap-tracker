@@ -119,6 +119,12 @@ function onClear(slot_data)
         levelprog.CurrentStage = (stagemode)
     end
 
+    if slot_data['logic_level'] then
+        Tracker:FindObjectForCode("logic_difficulty").CurrentStage = (slot_data['logic_level'])
+    else
+        Tracker:FindObjectForCode("logic_difficulty").CurrentStage = 1
+    end
+
     if slot_data['vehicle_logic'] then
         local objsanity = Tracker:FindObjectForCode("vehiclesanity_enabled")
         objsanity.Active = (slot_data['vehicle_logic'])

@@ -129,6 +129,8 @@ function has_vehicle(vehicle)
         return true
     elseif vehicle == "saucer" and Tracker:ProviderCountForCode("air_saucer_vehicle") > 0 then
         return true
+    elseif vehicle == "gunturret" and Tracker:ProviderCountForCode("gun_turret_vehicle") > 0 then
+        return true
     end
 
     return false
@@ -201,10 +203,15 @@ function stage_available(level_code, isRecursive)
         local lcode = string.sub(value, 1,2)
         local lmission = string.sub(value, 4,4)
 
+        local stupidboss = true
+        if lcode == "ij" then
+            stupidboss = has_vehicle("gunturret")
+        end
+
         if lmission == "3" then
-            canReachStage = stage_available(lcode, "1") and story_region_available(value)
+            canReachStage = stage_available(lcode, "1") and story_region_available(value) and stupidboss
         else
-            canReachStage = stage_available(lcode, "1") and objective_clearable(lcode, lmission) and story_region_available(value)
+            canReachStage = stage_available(lcode, "1") and objective_clearable(lcode, lmission) and story_region_available(value) and stupidboss
         end
     end
 
@@ -218,8 +225,20 @@ function objective_clearable(level_code, alightment)
     local mission_item_count = Tracker:ProviderCountForCode(mission_item)
     if MISSION_MAPPING[lookup_id][3] == true then
         return mission_item_count >= math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_completion_enemy_percentage")/100)
+    elseif MISSION_MAPPING[lookup_id][1] == 1 then
+        return mission_item_count == 1
     else
         return mission_item_count >= math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_completion_percentage")/100)
+    end
+end
+
+function objective_visible(level_code, alightment, rank)
+    local lookup_id = level_code .. "_" .. alightment
+    local mission_item = tostring(level_code .. "_" .. MISSION_MAPPING[lookup_id][2])
+    if MISSION_MAPPING[lookup_id][3] == true then
+        return tonumber(rank) <= math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_enemy_percentage")/100)
+    else
+        return tonumber(rank) <= math.ceil(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_percentage")/100)
     end
 end
 
@@ -283,8 +302,12 @@ function region_accessible(level_code, region_num)
         end
     elseif level_code == "ci" then
         if region_num == 1 then
-            -- car
-            return has_vehicle("car")
+            -- car (easy only)
+            if (Tracker:ProviderCountForCode("logic_difficulty_easy") == 1) then
+                return has_vehicle("car")
+            else 
+                return true
+            end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true and region_accessible("ci", 1)
@@ -296,8 +319,12 @@ function region_accessible(level_code, region_num)
         end
     elseif level_code == "st" then
         if region_num == 1 then
-            -- gunjumper
-            return has_vehicle("gunjumper")
+            -- gunjumper (easy only)
+            if (Tracker:ProviderCountForCode("logic_difficulty_easy") == 1) then
+                return has_vehicle("gunjumper")
+            else 
+                return true
+            end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true and region_accessible("st", 1)
@@ -313,8 +340,12 @@ function region_accessible(level_code, region_num)
         end
     elseif level_code == "mm" then
         if region_num == 1 then
-            -- longrangegun
-            return has_weapon_type("longrangegun")
+            -- longrangegun (normal and below)
+            if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
+                return true
+            else 
+                return has_weapon_type("longrangegun")
+            end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true and region_accessible("mm", 1)
@@ -344,8 +375,12 @@ function region_accessible(level_code, region_num)
         end
     elseif level_code == "sg" then
         if region_num == 1 then
-            -- air sacuer
-            return has_vehicle("saucer")
+            -- air sacuer (normal and below)
+            if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
+                return true
+            else 
+                return has_vehicle("saucer")
+            end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true and region_accessible("sg", 1)
@@ -359,6 +394,7 @@ function region_accessible(level_code, region_num)
             return true and region_accessible("li", 1)
         end
     elseif level_code == "gf" then
+        -- NOTE: there is supposed to be a region before the door for either a Long-Range-Gun available in GF or a turret. I am choosing to ignore this until someone notices
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
@@ -389,8 +425,12 @@ function region_accessible(level_code, region_num)
         end
     elseif level_code == "fh" then
         if region_num == 1 then
-            -- vacuum
-            return has_weapon_type("vacuum")
+            -- vacuum (normal and below)
+            if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
+                return true
+            else 
+                return has_weapon_type("vacuum")
+            end
         elseif region_num == 2 then
             -- blackvolt
             return has_vehicle("blackvolt") and region_accessible("fh", 1)

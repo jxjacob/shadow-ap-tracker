@@ -78,6 +78,33 @@
     },
 
     {
+        "name": "Logic Difficulty",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/level_difficulty_easy.png",
+                "name": "Logic Difficulty - Easy",
+                "codes": "logic_difficulty,logic_difficulty_easy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_normal.png",
+                "name": "Logic Difficulty - Normal",
+                "codes": "logic_difficulty,logic_difficulty_normal",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_hard.png",
+                "name": "Logic Difficulty - Hard",
+                "codes": "logic_difficulty,logic_difficulty_hard",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    {
         "name": "Weaponsanity Hold - Off",
         "type": "progressive",
         "loop": false,
