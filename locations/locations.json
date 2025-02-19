@@ -8356,7 +8356,7 @@
     "name": "Final Haunt Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|fh|1" ],
+    "access_rules": [ "$stage_available|fh|1,$region_accessible|fh|1" ],
     "visibility_rules": ["level_progression_story", "level_progression_both"],
     "sections": [
         {
