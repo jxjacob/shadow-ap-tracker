@@ -431,6 +431,110 @@
         "codes": "fh_switch"
     },
 
+    {
+        "name": "Stage: The Last Way",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "lw_stage"
+    },
+
+    {
+        "name": "Boss: Lethal Highway Black Bull",
+        "type": "toggle",
+        "img": "/images/lethal.png",
+        "codes": "lh_boss"
+    },
+    {
+        "name": "Boss: Cryptic Castle Egg Breaker",
+        "type": "toggle",
+        "img": "/images/castle.png",
+        "codes": "cc_boss"
+    },
+    {
+        "name": "Boss: The Doom Heavy Dog",
+        "type": "toggle",
+        "img": "/images/doom.png",
+        "codes": "td_boss"
+    },
+    {
+        "name": "Boss: Death Ruins Black Bull",
+        "type": "toggle",
+        "img": "/images/ruins.png",
+        "codes": "dr_boss"
+    },
+    {
+        "name": "Boss: Mad Matrix Egg Breaker",
+        "type": "toggle",
+        "img": "/images/matrix.png",
+        "codes": "mm_boss"
+    },
+    {
+        "name": "Boss: The Ark Blue Falcon",
+        "type": "toggle",
+        "img": "/images/ark.png",
+        "codes": "ta_boss"
+    },
+    {
+        "name": "Boss: Iron Jungle Egg Breaker",
+        "type": "toggle",
+        "img": "/images/jungle.png",
+        "codes": "ij_boss"
+    },
+    {
+        "name": "Boss: Gun Fortress Black Doom",
+        "type": "toggle",
+        "img": "/images/fortress.png",
+        "codes": "gf_hero_boss"
+    },
+    {
+        "name": "Boss: Gun Fortress Diablon",
+        "type": "toggle",
+        "img": "/images/fortress.png",
+        "codes": "gf_dark_boss"
+    },
+    {
+        "name": "Boss: Black Comet Egg Dealer",
+        "type": "toggle",
+        "img": "/images/comet.png",
+        "codes": "bc_hero_boss"
+    },
+    {
+        "name": "Boss: Black Comet Diablon",
+        "type": "toggle",
+        "img": "/images/comet.png",
+        "codes": "bc_dark_boss"
+    },
+    {
+        "name": "Boss: Lava Shelter Egg Dealer",
+        "type": "toggle",
+        "img": "/images/shelter.png",
+        "codes": "ls_boss"
+    },
+    {
+        "name": "Boss: Cosmic Fall Black Doom",
+        "type": "toggle",
+        "img": "/images/fall.png",
+        "codes": "cf_hero_boss"
+    },
+    {
+        "name": "Boss: Cosmic Fall Egg Dealer",
+        "type": "toggle",
+        "img": "/images/fall.png",
+        "codes": "cf_dark_boss"
+    },
+    {
+        "name": "Boss: Final Haunt Black Doom",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "fh_hero_boss"
+    },
+    {
+        "name": "Boss: Final Haunt Diablon",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "fh_dark_boss"
+    },
+
 
 
 
@@ -470,6 +574,20 @@
         "overlay_background": "#000000",
         "img": "/images/token_objective.png",
         "codes": "token_objective"
+    },
+    {
+        "name": "Token - BOSSES",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_objective.png",
+        "codes": "token_boss"
+    },
+    {
+        "name": "Token - FINAL BOSSES",
+        "type": "consumable",
+        "overlay_background": "#000000",
+        "img": "/images/token_objective.png",
+        "codes": "token_final_boss"
     },
 
     {
@@ -775,7 +893,7 @@
     {
         "name": "Last Pole",
         "type": "toggle",
-        "img": "/images/last_pole_weapon.png",
+        "img": "/images/haunt_pole_weapon.png",
         "codes": "last_pole_weapon"
     },
     {
@@ -814,6 +932,37 @@
         "img": "/images/shadow_rifle_weapon.png",
         "codes": "shadow_rifle_weapon"
     },
+    {
+        "name": "Shadow Rifle Barrel",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_0_weapon"
+    },
+    {
+        "name": "Shadow Rifle Action",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_1_weapon"
+    },
+    {
+        "name": "Shadow Rifle Stock",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_2_weapon"
+    },
+    {
+        "name": "Shadow Rifle Receiver",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_3_weapon"
+    },
+    {
+        "name": "Shadow Rifle Magazine",
+        "type": "toggle",
+        "img": "/images/shadow_rifle_weapon.png",
+        "codes": "shadow_rifle_4_weapon"
+    },
+    
 
 
 

@@ -20,8 +20,9 @@
                             [ "splitter_weapon", "refractor_weapon", "survival_knife_weapon", "black_sword_weapon","dark_hammer_weapon", "egg_spear_weapon" ],
                             [ "speed_limit_sign_weapon", "digital_pole_weapon", "canyon_pole_weapon", "lethal_pole_weapon", "cryptic_torch_weapon","prison_branch_weapon", "circus_pole_weapon","stop_sign_weapon" ],
                             [ "doom_pole_weapon", "sky_pole_weapon", "matrix_pole_weapon", "ruins_branch_weapon", "fleet_pole_weapon","iron_pole_weapon", "gadget_pole_weapon","impact_pole_weapon" ],
-                            [ "fortress_pole_weapon", "lava_shovel_weapon", "cosmic_pole_weapon", "haunt_pole_weapon"],
-                            ["samurai_blade_weapon","satellite_gun_weapon", "egg_vacuum_weapon", "omochao_gun_weapon", "heal_cannon_weapon", "shadow_rifle_weapon" ]
+                            [ "fortress_pole_weapon", "lava_shovel_weapon", "cosmic_pole_weapon", "haunt_pole_weapon", "last_pole_weapon"],
+                            ["samurai_blade_weapon","satellite_gun_weapon", "egg_vacuum_weapon", "omochao_gun_weapon", "heal_cannon_weapon", "shadow_rifle_weapon" ],
+                            ["shadow_rifle_0_weapon", "shadow_rifle_1_weapon", "shadow_rifle_2_weapon", "shadow_rifle_3_weapon", "shadow_rifle_4_weapon"]
                         ]
                     }
                 ]

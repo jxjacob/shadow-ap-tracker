@@ -47,6 +47,13 @@
         "img": "images/vehiclesanity.png",
         "codes": "vehiclesanity_enabled"
     },
+    {
+        "name": "Shuffle Last Way",
+        "type": "toggle",
+        "img": "images/chaos.png",
+        "codes": "shuffle_last_way"
+    },
+
 
 
 
@@ -105,6 +112,60 @@
     },
 
     {
+        "name": "Boss Logic Difficulty",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/level_difficulty_easy.png",
+                "name": "Boss Logic Difficulty - Easy",
+                "codes": "boss_difficulty,boss_difficulty_easy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_normal.png",
+                "name": "Boss Logic Difficulty - Normal",
+                "codes": "boss_difficulty,boss_difficulty_normal",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_hard.png",
+                "name": "Boss Logic Difficulty - Hard",
+                "codes": "boss_difficulty,boss_difficulty_hard",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    {
+        "name": "Craft Logic Difficulty",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/level_difficulty_easy.png",
+                "name": "Craft Logic Difficulty - Easy",
+                "codes": "craft_difficulty,craft_difficulty_easy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_normal.png",
+                "name": "Craft Logic Difficulty - Normal",
+                "codes": "craft_difficulty,craft_difficulty_normal",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/level_difficulty_hard.png",
+                "name": "Craft Logic Difficulty - Hard",
+                "codes": "craft_difficulty,craft_difficulty_hard",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    {
         "name": "Weaponsanity Hold - Off",
         "type": "progressive",
         "loop": false,
@@ -154,7 +215,18 @@
         "codes": "objective_completion_percentage"
     },
     {
-        "name": "Objective Enemy Percentage",
+        "name": "Objective Frequency",
+        "type": "consumable",
+        "img": "images/objectivesanity_percentage.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_frequency"
+    },
+    {
+        "name": "Enemy Objective Percentage",
         "type": "consumable",
         "img": "images/enemy-objectivesanity_percentage.png",
         "initial_quantity": 100,
@@ -165,7 +237,7 @@
         "codes": "objective_enemy_percentage"
     },
     {
-        "name": "Objective Enemy Completion Percentage",
+        "name": "Enemy Objective Completion Percentage",
         "type": "consumable",
         "img": "images/enemy-objectivesanity_percentage.png",
         "initial_quantity": 100,
@@ -174,6 +246,17 @@
         "increment": 1,
         "overlay_background": "#000000",
         "codes": "objective_completion_enemy_percentage"
+    },
+    {
+        "name": "Enemy Objective Frequency",
+        "type": "consumable",
+        "img": "images/enemy-objectivesanity_percentage.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "objective_enemy_frequency"
     },
     {
         "name": "Enemysanity Percentage",
@@ -186,6 +269,18 @@
         "overlay_background": "#000000",
         "codes": "enemysanity_percentage"
     },
+    {
+        "name": "Enemysanity Frequency",
+        "type": "consumable",
+        "img": "images/chaos.png",
+        "initial_quantity": 100,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "enemysanity_frequency"
+    },
+
 
 
     {
@@ -242,6 +337,28 @@
         "increment": 1,
         "overlay_background": "#000000",
         "codes": "goal_objective_missions"
+    },
+    {
+        "name": "Goal - Boss Tokens",
+        "type": "consumable",
+        "img": "images/token_objective.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_boss_missions"
+    },
+    {
+        "name": "Goal - Final Boss Tokens",
+        "type": "consumable",
+        "img": "images/token_objective.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 100,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "codes": "goal_final_boss_missions"
     },
     {
         "name": "Goal - All Chaos Emeralds",

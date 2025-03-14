@@ -19,11 +19,11 @@
                           ["cc_stage", "cc_lantern", "cc_cream", "", "dr_stage", "dr_alien", "", "bc_stage", "bc_gun"],
                           ["pi_stage", "pi_gun", "pi_disc", "",  "ta_stage", "ta_defense",  "", "ls_stage", "ls_lava"],
                           ["ci_stage", "ci_big", "ci_small", "",  "sg_stage", "sg_defense",  "", "fh_stage", "fh_switch"],
-                          ["td_stage", "td_gun", "td_researcher", "", "dc_stage", "", "", "cf_stage"],
-                          ["st_stage", "st_ship", "st_jewel"],
-                          ["mm_stage", "mm_bomb", "mm_terminal"],
-                          ["af_stage", "af_president", "af_alien"],
-                          ["ij_stage", "ij_gun", "ij_balloon"]
+                          ["td_stage", "td_gun", "td_researcher", "", "dc_stage", "", "cf_stage", "", "lw_stage"],
+                          ["st_stage", "st_ship", "st_jewel", "", "lh_boss", "cc_boss", "td_boss", "mm_boss"],
+                          ["mm_stage", "mm_bomb", "mm_terminal", "", "dr_boss", "ta_boss", "ij_boss", "ls_boss"],
+                          ["af_stage", "af_president", "af_alien", "", "gf_dark_boss", "gf_hero_boss", "bc_dark_boss", "bc_hero_boss"],
+                          ["ij_stage", "ij_gun", "ij_balloon", "", "cf_dark_boss", "cf_hero_boss", "fh_dark_boss", "fh_hero_boss"]
                         ]
                     }
                 ]

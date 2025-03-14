@@ -1,5 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/weapon_groups.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -69,7 +71,7 @@ function onClear(slot_data)
         end
     end
 
-    --print(dump_table(slot_data))
+    print(dump_table(slot_data))
     
     -- sanities
     if slot_data['objective_sanity'] then
@@ -107,6 +109,7 @@ function onClear(slot_data)
         weaponholdsanity.CurrentStage = (slot_data['weapon_sanity_hold'])
     end
 
+    -- logic
     if slot_data['story_mode_available'] then
         local stagemode = 0
         if slot_data['story_mode_available'] == true then
@@ -119,16 +122,37 @@ function onClear(slot_data)
         levelprog.CurrentStage = (stagemode)
     end
 
+    if slot_data['include_last_way_shuffle'] then
+        local inclw = Tracker:FindObjectForCode("shuffle_last_way")
+        inclw.Active = (slot_data['include_last_way_shuffle'])
+    end
+
     if slot_data['logic_level'] then
         Tracker:FindObjectForCode("logic_difficulty").CurrentStage = (slot_data['logic_level'])
     else
         Tracker:FindObjectForCode("logic_difficulty").CurrentStage = 1
     end
 
+    if slot_data['boss_logic_level'] then
+        Tracker:FindObjectForCode("boss_difficulty").CurrentStage = (slot_data['boss_logic_level'])
+    else
+        Tracker:FindObjectForCode("boss_difficulty").CurrentStage = 1
+    end
+
+    if slot_data['craft_logic_level'] then
+        Tracker:FindObjectForCode("craft_difficulty").CurrentStage = (slot_data['craft_logic_level'])
+    else
+        Tracker:FindObjectForCode("craft_difficulty").CurrentStage = 1
+    end
+
     if slot_data['vehicle_logic'] then
         local objsanity = Tracker:FindObjectForCode("vehiclesanity_enabled")
         objsanity.Active = (slot_data['vehicle_logic'])
     end
+
+    -- if slot_data['shuffled_story_mode'] then
+    --     parse_story_shuffle(slot_data['shuffled_story_mode'])
+    -- end
 
 
     -- objective percentages
@@ -150,6 +174,16 @@ function onClear(slot_data)
     if slot_data['objective_completion_enemy_percentage'] then
         local obj_item_enemy_perc = Tracker:FindObjectForCode("objective_completion_enemy_percentage")
         obj_item_enemy_perc.AcquiredCount = (slot_data['objective_completion_enemy_percentage'])
+    end
+
+    if slot_data['objective_frequency'] then
+        local obj_item_enemy_perc = Tracker:FindObjectForCode("objective_frequency")
+        obj_item_enemy_perc.AcquiredCount = (slot_data['objective_frequency'])
+    end
+
+    if slot_data['enemy_objective_frequency'] then
+        local obj_item_enemy_perc = Tracker:FindObjectForCode("objective_enemy_frequency")
+        obj_item_enemy_perc.AcquiredCount = (slot_data['enemy_objective_frequency'])
     end
 
     -- wincon
@@ -183,6 +217,16 @@ function onClear(slot_data)
         req_token_final.AcquiredCount = (slot_data['required_final_tokens'])
     end
 
+    if slot_data['required_boss_tokens'] then
+        local req_token_final = Tracker:FindObjectForCode("goal_boss_missions")
+        req_token_final.AcquiredCount = (slot_data['required_boss_tokens'])
+    end
+
+    if slot_data['required_final_boss_tokens'] then
+        local req_token_final = Tracker:FindObjectForCode("goal_final_boss_missions")
+        req_token_final.AcquiredCount = (slot_data['required_final_boss_tokens'])
+    end
+
 
 
 end
@@ -196,6 +240,11 @@ function onItem(index, item_id, item_name, player_number)
     local v = ITEM_MAPPING[item_id]
     if not v or not v[1] then
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
+        return
+    end
+    -- function for weapon groups to toggle all weapons of its group
+    if (string.sub(v[1],-8,-1) == "_weapons") then
+        select_all_weapons_in_group(v[1])
         return
     end
     local obj = Tracker:FindObjectForCode(v[1])

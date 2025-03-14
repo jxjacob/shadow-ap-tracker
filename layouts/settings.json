@@ -17,7 +17,9 @@
                             ["objectivesanity_enabled","enemy_objectivesanity_enabled", "charactersanity_enabled", "enemysanity_enabled", "checkpointsanity_enabled", "keysanity_enabled", "weaponsanity_enabled", "vehiclesanity_enabled"],
                             ["objective_percentage", "objective_enemy_percentage", "", "enemfysanity_percentage", "", "", "weaponsanity_hold_enabled"],
                             ["objective_completion_percentage", "objective_completion_enemy_percentage"],
-                            ["goal_missions", "goal_final_missions", "goal_hero_missions", "goal_dark_missions", "goal_objective_missions", "goal_emeralds", "level_progression", "logic_difficulty"]
+                            ["objective_frequency", "objective_enemy_frequency"],
+                            ["goal_missions", "goal_hero_missions", "goal_dark_missions", "goal_objective_missions", "goal_final_missions", "goal_boss_missions", "goal_final_boss_missions"],
+                            ["goal_emeralds", "level_progression", "shuffle_last_way", "logic_difficulty", "boss_difficulty", "craft_difficulty"]
                         ]
                     }
                 ]

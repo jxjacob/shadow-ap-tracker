@@ -31,29 +31,86 @@ MISSION_MAPPING = {
     fh_1 = {4, "switch", false}
 }
 
+VANILLA_STAGE_MAPPING = true
+
 STAGE_ACCESS_MAPPING = {
     wo = {"true"},
     dc = {"wo_1"},
     gc = {"wo_3"},
     lh = {"wo_0"},
     cc = {"dc_3", "gc_1"},
-    pi = {"gc_3"},
+    pi = {"gc_3", "cd_0"},
     cp = {"gc_0", "lh_0"},
     ci = {"cc_1"},
     td = {"cc_3", "pi_1"},
-    st = {"pi_3"},
+    st = {"pi_3", "cc_0", "cp_1"},
     mm = {"pi_0", "cp_3"},
     dr = {"cp_3"},
     ta = {"ci_1", "td_0"},
-    af = {"td_3", "st_1"},
-    ij = {"st_3"},
-    sg = {"st_0", "mm_3"},
+    af = {"td_3", "st_1", "cc_0"},
+    ij = {"st_3", "td_0", "mm_1"},
+    sg = {"st_0", "mm_3", "dr_1"},
     li = {"mm_0", "dr_0"},
     gf = {"ta_1", "af_1"},
-    bc = {"af_3", "ij_1"},
-    ls = {"ij_3"},
-    cf = {"ij_0", "sg_3"},
-    fh = {"sg_3"}
+    bc = {"af_3", "ij_1", "ta_3"},
+    ls = {"ij_3", "af_0", "sg_1"},
+    cf = {"ij_0", "sg_3", "li_3"},
+    fh = {"sg_3", "li_0"},
+    lw = {},
+    -- something like (castle breaker as example)
+    -- s310 = {"300_0", "300_1", "300_2"}
+}
+
+STAGE_ACCESS_BOOLS = {
+    wo = false,
+    dc = false,
+    gc = false,
+    lh = false,
+    cc = false,
+    pi = false,
+    cp = false,
+    ci = false,
+    td = false,
+    st = false,
+    mm = false,
+    dr = false,
+    ta = false,
+    af = false,
+    ij = false,
+    sg = false,
+    li = false,
+    gf = false,
+    bc = false,
+    ls = false,
+    cf = false,
+    fh = false,
+    lw = false,
+}
+
+STAGE_EXCLUDED = {
+    wo = false,
+    dc = false,
+    gc = false,
+    lh = false,
+    cc = false,
+    pi = false,
+    cp = false,
+    ci = false,
+    td = false,
+    st = false,
+    mm = false,
+    dr = false,
+    ta = false,
+    af = false,
+    ij = false,
+    sg = false,
+    li = false,
+    gf = false,
+    bc = false,
+    ls = false,
+    cf = false,
+    fh = false,
+    lw = false,
 }
 
 -- this table sucks
@@ -90,6 +147,57 @@ STAGE_REGION_MAPPING = {
     ij_0 = {"true", "w_gun"},
     sg_3 = {"1", "true"},
 }
+
+-- table where the spoken name Mad Matrix gets converted into 403
+STAGE_CODE_MAPPING = {
+
+}
+
+function string_split(inputstr, sep)
+    -- if sep is null, set it as space
+    if sep == nil then
+       sep = '%s'
+    end
+    -- define an array
+    local t={}
+    -- split string based on sep   
+    for str in string.gmatch(inputstr, '([^'..sep..']+)') 
+    do
+       -- insert the substring in table
+       table.insert(t, str)
+    end
+    -- return the array
+    return t
+ end
+
+
+function parse_story_shuffle(inputtext)
+    if (VANILLA_STAGE_MAPPING == true) then
+        VANILLA_STAGE_MAPPING = false
+        for key, value in pairs(STAGE_ACCESS_MAPPING) do
+            -- wipe data
+            STAGE_ACCESS_MAPPING[key] = {}
+        end
+    end
+
+    -- split input based on / (these are the connectors for each level)
+    local connectors = string_split(inputtext, "/")
+    for _, v in ipairs(connectors) do 
+        -- from there, split on &
+        local params = string_split(v, "&")
+        -- 0 = source level
+        -- 1 = dest level
+        -- 2 = mission
+        -- 3 = boss intermission
+
+        -- if [0] == -1. set [2] to true in STAGE_ACCESS_MAPPING
+        -- else if [3] != -1, set the following in SAM
+            -- [3]'s source is [0]_[2]
+            -- [1]'s source is [3]_0
+        -- else, set [1]'s source is [0]
+    end
+
+end
 
 function has_weapon_type(weapon)
     if Tracker:ProviderCountForCode("weaponsanity_enabled") == 0 then
@@ -177,6 +285,11 @@ function weapon_access(level_code, region_code, weapon_code)
     return false
 end
 
+-- for map visibility
+function stage_visible(level_code)
+    return (not STAGE_EXCLUDED[level_code])
+end
+
 function stage_available(level_code, isRecursive)
     if Tracker:ProviderCountForCode("level_progression_select") == 1 then
         -- if the progression is select-based, then return its code
@@ -188,9 +301,18 @@ function stage_available(level_code, isRecursive)
         end
     end
 
+    -- if code is lw and NOT shuffle_last_way return CanReachDevilDoom
+    if (level_code == "lw" and Tracker:ProviderCountForCode("shuffle_last_way") == 0) then
+        return CanReachDevilDoom()
+    end
+
+    if (STAGE_EXCLUDED[level_code] == true) then
+        return false
+    end
+
     local stagedata = STAGE_ACCESS_MAPPING[level_code]
 
-    local canReachStage = false
+    local canReachStage = STAGE_ACCESS_BOOLS[level_code]
     for key, value in pairs(stagedata) do
         -- the westopolis code; always available in story mode
         if value == "true" then
@@ -215,6 +337,7 @@ function stage_available(level_code, isRecursive)
         end
     end
 
+    STAGE_ACCESS_BOOLS[level_code] = canReachStage
     return canReachStage
 end
 
@@ -232,13 +355,24 @@ function objective_clearable(level_code, alightment)
     end
 end
 
+function freq_calc(rank, freq, final)
+    if freq == 1 or tonumber(rank) == final then
+        return true
+    end
+    return rank % freq == 0
+end
+
 function objective_visible(level_code, alightment, rank)
     local lookup_id = level_code .. "_" .. alightment
     local mission_item = tostring(level_code .. "_" .. MISSION_MAPPING[lookup_id][2])
     if MISSION_MAPPING[lookup_id][3] == true then
-        return tonumber(rank) <= math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_enemy_percentage")/100)
+        local freq = 100/tonumber(Tracker:ProviderCountForCode("objective_enemy_frequency"))
+        local finalcheck = math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_enemy_percentage")/100)
+        return (tonumber(rank) <= finalcheck and freq_calc(rank, freq, finalcheck))
     else
-        return tonumber(rank) <= math.ceil(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_percentage")/100)
+        local freq = 100/tonumber(Tracker:ProviderCountForCode("objective_frequency"))
+        local finalcheck = math.ceil(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_percentage")/100)
+        return (tonumber(rank) <= finalcheck and freq_calc(rank, freq, finalcheck))
     end
 end
 
@@ -438,6 +572,12 @@ function region_accessible(level_code, region_num)
             -- keydoor. if keys are put into pool, change this to account for it FROM REGION 1
             return true and region_accessible("fh", 1)
         end
+    elseif level_code == "lw" then
+        if region_num == 1 then
+            -- post-blackvolt
+            return has_vehicle("blackvolt")
+        end
+        -- shockingly, theres no keydoor in last way despite having keys
     end
 
     -- shouldt end up here but just in case
@@ -446,7 +586,7 @@ function region_accessible(level_code, region_num)
 
 end
 
-function CanReachLast()
+function CanReachDevilDoom()
     local required_emeralds = Tracker:ProviderCountForCode("goal_emeralds")
 
     local emerald_1 = Tracker:ProviderCountForCode("white_emerald")
@@ -463,12 +603,16 @@ function CanReachLast()
     local required_dark_tokens = Tracker:ProviderCountForCode("goal_dark_missions")
     local required_objective_tokens = Tracker:ProviderCountForCode("goal_objective_missions")
     local required_final_tokens = Tracker:ProviderCountForCode("goal_final_missions")
+    local required_boss_tokens = Tracker:ProviderCountForCode("goal_boss_missions")
+    local required_final_boss_tokens = Tracker:ProviderCountForCode("goal_final_boss_missions")
 
     local current_mission_tokens = Tracker:ProviderCountForCode("token_neutral")
     local current_hero_tokens = Tracker:ProviderCountForCode("token_hero")
     local current_dark_tokens = Tracker:ProviderCountForCode("token_dark")
     local current_objective_tokens = Tracker:ProviderCountForCode("token_objective")
     local current_final_tokens = Tracker:ProviderCountForCode("token_final")
+    local current_boss_tokens = Tracker:ProviderCountForCode("token_boss")
+    local current_final_boss_tokens = Tracker:ProviderCountForCode("token_final_boss")
 
 
     local emerald_check = true
@@ -481,7 +625,9 @@ function CanReachLast()
         end
     end
 
-    if emerald_check and current_mission_tokens >= required_mission_tokens and current_hero_tokens >= required_hero_tokens and current_dark_tokens >= required_dark_tokens and current_final_tokens >= required_final_tokens and current_objective_tokens >= required_objective_tokens then
+    if emerald_check and current_mission_tokens >= required_mission_tokens and current_hero_tokens >= required_hero_tokens and current_dark_tokens >= required_dark_tokens and current_final_tokens >= required_final_tokens and current_objective_tokens >= required_objective_tokens
+    and current_boss_tokens >= required_boss_tokens
+    and current_final_boss_tokens >= required_final_boss_tokens then
         return true
     end
 

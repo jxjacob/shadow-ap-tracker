@@ -70,7 +70,7 @@
             {
                 "map": "menu",
                 "x": 50,
-                "y": 50
+                "y": 35
             }
         ]
     },
@@ -332,6 +332,11 @@
                 "item_count": 1
             },
             {
+                "name": "Last Pole",
+                "access_rules": [ "$weapon_access|lw|0|last_pole" ],
+                "item_count": 1
+            },
+            {
                 "name": "Samurai Blade",
                 "access_rules": [ "samurai_blade_weapon" ],
                 "item_count": 1
@@ -366,36 +371,13 @@
             {
                 "map": "menu",
                 "x": 75,
-                "y": 50
+                "y": 35
             }
         ]
     },
-
-
 
 
     {
-        "name": "The Last Way",
-        "chest_unopened_img": "images/CheckNotDone.png",
-        "chest_opened_img": "images/CheckDone.png",
-        "access_rules": [ "$CanReachLast" ],
-        "sections": [
-            {
-                "name": "Devil Doom",
-                "item_count": 1
-            }
-
-     
-        ],
-        "map_locations": [
-            {
-                "map": "menu",
-                "x": 50,
-                "y": 325
-            }
-        ]
-    },
-{
     "name": "Westopolis",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
@@ -2221,13 +2203,13 @@
 
         {
             "name": "Neutral Mission",
-            "access_rules": ["$region_accessible|pi|2"], 
+            "access_rules": ["$region_accessible|pi|1"], 
             "item_count": 1
         },
 
         {
             "name": "Neutral Mission - Mission Token",
-            "access_rules": ["$region_accessible|pi|2"], 
+            "access_rules": ["$region_accessible|pi|1"], 
             "visibility_rules": ["goal_missions:1"],
             "item_count": 1
         },
@@ -8059,6 +8041,131 @@
 },
 
 {
+    "name": "The Last Way",
+    "chest_unopened_img": "images/CheckNotDone.png",
+    "chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "$stage_available|lw|0" ],
+    "sections": [
+        {
+            "name": "Neutral Mission",
+            "access_rules": ["$region_accessible|lw|1"], 
+            "item_count": 1
+        },
+
+        {
+            "name": "Neutral Mission - Mission Token",
+            "access_rules": ["$region_accessible|lw|1"], 
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+
+        {
+            "name": "Devil Doom",
+            "access_rules": ["$region_accessible|lw|1, $CanReachDevilDoom"],
+            "item_count": 1
+        }
+ 
+    ],
+    "map_locations": [
+        {
+            "map": "menu",
+            "x": 50,
+            "y": 307
+        }
+    ]
+},
+{
+    "name": "The Last Way - Checkpoints",
+    "chest_unopened_img": "images/CheckNotDone.png",
+    "chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "$stage_available|lw|0" ],
+    "visibility_rules": ["checkpointsanity_enabled"],
+    "sections": [
+        {
+            "name": "Checkpoint 1",
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 2",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 3",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 4",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 5",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 6",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Checkpoint 7",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 75,
+            "y": 307
+        }
+    ]
+},
+{
+    "name": "The Last Way - Keys",
+    "chest_unopened_img": "images/CheckNotDone.png",
+    "chest_opened_img": "images/CheckDone.png",
+    "access_rules": [ "$stage_available|lw|0" ],
+    "visibility_rules": ["keysanity_enabled"],
+    "sections": [
+        {
+            "name": "Key 1",
+            "item_count": 1
+        },
+        {
+            "name": "Key 2",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Key 3",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Key 4",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        },
+        {
+            "name": "Key 5",
+            "access_rules": [ "$region_accessible|lw|1" ],
+            "item_count": 1
+        }
+    ],
+    "map_locations":[
+        {
+            "map": "menu",
+            "x": 100,
+            "y": 307
+        }
+    ]
+},
+
+{
     "name": "Lethal Highway Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
@@ -8068,8 +8175,12 @@
         {
             "name": "Black Bull",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Black Bull Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8089,8 +8200,12 @@
         {
             "name": "Egg Breaker",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Breaker Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8110,8 +8225,12 @@
         {
             "name": "Heavy Dog",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Heavy Dog Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8131,8 +8250,12 @@
         {
             "name": "Black Bull",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Black Bull Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8152,8 +8275,12 @@
         {
             "name": "Egg Breaker",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Breaker Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8173,8 +8300,12 @@
         {
             "name": "Blue Falcon",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Blue Falcon Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8194,8 +8325,12 @@
         {
             "name": "Egg Breaker",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Breaker Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8215,8 +8350,16 @@
         {
             "name": "Black Doom",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Black Doom Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Black Doom Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8236,8 +8379,16 @@
         {
             "name": "Diablon",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Diablon Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Diablon Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8257,8 +8408,16 @@
         {
             "name": "Egg Dealer",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Dealer Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Egg Dealer Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8278,8 +8437,16 @@
         {
             "name": "Diablon",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Diablon Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Diablon Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8299,8 +8466,16 @@
         {
             "name": "Egg Dealer",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Dealer Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Egg Dealer Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8320,8 +8495,16 @@
         {
             "name": "Black Doom",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Black Doom Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Black Doom Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8341,8 +8524,16 @@
         {
             "name": "Egg Dealer",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Egg Dealer Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Egg Dealer Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8362,8 +8553,16 @@
         {
             "name": "Black Doom",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Black Doom Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Black Doom Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8383,8 +8582,16 @@
         {
             "name": "Diablon",
             "item_count": 1
-        }
-    ],
+        },
+        {
+            "name": "Diablon Boss Token",
+            "visibility_rules": ["goal_boss_missions:1"],
+            "item_count": 1
+        },{
+            "name": "Diablon Final Boss Token",
+            "visibility_rules": ["goal_final_boss_missions:1"],
+            "item_count": 1
+        }],
     "map_locations": [
         {
             "map": "menu",
@@ -8395,7 +8602,5 @@
 }
 
 
-
-
-
+    
 ]
