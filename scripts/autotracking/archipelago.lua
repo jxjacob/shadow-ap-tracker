@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/weapon_groups.lua")
+ScriptHost:LoadScript("scripts/autotracking/default_mappings.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 
 CUR_INDEX = -1
@@ -37,6 +38,9 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
 
+    STAGE_ACCESS_MAPPING = DEFAULT_STAGE_ACCESS_MAPPING
+    STAGE_EXCLUDED = DEFAULT_STAGE_EXCLUDED
+
     for _, v in pairs(ITEM_MAPPING) do
         if v[1] then
             local obj = Tracker:FindObjectForCode(v[1])
@@ -70,6 +74,9 @@ function onClear(slot_data)
             end
         end
     end
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     print(dump_table(slot_data))
     
@@ -127,6 +134,10 @@ function onClear(slot_data)
         inclw.Active = (slot_data['include_last_way_shuffle'])
     end
 
+    if slot_data['excluded_stages'] then
+        set_excluded_stages(slot_data['excluded_stages'])
+    end
+
     if slot_data['logic_level'] then
         Tracker:FindObjectForCode("logic_difficulty").CurrentStage = (slot_data['logic_level'])
     else
@@ -150,9 +161,9 @@ function onClear(slot_data)
         objsanity.Active = (slot_data['vehicle_logic'])
     end
 
-    -- if slot_data['shuffled_story_mode'] then
-    --     parse_story_shuffle(slot_data['shuffled_story_mode'])
-    -- end
+    if slot_data['shuffled_story_mode'] then
+        parse_story_shuffle(slot_data['shuffled_story_mode'])
+    end
 
 
     -- objective percentages

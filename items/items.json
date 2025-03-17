@@ -47,7 +47,7 @@
         "name": "Stage: Westopolis",
         "type": "toggle",
         "img": "/images/west.png",
-        "codes": "wo_stage"
+        "codes": "100_stage"
     },
     {
         "name": "Westopolis - GUN",
@@ -55,7 +55,7 @@
         "max_quantity": 35,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "wo_gun"
+        "codes": "100_gun"
     },
     {
         "name": "Westopolis - Aliens",
@@ -63,27 +63,27 @@
         "max_quantity": 45,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
-        "codes": "wo_alien"
+        "codes": "100_alien"
     },
 
     {
         "name": "Stage: Lethal Highway",
         "type": "toggle",
         "img": "/images/lethal.png",
-        "codes": "lh_stage"
+        "codes": "202_stage"
     },
     {
         "name": "Lethal Highway - Tank",
         "type": "toggle",
         "img": "/images/tank.png",
-        "codes": "lh_tank"
+        "codes": "202_tank"
     },
 
     {
         "name": "Stage: Glyphic Canyon",
         "type": "toggle",
         "img": "/images/canyon.png",
-        "codes": "gc_stage"
+        "codes": "201_stage"
     },
     {
         "name": "Glyphic Canyon - Temple Jewels",
@@ -91,7 +91,7 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/jewel.png",
-        "codes": "gc_jewel"
+        "codes": "201_jewel"
     },
     {
         "name": "Glyphic Canyon - Aliens",
@@ -99,21 +99,21 @@
         "max_quantity": 60,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
-        "codes": "gc_alien"
+        "codes": "201_alien"
     },
 
     {
         "name": "Stage: Digital Circut",
         "type": "toggle",
         "img": "/images/digital.png",
-        "codes": "dc_stage"
+        "codes": "200_stage"
     },
 
     {
         "name": "Stage: Cryptic Castle",
         "type": "toggle",
         "img": "/images/castle.png",
-        "codes": "cc_stage"
+        "codes": "300_stage"
     },
     {
         "name": "Cryptic Castle - Lanterns",
@@ -121,7 +121,7 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/lantern.png",
-        "codes": "cc_lantern"
+        "codes": "300_lantern"
     },
     {
         "name": "Cryptic Castle - Cream & Cheese",
@@ -129,14 +129,14 @@
         "max_quantity": 2,
         "overlay_background": "#000000",
         "img": "/images/cream.png",
-        "codes": "cc_cream"
+        "codes": "300_cream"
     },
 
     {
         "name": "Stage: Prison Island",
         "type": "toggle",
         "img": "/images/island.png",
-        "codes": "pi_stage"
+        "codes": "301_stage"
     },
     {
         "name": "Prison Island - GUN",
@@ -144,7 +144,7 @@
         "max_quantity": 40,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "pi_gun"
+        "codes": "301_gun"
     },
     {
         "name": "Prison Island - Data Discs",
@@ -152,14 +152,14 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/disk.png",
-        "codes": "pi_disc"
+        "codes": "301_disc"
     },
 
     {
         "name": "Stage: Circus Park",
         "type": "toggle",
         "img": "/images/circus.png",
-        "codes": "cp_stage"
+        "codes": "302_stage"
     },
     {
         "name": "Circus Park - GUN",
@@ -167,14 +167,14 @@
         "max_quantity": 20,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "cp_gun"
+        "codes": "302_gun"
     },
 
     {
         "name": "Stage: Central City",
         "type": "toggle",
         "img": "/images/city.png",
-        "codes": "ci_stage"
+        "codes": "400_stage"
     },
     {
         "name": "Central City - Big Bombs",
@@ -182,7 +182,7 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/bigbomb.png",
-        "codes": "ci_big"
+        "codes": "400_big"
     },
     {
         "name": "Central City - Small Bombs",
@@ -190,14 +190,14 @@
         "max_quantity": 20,
         "overlay_background": "#000000",
         "img": "/images/smallbomb.png",
-        "codes": "ci_small"
+        "codes": "400_small"
     },
 
     {
         "name": "Stage: The Doom",
         "type": "toggle",
         "img": "/images/doom.png",
-        "codes": "td_stage"
+        "codes": "401_stage"
     },
     {
         "name": "The Doom - GUN",
@@ -205,7 +205,7 @@
         "max_quantity": 60,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "td_gun"
+        "codes": "401_gun"
     },
     {
         "name": "The Doom - Researchers",
@@ -213,14 +213,14 @@
         "max_quantity": 10,
         "overlay_background": "#000000",
         "img": "/images/researcher.png",
-        "codes": "td_researcher"
+        "codes": "401_researcher"
     },
 
     {
         "name": "Stage: Sky Troops",
         "type": "toggle",
         "img": "/images/troops.png",
-        "codes": "st_stage"
+        "codes": "402_stage"
     },
     {
         "name": "Sky Troops - Egg Ships",
@@ -228,7 +228,7 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/ship.png",
-        "codes": "st_ship"
+        "codes": "402_ship"
     },
     {
         "name": "Sky Troops - Temple Jewels",
@@ -236,14 +236,14 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/jewel.png",
-        "codes": "st_jewel"
+        "codes": "402_jewel"
     },
 
     {
         "name": "Stage: Mad Matrix",
         "type": "toggle",
         "img": "/images/matrix.png",
-        "codes": "mm_stage"
+        "codes": "403_stage"
     },
     {
         "name": "Mad Matrix - Bombs",
@@ -251,7 +251,7 @@
         "max_quantity": 30,
         "overlay_background": "#000000",
         "img": "/images/matrixbomb.png",
-        "codes": "mm_bomb"
+        "codes": "403_bomb"
     },
     {
         "name": "Mad Matrix - Data Terminals",
@@ -259,14 +259,14 @@
         "max_quantity": 4,
         "overlay_background": "#000000",
         "img": "/images/terminal.png",
-        "codes": "mm_terminal"
+        "codes": "403_terminal"
     },
 
     {
         "name": "Stage: Death Ruins",
         "type": "toggle",
         "img": "/images/ruins.png",
-        "codes": "dr_stage"
+        "codes": "404_stage"
     },
     {
         "name": "Death Ruins - Aliens",
@@ -274,14 +274,14 @@
         "max_quantity": 50,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
-        "codes": "dr_alien"
+        "codes": "404_alien"
     },
 
     {
         "name": "Stage: The ARK",
         "type": "toggle",
         "img": "/images/ark.png",
-        "codes": "ta_stage"
+        "codes": "500_stage"
     },
     {
         "name": "The ARK - Defense Units",
@@ -289,20 +289,20 @@
         "max_quantity": 4,
         "overlay_background": "#000000",
         "img": "/images/defense.png",
-        "codes": "ta_defense"
+        "codes": "500_defense"
     },
 
     {
         "name": "Stage: Air Fleet",
         "type": "toggle",
         "img": "/images/fleet.png",
-        "codes": "af_stage"
+        "codes": "501_stage"
     },
     {
         "name": "Air Fleet - The President's Aircraft",
         "type": "toggle",
         "img": "/images/president.png",
-        "codes": "af_president"
+        "codes": "501_president"
     },
     {
         "name": "Air Fleet - Aliens",
@@ -310,14 +310,14 @@
         "max_quantity": 35,
         "overlay_background": "#000000",
         "img": "/images/alien.png",
-        "codes": "af_alien"
+        "codes": "501_alien"
     },
 
     {
         "name": "Stage: Iron Jungle",
         "type": "toggle",
         "img": "/images/jungle.png",
-        "codes": "ij_stage"
+        "codes": "502_stage"
     },
     {
         "name": "Iron Jungle - GUN",
@@ -325,20 +325,20 @@
         "max_quantity": 28,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "ij_gun"
+        "codes": "502_gun"
     },
     {
         "name": "Iron Jungle - Egg Balloon",
         "type": "toggle",
         "img": "/images/balloon.png",
-        "codes": "ij_balloon"
+        "codes": "502_balloon"
     },
 
     {
         "name": "Stage: Space Gadget",
         "type": "toggle",
         "img": "/images/gadget.png",
-        "codes": "sg_stage"
+        "codes": "503_stage"
     },
     {
         "name": "Space Gadget - Defense Units",
@@ -346,14 +346,14 @@
         "max_quantity": 6,
         "overlay_background": "#000000",
         "img": "/images/defense2.png",
-        "codes": "sg_defense"
+        "codes": "503_defense"
     },
 
     {
         "name": "Stage: Lost Impact",
         "type": "toggle",
         "img": "/images/impact.png",
-        "codes": "li_stage"
+        "codes": "504_stage"
     },
     {
         "name": "Lost Impact - Artificial Chaos",
@@ -361,14 +361,14 @@
         "max_quantity": 35,
         "overlay_background": "#000000",
         "img": "/images/chaos.png",
-        "codes": "li_chaos"
+        "codes": "504_chaos"
     },
 
     {
         "name": "Stage: GUN Fortress",
         "type": "toggle",
         "img": "/images/fortress.png",
-        "codes": "gf_stage"
+        "codes": "600_stage"
     },
     {
         "name": "GUN Fortress - Mother Computers",
@@ -376,14 +376,14 @@
         "max_quantity": 3,
         "overlay_background": "#000000",
         "img": "/images/computer.png",
-        "codes": "gf_computer"
+        "codes": "600_computer"
     },
 
     {
         "name": "Stage: Black Comet",
         "type": "toggle",
         "img": "/images/comet.png",
-        "codes": "bc_stage"
+        "codes": "601_stage"
     },
     {
         "name": "Black Comet - GUN",
@@ -391,14 +391,14 @@
         "max_quantity": 50,
         "overlay_background": "#000000",
         "img": "/images/gun.png",
-        "codes": "bc_gun"
+        "codes": "601_gun"
     },
 
     {
         "name": "Stage: Lava Shelter",
         "type": "toggle",
         "img": "/images/shelter.png",
-        "codes": "ls_stage"
+        "codes": "602_stage"
     },
     {
         "name": "Lava Shelter - Volcano Defense Systems",
@@ -406,21 +406,21 @@
         "max_quantity": 5,
         "overlay_background": "#000000",
         "img": "/images/lava.png",
-        "codes": "ls_lava"
+        "codes": "602_lava"
     },
 
     {
         "name": "Stage: Cosmic Fall",
         "type": "toggle",
         "img": "/images/fall.png",
-        "codes": "cf_stage"
+        "codes": "603_stage"
     },
 
     {
         "name": "Stage: Final Haunt",
         "type": "toggle",
         "img": "/images/haunt.png",
-        "codes": "fh_stage"
+        "codes": "604_stage"
     },
     {
         "name": "Final Haunt - Defense Shields",
@@ -428,111 +428,111 @@
         "max_quantity": 4,
         "overlay_background": "#000000",
         "img": "/images/switch.png",
-        "codes": "fh_switch"
+        "codes": "604_switch"
     },
 
     {
         "name": "Stage: The Last Way",
         "type": "toggle",
         "img": "/images/haunt.png",
-        "codes": "lw_stage"
+        "codes": "700_stage"
     },
 
     {
         "name": "Boss: Lethal Highway Black Bull",
         "type": "toggle",
         "img": "/images/lethal.png",
-        "codes": "lh_boss"
+        "codes": "210_stage"
     },
     {
         "name": "Boss: Cryptic Castle Egg Breaker",
         "type": "toggle",
         "img": "/images/castle.png",
-        "codes": "cc_boss"
+        "codes": "310_stage"
     },
     {
         "name": "Boss: The Doom Heavy Dog",
         "type": "toggle",
         "img": "/images/doom.png",
-        "codes": "td_boss"
+        "codes": "410_stage"
     },
     {
         "name": "Boss: Death Ruins Black Bull",
         "type": "toggle",
         "img": "/images/ruins.png",
-        "codes": "dr_boss"
+        "codes": "412_stage"
     },
     {
         "name": "Boss: Mad Matrix Egg Breaker",
         "type": "toggle",
         "img": "/images/matrix.png",
-        "codes": "mm_boss"
+        "codes": "411_stage"
     },
     {
         "name": "Boss: The Ark Blue Falcon",
         "type": "toggle",
         "img": "/images/ark.png",
-        "codes": "ta_boss"
+        "codes": "510_stage"
     },
     {
         "name": "Boss: Iron Jungle Egg Breaker",
         "type": "toggle",
         "img": "/images/jungle.png",
-        "codes": "ij_boss"
+        "codes": "511_stage"
     },
     {
         "name": "Boss: Gun Fortress Black Doom",
         "type": "toggle",
         "img": "/images/fortress.png",
-        "codes": "gf_hero_boss"
+        "codes": "611_stage"
     },
     {
         "name": "Boss: Gun Fortress Diablon",
         "type": "toggle",
         "img": "/images/fortress.png",
-        "codes": "gf_dark_boss"
+        "codes": "610_stage"
     },
     {
         "name": "Boss: Black Comet Egg Dealer",
         "type": "toggle",
         "img": "/images/comet.png",
-        "codes": "bc_hero_boss"
+        "codes": "613_stage"
     },
     {
         "name": "Boss: Black Comet Diablon",
         "type": "toggle",
         "img": "/images/comet.png",
-        "codes": "bc_dark_boss"
+        "codes": "612_stage"
     },
     {
         "name": "Boss: Lava Shelter Egg Dealer",
         "type": "toggle",
         "img": "/images/shelter.png",
-        "codes": "ls_boss"
+        "codes": "614_stage"
     },
     {
         "name": "Boss: Cosmic Fall Black Doom",
         "type": "toggle",
         "img": "/images/fall.png",
-        "codes": "cf_hero_boss"
+        "codes": "616_stage"
     },
     {
         "name": "Boss: Cosmic Fall Egg Dealer",
         "type": "toggle",
         "img": "/images/fall.png",
-        "codes": "cf_dark_boss"
+        "codes": "615_stage"
     },
     {
         "name": "Boss: Final Haunt Black Doom",
         "type": "toggle",
         "img": "/images/haunt.png",
-        "codes": "fh_hero_boss"
+        "codes": "618_stage"
     },
     {
         "name": "Boss: Final Haunt Diablon",
         "type": "toggle",
         "img": "/images/haunt.png",
-        "codes": "fh_dark_boss"
+        "codes": "617_stage"
     },
 
 

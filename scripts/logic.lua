@@ -1,156 +1,219 @@
+ScriptHost:LoadScript("scripts/autotracking/default_mappings.lua")
+
 MISSION_MAPPING = {
-    wo_1 = {35, "gun", true},
-    wo_0 = {45, "alien", true},
-    gc_1 = {5, "jewel", false},
-    gc_0 = {60, "alien", true},
-    lh_0 = {1, "tank", false},
-    cc_1 = {5, "lantern", false},
-    cc_0 = {2, "cream", false},
-    pi_1 = {40, "gun", true},
-    pi_0 = {5, "disc", false},
-    cp_1 = {20, "gun", true},
-    ci_1 = {5, "big", false},
-    ci_0 = {20, "small", false},
-    td_1 = {60, "gun", true},
-    td_0 = {10, "researcher", false},
-    st_1 = {5, "ship", false},
-    st_0 = {5, "jewel", false},
-    mm_1 = {30, "bomb", false},
-    mm_0 = {4, "terminal", false},
-    dr_0 = {50, "alien", true},
-    ta_1 = {4, "defense", false},
-    af_1 = {1, "president", false},
-    af_0 = {35, "alien", true},
-    ij_1 = {28, "gun", true},
-    ij_0 = {1, "balloon", false},
-    sg_1 = {6, "defense", false},
-    li_0 = {35, "chaos", true},
-    gf_1 = {3, "computer", false},
-    bc_1 = {50, "gun", true},
-    ls_1 = {5, "lava", false},
-    fh_1 = {4, "switch", false}
+    s100_0 = {35, "gun", true},
+    s100_2 = {45, "alien", true},
+    s201_0 = {5, "jewel", false},
+    s201_2 = {60, "alien", true},
+    s202_2 = {1, "tank", false},
+    s300_0 = {5, "lantern", false},
+    s300_2 = {2, "cream", false},
+    s301_0 = {40, "gun", true},
+    s301_2 = {5, "disc", false},
+    s302_0 = {20, "gun", true},
+    s400_0 = {5, "big", false},
+    s400_2 = {20, "small", false},
+    s401_0 = {60, "gun", true},
+    s401_2 = {10, "researcher", false},
+    s402_0 = {5, "ship", false},
+    s402_2 = {5, "jewel", false},
+    s403_0 = {30, "bomb", false},
+    s403_2 = {4, "terminal", false},
+    s404_2 = {50, "alien", true},
+    s500_0 = {4, "defense", false},
+    s501_0 = {1, "president", false},
+    s501_2 = {35, "alien", true},
+    s502_0 = {28, "gun", true},
+    s502_2 = {1, "balloon", false},
+    s503_0 = {6, "defense", false},
+    s504_2 = {35, "chaos", true},
+    s600_0 = {3, "computer", false},
+    s601_0 = {50, "gun", true},
+    s602_0 = {5, "lava", false},
+    s604_0 = {4, "switch", false}
 }
 
 VANILLA_STAGE_MAPPING = true
 
 STAGE_ACCESS_MAPPING = {
-    wo = {"true"},
-    dc = {"wo_1"},
-    gc = {"wo_3"},
-    lh = {"wo_0"},
-    cc = {"dc_3", "gc_1"},
-    pi = {"gc_3", "cd_0"},
-    cp = {"gc_0", "lh_0"},
-    ci = {"cc_1"},
-    td = {"cc_3", "pi_1"},
-    st = {"pi_3", "cc_0", "cp_1"},
-    mm = {"pi_0", "cp_3"},
-    dr = {"cp_3"},
-    ta = {"ci_1", "td_0"},
-    af = {"td_3", "st_1", "cc_0"},
-    ij = {"st_3", "td_0", "mm_1"},
-    sg = {"st_0", "mm_3", "dr_1"},
-    li = {"mm_0", "dr_0"},
-    gf = {"ta_1", "af_1"},
-    bc = {"af_3", "ij_1", "ta_3"},
-    ls = {"ij_3", "af_0", "sg_1"},
-    cf = {"ij_0", "sg_3", "li_3"},
-    fh = {"sg_3", "li_0"},
-    lw = {},
-    -- something like (castle breaker as example)
-    -- s310 = {"300_0", "300_1", "300_2"}
+    s100 = {"true"},
+    s200 = {"100_0"},
+    s201 = {"100_1"},
+    s202 = {"100_2"},
+    s300 = {"200_0", "201_0"},
+    s301 = {"201_1", "200_2", "202_0&210"},
+    s302 = {"201_2", "202_2&210"},
+    s400 = {"300_0&310"},
+    s401 = {"300_1&310", "301_0"},
+    s402 = {"301_1", "300_2&310", "302_0"},
+    s403 = {"301_2", "302_1"},
+    s404 = {"302_2"},
+    s500 = {"400_0", "401_0&410"},
+    s501 = {"401_1&410", "402_0", "400_2"},
+    s502 = {"402_1", "401_2&410", "403_0&411"},
+    s503 = {"402_2", "403_1&411", "404_0&412"},
+    s504 = {"403_2&411", "404_2&412"},
+    s600 = {"500_0&510", "501_0"},
+    s601 = {"501_1", "502_0&511", "500_1&510"},
+    s602 = {"502_1&511", "501_2", "503_0"},
+    s603 = {"502_2&511", "503_1", "504_1"},
+    s604 = {"503_1", "504_2"},
+    s700 = {},
+    s210 = {"202_0", "202_2"},
+    s310 = {"300_0", "300_1", "300_2"},
+    s410 = {"401_0", "401_1", "401_2"},
+    s411 = {"403_0", "403_1", "403_2"},
+    s412 = {"404_0", "404_2"},
+    s510 = {"500_0", "500_1"},
+    s511 = {"502_0", "502_1", "502_2"},
+    s610 = {"600_0"},
+    s611 = {"600_2"},
+    s612 = {"601_0"},
+    s613 = {"601_2"},
+    s614 = {"602_0", "602_2"},
+    s615 = {"603_0"},
+    s616 = {"603_2"},
+    s617 = {"604_0"},
+    s618 = {"604_2"},
+    s710 = {}
 }
 
+SAB_LOCK = false
+
 STAGE_ACCESS_BOOLS = {
-    wo = false,
-    dc = false,
-    gc = false,
-    lh = false,
-    cc = false,
-    pi = false,
-    cp = false,
-    ci = false,
-    td = false,
-    st = false,
-    mm = false,
-    dr = false,
-    ta = false,
-    af = false,
-    ij = false,
-    sg = false,
-    li = false,
-    gf = false,
-    bc = false,
-    ls = false,
-    cf = false,
-    fh = false,
-    lw = false,
+    s100 = false,
+    s200 = false,
+    s200 = false,
+    s201 = false,
+    s202 = false,
+    s300 = false,
+    s301 = false,
+    s302 = false,
+    s400 = false,
+    s401 = false,
+    s402 = false,
+    s403 = false,
+    s404 = false,
+    s500 = false,
+    s501 = false,
+    s502 = false,
+    s503 = false,
+    s504 = false,
+    s600 = false,
+    s601 = false,
+    s602 = false,
+    s603 = false,
+    s604 = false,
+    s700 = false,
 }
 
 STAGE_EXCLUDED = {
-    wo = false,
-    dc = false,
-    gc = false,
-    lh = false,
-    cc = false,
-    pi = false,
-    cp = false,
-    ci = false,
-    td = false,
-    st = false,
-    mm = false,
-    dr = false,
-    ta = false,
-    af = false,
-    ij = false,
-    sg = false,
-    li = false,
-    gf = false,
-    bc = false,
-    ls = false,
-    cf = false,
-    fh = false,
-    lw = false,
+    s100 = false,
+    s200 = false,
+    s200 = false,
+    s201 = false,
+    s202 = false,
+    s300 = false,
+    s301 = false,
+    s302 = false,
+    s400 = false,
+    s401 = false,
+    s402 = false,
+    s403 = false,
+    s404 = false,
+    s500 = false,
+    s501 = false,
+    s502 = false,
+    s503 = false,
+    s504 = false,
+    s600 = false,
+    s601 = false,
+    s602 = false,
+    s603 = false,
+    s604 = false,
+    s700 = false,
 }
 
--- this table sucks
+-- TODO: 202_2, 501_0, and 502_2 need to account for craft_logic
 STAGE_REGION_MAPPING = {
-    wo_0 = {"true", "true"},
-    wo_1 = {"true", "true"},
-    wo_3 = {"true", "true"},
-    dc_3 = {"true", "true"},
-    gc_0 = {"true", "true"},
-    gc_1 = {"true", "true"},
-    gc_3 = {"true", "true"},
-    lh_0 = {"true", "w_gun"},
-    cc_1 = {"1", "w_torch"},
-    cc_3 = {"2", "true"},
-    pi_1 = {"true", "true"},
-    pi_0 = {"true", "true"},
-    pi_3 = {"2", "true"},
-    cp_3 = {"true", "true"},
-    ci_1 = {"true", "true"},
-    td_0 = {"true", "true"},
-    td_3 = {"true", "true"},
-    st_0 = {"true", "v_blackarmsturret"},
-    st_3 = {"5", "true"},
-    st_1 = {"true", "true"},
-    mm_0 = {"1", "true"},
-    mm_1 = {"1", "true"},
-    mm_3 = {"1", "true"},
-    dr_0 = {"true", "true"},
-    ta_1 = {"1", "w_gun"},
-    af_1 = {"true", "w_gun"},
-    af_3 = {"true", "true"},
-    ij_1 = {"true", "true"},
-    ij_3 = {"true", "true"},
-    ij_0 = {"true", "w_gun"},
-    sg_3 = {"1", "true"},
+    s202_2 = {"true", "w_gun"},
+    s300_0 = {"1", "w_torch"},
+    s300_1 = {"2", "true"},
+    s300_2 = {"2", "true"},
+    s301_1 = {"2", "true"},
+    s402_0 = {"true", "v_blackarmsturret"},
+    s402_1 = {"5", "true"},
+    s403_0 = {"1", "true"},
+    s403_1 = {"1", "true"},
+    s403_2 = {"1", "true"},
+    s500_0 = {"1", "w_gun"},
+    s501_0 = {"true", "w_gun"},
+    s502_2 = {"true", "w_gun"},
+    s503_1 = {"1", "true"},
+    s604_2 = {"1", "true"},
+    s210_1 = {"1", "true"},
+    s310_1 = {"1", "true"},
+    s410_1 = {"1", "true"},
+    s411_1 = {"1", "true"},
+    s412_1 = {"1", "true"},
+    s510_1 = {"1", "true"},
+    s511_1 = {"1", "true"},
+    s610_1 = {"1", "true"},
+    s611_1 = {"1", "true"},
+    s612_1 = {"1", "true"},
+    s613_1 = {"1", "true"},
+    s614_1 = {"1", "true"},
+    s615_1 = {"1", "true"},
+    s616_1 = {"1", "true"},
+    s617_1 = {"1", "true"},
+    s618_1 = {"1", "true"}
 }
+
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
 
 -- table where the spoken name Mad Matrix gets converted into 403
+-- why couldn't you have just given me the level code chaotix you jerk
 STAGE_CODE_MAPPING = {
-
+    Westopolis = 100,
+    Digital_Circuit = 200,
+    Glyphic_Canyon = 201,
+    Lethal_Highway = 202,
+    Cryptic_Castle = 300,
+    Prison_Island = 301,
+    Circus_Park = 302,
+    Central_City = 400,
+    The_Doom = 401,
+    Sky_Troops = 402,
+    Mad_Matrix = 403,
+    Death_Ruins = 404,
+    The_Ark = 500,
+    Air_Fleet = 501,
+    Iron_Jungle = 502,
+    Space_Gadget = 503,
+    Lost_Impact = 504,
+    Gun_Fortress = 600,
+    Black_Comet = 601,
+    Lava_Shelter = 602,
+    Cosmic_Fall = 603,
+    Final_Haunt = 604
 }
 
 function string_split(inputstr, sep)
@@ -171,7 +234,26 @@ function string_split(inputstr, sep)
  end
 
 
+function resetAccessibleRegions()
+    if SAB_LOCK == false then
+        return
+    end
+    for key, value in pairs(STAGE_ACCESS_BOOLS) do
+        -- reset
+        STAGE_ACCESS_BOOLS[key] = false
+    end
+end
+
+function get_SAM()
+    return DEFAULT_STAGE_ACCESS_MAPPING
+end
+
+function get_SE()
+    return DEFAULT_STAGE_EXCLUDED
+end
+
 function parse_story_shuffle(inputtext)
+    -- print(dump_table(STAGE_ACCESS_MAPPING))
     if (VANILLA_STAGE_MAPPING == true) then
         VANILLA_STAGE_MAPPING = false
         for key, value in pairs(STAGE_ACCESS_MAPPING) do
@@ -180,21 +262,41 @@ function parse_story_shuffle(inputtext)
         end
     end
 
+    -- print("\n\n\n")
     -- split input based on / (these are the connectors for each level)
     local connectors = string_split(inputtext, "/")
     for _, v in ipairs(connectors) do 
         -- from there, split on &
         local params = string_split(v, "&")
-        -- 0 = source level
-        -- 1 = dest level
-        -- 2 = mission
-        -- 3 = boss intermission
+        -- 1 = source level
+        -- 2 = dest level
+        -- 3 = mission
+        -- 4 = boss intermission
 
-        -- if [0] == -1. set [2] to true in STAGE_ACCESS_MAPPING
-        -- else if [3] != -1, set the following in SAM
-            -- [3]'s source is [0]_[2]
-            -- [1]'s source is [3]_0
-        -- else, set [1]'s source is [0]
+        if params[1] == "-1" then
+            -- if [1] == -1. set [2] to true in STAGE_ACCESS_MAPPING
+            table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], "true")
+        elseif params[4] ~= "-1" then
+            -- else if [4] != -1, set the following in SAM
+                -- [4]'s source is [1]_[3]
+                table.insert(STAGE_ACCESS_MAPPING["s"..params[4]], (params[1] .. "_" .. params[3]))
+                -- a -1 here means its an end boss and doesnt count
+                if params[2] ~= "-1" then
+                    -- [2]'s source is [1]_[3]&[4]
+                    table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], (params[1] .. "_" .. params[3] .. "&" .. params[4]))
+                end
+        else
+            -- else, set [2]'s source is [1]_[3]
+            table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], (params[1] .. "_" .. params[3]))
+        end
+    end
+
+    -- print(dump_table(STAGE_ACCESS_MAPPING))
+end
+
+function set_excluded_stages(inputtable)
+    for _, v in ipairs(inputtable) do
+        STAGE_EXCLUDED["s"..STAGE_CODE_MAPPING[v:gsub(" ", "_")]] = true
     end
 
 end
@@ -245,8 +347,11 @@ function has_vehicle(vehicle)
 end
 
 function story_region_available(level_code)
-    local lcode = string.sub(level_code, 1,2)
-    local acodes = STAGE_REGION_MAPPING[level_code]
+    local lcode = string.sub(level_code, 1,3)
+    if (STAGE_REGION_MAPPING["s"..level_code] == nil) then
+        return true
+    end
+    local acodes = STAGE_REGION_MAPPING["s"..level_code]
     local rbool = false
     local wbool = false
 
@@ -287,7 +392,19 @@ end
 
 -- for map visibility
 function stage_visible(level_code)
-    return (not STAGE_EXCLUDED[level_code])
+    return (STAGE_EXCLUDED["s"..level_code] == false)
+end
+
+function boss_visible(level_code)
+    if (VANILLA_STAGE_MAPPING == true) then
+        -- take first of SAM
+        local hoststage = STAGE_ACCESS_MAPPING["s"..level_code][1]
+        -- chop off the alignment number
+        local hostcode = string.sub(hoststage, 1,3)
+        -- return if that number is in excluded_stages
+        return (STAGE_EXCLUDED["s"..hostcode] == false)
+    end
+    return (#STAGE_ACCESS_MAPPING["s"..level_code] ~= 0)
 end
 
 function stage_available(level_code, isRecursive)
@@ -302,17 +419,18 @@ function stage_available(level_code, isRecursive)
     end
 
     -- if code is lw and NOT shuffle_last_way return CanReachDevilDoom
-    if (level_code == "lw" and Tracker:ProviderCountForCode("shuffle_last_way") == 0) then
+    if (level_code == "700" and Tracker:ProviderCountForCode("shuffle_last_way") == 0) then
         return CanReachDevilDoom()
     end
 
-    if (STAGE_EXCLUDED[level_code] == true) then
+    if (STAGE_EXCLUDED["s"..level_code] == true) then
         return false
     end
 
-    local stagedata = STAGE_ACCESS_MAPPING[level_code]
+    SAB_LOCK = true
+    local stagedata = STAGE_ACCESS_MAPPING["s"..level_code]
 
-    local canReachStage = STAGE_ACCESS_BOOLS[level_code]
+    local canReachStage = STAGE_ACCESS_BOOLS["s"..level_code]
     for key, value in pairs(stagedata) do
         -- the westopolis code; always available in story mode
         if value == "true" then
@@ -322,28 +440,34 @@ function stage_available(level_code, isRecursive)
             break
         end
 
-        local lcode = string.sub(value, 1,2)
-        local lmission = string.sub(value, 4,4)
+        local splitcode = string_split(value, "&")
 
-        local stupidboss = true
-        if lcode == "ij" then
-            stupidboss = has_vehicle("gunturret")
+        local lcode = string.sub(splitcode[1], 1,3)
+        local lmission = string.sub(splitcode[1], 5,5)
+
+        local bosschain = true
+        if #splitcode == 2 then
+            bosschain = story_region_available(splitcode[2].."_1")
         end
 
-        if lmission == "3" then
-            canReachStage = stage_available(lcode, "1") and story_region_available(value) and stupidboss
+        if lmission == "1" then
+            canReachStage = stage_available(lcode, "1") and story_region_available(value) and bosschain
         else
-            canReachStage = stage_available(lcode, "1") and objective_clearable(lcode, lmission) and story_region_available(value) and stupidboss
+            canReachStage = stage_available(lcode, "1") and objective_clearable(lcode, lmission) and story_region_available(value) and bosschain
         end
     end
 
-    STAGE_ACCESS_BOOLS[level_code] = canReachStage
+    SAB_LOCK = false
+    STAGE_ACCESS_BOOLS["s"..level_code] = canReachStage
     return canReachStage
 end
 
 
 function objective_clearable(level_code, alightment)
-    local lookup_id = level_code .. "_" .. alightment
+    local lookup_id = "s".. level_code .. "_" .. alightment
+    if (MISSION_MAPPING[lookup_id] == nil) then
+        return true
+    end
     local mission_item = tostring(level_code .. "_" .. MISSION_MAPPING[lookup_id][2])
     local mission_item_count = Tracker:ProviderCountForCode(mission_item)
     if MISSION_MAPPING[lookup_id][3] == true then
@@ -363,7 +487,7 @@ function freq_calc(rank, freq, final)
 end
 
 function objective_visible(level_code, alightment, rank)
-    local lookup_id = level_code .. "_" .. alightment
+    local lookup_id = "s".. level_code .. "_" .. alightment
     local mission_item = tostring(level_code .. "_" .. MISSION_MAPPING[lookup_id][2])
     if MISSION_MAPPING[lookup_id][3] == true then
         local freq = 100/tonumber(Tracker:ProviderCountForCode("objective_enemy_frequency"))
@@ -390,51 +514,51 @@ function region_accessible(level_code, region_num)
     end
 
     -- god i hate this function
-    if level_code == "wo" then
+    if level_code == "100" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "dc" then
+    elseif level_code == "200" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "gc" then
+    elseif level_code == "201" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "lh" then
+    elseif level_code == "202" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "cc" then
+    elseif level_code == "300" then
         if region_num == 1 then
             -- torch
             return has_weapon_type("torch")
         elseif region_num == 2 then
             -- black hawk
-            return has_vehicle("blackhawk") and region_accessible("cc", 1)
+            return has_vehicle("blackhawk") and region_accessible("300", 1)
         elseif region_num == 3 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("cc", 2)
+            return true and region_accessible("300", 2)
         end
-    elseif level_code == "pi" then
+    elseif level_code == "301" then
         if region_num == 1 then
             -- air saucer
             return has_vehicle("saucer")
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("pi", 1)
+            return true and region_accessible("301", 1)
         end
-    elseif level_code == "cp" then
+    elseif level_code == "302" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "ci" then
+    elseif level_code == "400" then
         if region_num == 1 then
             -- car (easy only)
             if (Tracker:ProviderCountForCode("logic_difficulty_easy") == 1) then
@@ -444,14 +568,14 @@ function region_accessible(level_code, region_num)
             end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("ci", 1)
+            return true and region_accessible("400", 1)
         end
-    elseif level_code == "td" then
+    elseif level_code == "401" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "st" then
+    elseif level_code == "402" then
         if region_num == 1 then
             -- gunjumper (easy only)
             if (Tracker:ProviderCountForCode("logic_difficulty_easy") == 1) then
@@ -461,18 +585,18 @@ function region_accessible(level_code, region_num)
             end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("st", 1)
+            return true and region_accessible("402", 1)
         elseif region_num == 3 then
             -- blackvolt from region 2
-            return has_vehicle("blackvolt") and region_accessible("st", 2)
+            return has_vehicle("blackvolt") and region_accessible("402", 2)
         elseif region_num == 4 then
             -- blackhawk from region 1
-            return has_vehicle("blackhawk") and region_accessible("st", 1)
+            return has_vehicle("blackhawk") and region_accessible("402", 1)
         elseif region_num == 5 then
             -- from region 3 or 4
-            return region_accessible("st", 3) or region_accessible("st", 4)
+            return region_accessible("402", 3) or region_accessible("402", 4)
         end
-    elseif level_code == "mm" then
+    elseif level_code == "403" then
         if region_num == 1 then
             -- longrangegun (normal and below)
             if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
@@ -482,32 +606,32 @@ function region_accessible(level_code, region_num)
             end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("mm", 1)
+            return true and region_accessible("403", 1)
         end
-    elseif level_code == "dr" then
+    elseif level_code == "404" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "ta" then
+    elseif level_code == "500" then
         if region_num == 1 then
             -- blackvolt
             return has_vehicle("blackvolt")
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("ta", 1)
+            return true and region_accessible("500", 1)
         end
-    elseif level_code == "af" then
+    elseif level_code == "501" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "ij" then
+    elseif level_code == "502" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "sg" then
+    elseif level_code == "503" then
         if region_num == 1 then
             -- air sacuer (normal and below)
             if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
@@ -517,36 +641,36 @@ function region_accessible(level_code, region_num)
             end
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("sg", 1)
+            return true and region_accessible("503", 1)
         end
-    elseif level_code == "li" then
+    elseif level_code == "504" then
         if region_num == 1 then
             -- gunlift
             return has_vehicle("gunlift")
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("li", 1)
+            return true and region_accessible("504", 1)
         end
-    elseif level_code == "gf" then
+    elseif level_code == "600" then
         -- NOTE: there is supposed to be a region before the door for either a Long-Range-Gun available in GF or a turret. I am choosing to ignore this until someone notices
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "bc" then
+    elseif level_code == "601" then
         if region_num == 1 then
             -- air saucer
             return has_vehicle("saucer")
         elseif region_num == 2 then
             -- keydoor. if keys are put into pool, change this to account for it
-            return true and region_accessible("bc", 1)
+            return true and region_accessible("601", 1)
         end
-    elseif level_code == "ls" then
+    elseif level_code == "602" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
         end
-    elseif level_code == "cf" then
+    elseif level_code == "603" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
@@ -555,9 +679,9 @@ function region_accessible(level_code, region_num)
             return has_vehicle("gunjumper")
         elseif region_num == 3 then
             -- from region 1 or 2
-            return region_accessible("cf", 1) or region_accessible("cf", 2)
+            return region_accessible("603", 1) or region_accessible("603", 2)
         end
-    elseif level_code == "fh" then
+    elseif level_code == "604" then
         if region_num == 1 then
             -- vacuum (normal and below)
             if (Tracker:ProviderCountForCode("logic_difficulty_hard") == 1) then
@@ -567,17 +691,32 @@ function region_accessible(level_code, region_num)
             end
         elseif region_num == 2 then
             -- blackvolt
-            return has_vehicle("blackvolt") and region_accessible("fh", 1)
+            return has_vehicle("blackvolt") and region_accessible("604", 1)
         elseif region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it FROM REGION 1
-            return true and region_accessible("fh", 1)
+            return true and region_accessible("604", 1)
         end
-    elseif level_code == "lw" then
+    elseif level_code == "700" then
         if region_num == 1 then
             -- post-blackvolt
             return has_vehicle("blackvolt")
         end
         -- shockingly, theres no keydoor in last way despite having keys
+    elseif level_code == "511" then
+        if region_num == 1 then
+            -- a fake region for the gun requirement for IJ Breaker
+            return has_vehicle("gunturret")
+        end
+    elseif level_code == "210" or level_code == "310" or level_code == "410" or level_code == "411" or level_code == "412" or level_code == "510" or level_code == "610" or level_code == "611" or level_code == "612" or level_code == "613" or level_code == "614" or level_code == "615" or level_code == "616" or level_code == "617" or level_code == "618" then
+        if region_num == 1 then
+            -- a fake region for the gun requirement for easy bosses
+            if (Tracker:ProviderCountForCode("boss_difficulty_easy") == 1) then
+                -- this is so incredibly wrong i can't believe i'm actually using it
+                return has_weapon_type("gun")
+            else 
+                return true
+            end
+        end
     end
 
     -- shouldt end up here but just in case
@@ -616,7 +755,12 @@ function CanReachDevilDoom()
 
 
     local emerald_check = true
-    
+    local entrance_check = true
+
+    if STAGE_ACCESS_MAPPING["s710"] ~= {} then
+        entrance_check = stage_available("710", "0")
+    end
+
     if required_emeralds > 0 then
         if emerald_1 > 0 and emerald_2 > 0 and emerald_3 > 0 and emerald_4 > 0 and emerald_5 > 0 and emerald_6 > 0 and emerald_7 > 0 then
 			emerald_check = true
@@ -634,3 +778,5 @@ function CanReachDevilDoom()
     return false
 
 end
+
+ScriptHost:AddWatchForCode("regionalterting", "RegionAltering", resetAccessibleRegions)

@@ -14,16 +14,16 @@
                         "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
-                          ["wo_stage", "wo_gun", "wo_alien", "", "lh_stage", "lh_tank", "", "li_stage", "li_chaos"],
-                          ["gc_stage", "gc_jewel", "gc_alien", "", "cp_stage", "cp_gun", "", "gf_stage", "gf_computer" ],
-                          ["cc_stage", "cc_lantern", "cc_cream", "", "dr_stage", "dr_alien", "", "bc_stage", "bc_gun"],
-                          ["pi_stage", "pi_gun", "pi_disc", "",  "ta_stage", "ta_defense",  "", "ls_stage", "ls_lava"],
-                          ["ci_stage", "ci_big", "ci_small", "",  "sg_stage", "sg_defense",  "", "fh_stage", "fh_switch"],
-                          ["td_stage", "td_gun", "td_researcher", "", "dc_stage", "", "cf_stage", "", "lw_stage"],
-                          ["st_stage", "st_ship", "st_jewel", "", "lh_boss", "cc_boss", "td_boss", "mm_boss"],
-                          ["mm_stage", "mm_bomb", "mm_terminal", "", "dr_boss", "ta_boss", "ij_boss", "ls_boss"],
-                          ["af_stage", "af_president", "af_alien", "", "gf_dark_boss", "gf_hero_boss", "bc_dark_boss", "bc_hero_boss"],
-                          ["ij_stage", "ij_gun", "ij_balloon", "", "cf_dark_boss", "cf_hero_boss", "fh_dark_boss", "fh_hero_boss"]
+                          ["100_stage", "100_gun", "100_alien", "", "202_stage", "202_tank", "", "504_stage", "504_chaos"],
+                          ["201_stage", "201_jewel", "201_alien", "", "302_stage", "302_gun", "", "600_stage", "600_computer" ],
+                          ["300_stage", "300_lantern", "300_cream", "", "404_stage", "404_alien", "", "601_stage", "601_gun"],
+                          ["301_stage", "301_gun", "301_disc", "",  "500_stage", "500_defense",  "", "602_stage", "602_lava"],
+                          ["400_stage", "400_big", "400_small", "",  "503_stage", "503_defense",  "", "604_stage", "604_switch"],
+                          ["401_stage", "401_gun", "401_researcher", "", "200_stage", "", "603_stage", "", "700_stage"],
+                          ["402_stage", "402_ship", "402_jewel", "", "210_stage", "310_stage", "410_stage", "411_stage"],
+                          ["403_stage", "403_bomb", "403_terminal", "", "412_stage", "510_stage", "511_stage", "614_stage"],
+                          ["501_stage", "501_president", "501_alien", "", "610_stage", "611_stage", "612_stage", "613_stage"],
+                          ["502_stage", "502_gun", "502_balloon", "", "615_stage", "616_stage", "617_stage", "618_stage"]
                         ]
                     }
                 ]

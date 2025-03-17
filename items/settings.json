@@ -39,13 +39,13 @@
         "name": "Weaponsanity",
         "type": "toggle",
         "img": "images/weaponsanity.png",
-        "codes": "weaponsanity_enabled"
+        "codes": "weaponsanity_enabled,RegionAltering"
     },
     {
         "name": "Vehiclesanity (logic only)",
         "type": "toggle",
         "img": "images/vehiclesanity.png",
-        "codes": "vehiclesanity_enabled"
+        "codes": "vehiclesanity_enabled,RegionAltering"
     },
     {
         "name": "Shuffle Last Way",
@@ -53,6 +53,7 @@
         "img": "images/chaos.png",
         "codes": "shuffle_last_way"
     },
+    
 
 
 
@@ -93,19 +94,19 @@
             {
                 "img": "images/level_difficulty_easy.png",
                 "name": "Logic Difficulty - Easy",
-                "codes": "logic_difficulty,logic_difficulty_easy",
+                "codes": "logic_difficulty,logic_difficulty_easy,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_normal.png",
                 "name": "Logic Difficulty - Normal",
-                "codes": "logic_difficulty,logic_difficulty_normal",
+                "codes": "logic_difficulty,logic_difficulty_normal,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_hard.png",
                 "name": "Logic Difficulty - Hard",
-                "codes": "logic_difficulty,logic_difficulty_hard",
+                "codes": "logic_difficulty,logic_difficulty_hard,RegionAltering",
                 "inherit_codes": false
             }
         ]
@@ -120,19 +121,19 @@
             {
                 "img": "images/level_difficulty_easy.png",
                 "name": "Boss Logic Difficulty - Easy",
-                "codes": "boss_difficulty,boss_difficulty_easy",
+                "codes": "boss_difficulty,boss_difficulty_easy,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_normal.png",
                 "name": "Boss Logic Difficulty - Normal",
-                "codes": "boss_difficulty,boss_difficulty_normal",
+                "codes": "boss_difficulty,boss_difficulty_normal,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_hard.png",
                 "name": "Boss Logic Difficulty - Hard",
-                "codes": "boss_difficulty,boss_difficulty_hard",
+                "codes": "boss_difficulty,boss_difficulty_hard,RegionAltering",
                 "inherit_codes": false
             }
         ]
@@ -147,19 +148,19 @@
             {
                 "img": "images/level_difficulty_easy.png",
                 "name": "Craft Logic Difficulty - Easy",
-                "codes": "craft_difficulty,craft_difficulty_easy",
+                "codes": "craft_difficulty,craft_difficulty_easy,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_normal.png",
                 "name": "Craft Logic Difficulty - Normal",
-                "codes": "craft_difficulty,craft_difficulty_normal",
+                "codes": "craft_difficulty,craft_difficulty_normal,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/level_difficulty_hard.png",
                 "name": "Craft Logic Difficulty - Hard",
-                "codes": "craft_difficulty,craft_difficulty_hard",
+                "codes": "craft_difficulty,craft_difficulty_hard,RegionAltering",
                 "inherit_codes": false
             }
         ]
