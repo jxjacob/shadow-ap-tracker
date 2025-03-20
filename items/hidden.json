@@ -1,0 +1,356 @@
+[
+    {
+        "name": "Secret Story Progression",
+        "type": "toggle",
+        "img": "images/west.png",
+        "codes": "secret_story_progression,TableChoosing"
+    },
+    {
+        "name": "Custom Stage Mapping",
+        "type": "toggle",
+        "img": "images/west.png",
+        "codes": "custom_stage_mapping"
+    },
+    {
+        "name": "Custom Stage Exclusion",
+        "type": "toggle",
+        "img": "images/west.png",
+        "codes": "custom_stage_exclusion"
+    },
+
+
+    {
+        "name": "Warp: Westopolis",
+        "type": "toggle",
+        "img": "/images/west.png",
+        "codes": "100_warp"
+    },
+
+    {
+        "name": "Warp: Lethal Highway",
+        "type": "toggle",
+        "img": "/images/lethal.png",
+        "codes": "202_warp"
+    },
+
+    {
+        "name": "Warp: Glyphic Canyon",
+        "type": "toggle",
+        "img": "/images/canyon.png",
+        "codes": "201_warp"
+    },
+
+    {
+        "name": "Warp: Digital Circut",
+        "type": "toggle",
+        "img": "/images/digital.png",
+        "codes": "200_warp"
+    },
+
+    {
+        "name": "Warp: Cryptic Castle",
+        "type": "toggle",
+        "img": "/images/castle.png",
+        "codes": "300_warp"
+    },
+
+    {
+        "name": "Warp: Prison Island",
+        "type": "toggle",
+        "img": "/images/island.png",
+        "codes": "301_warp"
+    },
+
+    {
+        "name": "Warp: Circus Park",
+        "type": "toggle",
+        "img": "/images/circus.png",
+        "codes": "302_warp"
+    },
+
+    {
+        "name": "Warp: Central City",
+        "type": "toggle",
+        "img": "/images/city.png",
+        "codes": "400_warp"
+    },
+
+    {
+        "name": "Warp: The Doom",
+        "type": "toggle",
+        "img": "/images/doom.png",
+        "codes": "401_warp"
+    },
+
+    {
+        "name": "Warp: Sky Troops",
+        "type": "toggle",
+        "img": "/images/troops.png",
+        "codes": "402_warp"
+    },
+
+    {
+        "name": "Warp: Mad Matrix",
+        "type": "toggle",
+        "img": "/images/matrix.png",
+        "codes": "403_warp"
+    },
+
+    {
+        "name": "Warp: Death Ruins",
+        "type": "toggle",
+        "img": "/images/ruins.png",
+        "codes": "404_warp"
+    },
+
+    {
+        "name": "Warp: The ARK",
+        "type": "toggle",
+        "img": "/images/ark.png",
+        "codes": "500_warp"
+    },
+
+    {
+        "name": "Warp: Air Fleet",
+        "type": "toggle",
+        "img": "/images/fleet.png",
+        "codes": "501_warp"
+    },
+
+    {
+        "name": "Warp: Iron Jungle",
+        "type": "toggle",
+        "img": "/images/jungle.png",
+        "codes": "502_warp"
+    },
+
+    {
+        "name": "Warp: Space Gadget",
+        "type": "toggle",
+        "img": "/images/gadget.png",
+        "codes": "503_warp"
+    },
+
+    {
+        "name": "Warp: Lost Impact",
+        "type": "toggle",
+        "img": "/images/impact.png",
+        "codes": "504_warp"
+    },
+
+    {
+        "name": "Warp: GUN Fortress",
+        "type": "toggle",
+        "img": "/images/fortress.png",
+        "codes": "600_warp"
+    },
+
+    {
+        "name": "Warp: Black Comet",
+        "type": "toggle",
+        "img": "/images/comet.png",
+        "codes": "601_warp"
+    },
+
+    {
+        "name": "Warp: Lava Shelter",
+        "type": "toggle",
+        "img": "/images/shelter.png",
+        "codes": "602_warp"
+    },
+
+    {
+        "name": "Warp: Cosmic Fall",
+        "type": "toggle",
+        "img": "/images/fall.png",
+        "codes": "603_warp"
+    },
+
+    {
+        "name": "Warp: Final Haunt",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "604_warp"
+    },
+    {
+        "name": "Warp: The Last Way",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "700_warp"
+    },
+
+    {
+        "name": "Warp: Lethal Highway Black Bull",
+        "type": "toggle",
+        "img": "/images/lethal.png",
+        "codes": "210_warp"
+    },
+    {
+        "name": "Warp: Cryptic Castle Egg Breaker",
+        "type": "toggle",
+        "img": "/images/castle.png",
+        "codes": "310_warp"
+    },
+    {
+        "name": "Warp: The Doom Heavy Dog",
+        "type": "toggle",
+        "img": "/images/doom.png",
+        "codes": "410_warp"
+    },
+    {
+        "name": "Warp: Death Ruins Black Bull",
+        "type": "toggle",
+        "img": "/images/ruins.png",
+        "codes": "412_warp"
+    },
+    {
+        "name": "Warp: Mad Matrix Egg Breaker",
+        "type": "toggle",
+        "img": "/images/matrix.png",
+        "codes": "411_warp"
+    },
+    {
+        "name": "Warp: The Ark Blue Falcon",
+        "type": "toggle",
+        "img": "/images/ark.png",
+        "codes": "510_warp"
+    },
+    {
+        "name": "Warp: Iron Jungle Egg Breaker",
+        "type": "toggle",
+        "img": "/images/jungle.png",
+        "codes": "511_warp"
+    },
+    {
+        "name": "Warp: Gun Fortress Black Doom",
+        "type": "toggle",
+        "img": "/images/fortress.png",
+        "codes": "611_warp"
+    },
+    {
+        "name": "Warp: Gun Fortress Diablon",
+        "type": "toggle",
+        "img": "/images/fortress.png",
+        "codes": "610_warp"
+    },
+    {
+        "name": "Warp: Black Comet Egg Dealer",
+        "type": "toggle",
+        "img": "/images/comet.png",
+        "codes": "613_warp"
+    },
+    {
+        "name": "Warp: Black Comet Diablon",
+        "type": "toggle",
+        "img": "/images/comet.png",
+        "codes": "612_warp"
+    },
+    {
+        "name": "Warp: Lava Shelter Egg Dealer",
+        "type": "toggle",
+        "img": "/images/shelter.png",
+        "codes": "614_warp"
+    },
+    {
+        "name": "Warp: Cosmic Fall Black Doom",
+        "type": "toggle",
+        "img": "/images/fall.png",
+        "codes": "616_warp"
+    },
+    {
+        "name": "Warp: Cosmic Fall Egg Dealer",
+        "type": "toggle",
+        "img": "/images/fall.png",
+        "codes": "615_warp"
+    },
+    {
+        "name": "Warp: Final Haunt Black Doom",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "618_warp"
+    },
+    {
+        "name": "Warp: Final Haunt Diablon",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "617_warp"
+    },
+
+
+
+
+    {
+        "name": "Weapon Category: Stage Melee Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "stage_melee_weapons"
+    },
+    {
+        "name": "Weapon Category: Enviromental Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "environment_weapons"
+    },
+    {
+        "name": "Weapon Category: Egg Pawn Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "egg_pawn_weapons"
+    },
+    {
+        "name": "Weapon Category: GUN Launcher Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "gun_launcher_weapons"
+    },
+    {
+        "name": "Weapon Category: Black Warrior Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "black_warrior_weapons"
+    },
+    {
+        "name": "Weapon Category: Black Oak Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "black_oak_weapons"
+    },
+    {
+        "name": "Weapon Category: Worm Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "worm_weapons"
+    },
+    {
+        "name": "Weapon Category: GUN Solider Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "gun_solider_weapons"
+    },
+    {
+        "name": "Weapon Category: GUN Mech Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "gun_mech_weapons"
+    },
+    {
+        "name": "Weapon Category: Laser Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "laser_weapons"
+    },
+    {
+        "name": "Weapon Category: Standard Melee Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "standard_melee_weapons"
+    },
+    {
+        "name": "Weapon Category: All Melee Weapons",
+        "type": "toggle",
+        "img": "/images/haunt.png",
+        "codes": "all_melee_weapons"
+    }
+
+
+]

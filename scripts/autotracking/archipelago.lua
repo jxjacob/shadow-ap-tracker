@@ -7,13 +7,6 @@ ScriptHost:LoadScript("scripts/logic.lua")
 CUR_INDEX = -1
 SLOT_DATA = nil
 
-function has_value (t, val)
-    for i, v in ipairs(t) do
-        if v == val then return 1 end
-    end
-    return 0
-end
-
 function dump_table(o, depth)
     if depth == nil then
         depth = 0
@@ -37,9 +30,6 @@ end
 function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
-
-    STAGE_ACCESS_MAPPING = DEFAULT_STAGE_ACCESS_MAPPING
-    STAGE_EXCLUDED = DEFAULT_STAGE_EXCLUDED
 
     for _, v in pairs(ITEM_MAPPING) do
         if v[1] then
@@ -79,7 +69,41 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     print(dump_table(slot_data))
+
+    SAB_LOCK = true
+
     
+    if slot_data['include_last_way_shuffle'] then
+        local inclw = Tracker:FindObjectForCode("shuffle_last_way")
+        inclw.Active = (slot_data['include_last_way_shuffle'])
+    end
+
+    if slot_data['excluded_stages'] then
+        SLOT_DATA['STAGE_EXCLUDED'] = set_excluded_stages(slot_data['excluded_stages'])
+        local vam = Tracker:FindObjectForCode("custom_stage_exclusion")
+        vam.Active = 1
+    else 
+        local vam = Tracker:FindObjectForCode("custom_stage_mapping")
+        vam.Active = 0
+    end
+
+    if slot_data['shuffled_story_mode'] then
+        print("found custom story")
+        SLOT_DATA['STAGE_ACCESS_MAPPING'] = parse_story_shuffle(slot_data['shuffled_story_mode'])
+        local vam = Tracker:FindObjectForCode("custom_stage_mapping")
+        vam.Active = 1
+    else 
+        local vam = Tracker:FindObjectForCode("custom_stage_mapping")
+        vam.Active = 0
+    end
+
+    chooseTables()
+
+    if slot_data['secret_story_progression'] then
+        local ssp = Tracker:FindObjectForCode("secret_story_progression")
+        ssp.Active = (slot_data['secret_story_progression'])
+    end
+
     -- sanities
     if slot_data['objective_sanity'] then
         local objsanity = Tracker:FindObjectForCode("objectivesanity_enabled")
@@ -129,15 +153,6 @@ function onClear(slot_data)
         levelprog.CurrentStage = (stagemode)
     end
 
-    if slot_data['include_last_way_shuffle'] then
-        local inclw = Tracker:FindObjectForCode("shuffle_last_way")
-        inclw.Active = (slot_data['include_last_way_shuffle'])
-    end
-
-    if slot_data['excluded_stages'] then
-        set_excluded_stages(slot_data['excluded_stages'])
-    end
-
     if slot_data['logic_level'] then
         Tracker:FindObjectForCode("logic_difficulty").CurrentStage = (slot_data['logic_level'])
     else
@@ -160,11 +175,6 @@ function onClear(slot_data)
         local objsanity = Tracker:FindObjectForCode("vehiclesanity_enabled")
         objsanity.Active = (slot_data['vehicle_logic'])
     end
-
-    if slot_data['shuffled_story_mode'] then
-        parse_story_shuffle(slot_data['shuffled_story_mode'])
-    end
-
 
     -- objective percentages
     if slot_data['objective_percentage'] then
@@ -238,7 +248,7 @@ function onClear(slot_data)
         req_token_final.AcquiredCount = (slot_data['required_final_boss_tokens'])
     end
 
-
+    SAB_LOCK = false
 
 end
 
@@ -257,6 +267,10 @@ function onItem(index, item_id, item_name, player_number)
     if (string.sub(v[1],-8,-1) == "_weapons") then
         select_all_weapons_in_group(v[1])
         return
+    end
+    -- function to make the stage icon visible on tracker when getting a warp
+    if (string.sub(v[1],-5,-1) == "_warp") then
+        Tracker:FindObjectForCode(string.sub(v[1], 1, 3).."_stage").Active = true
     end
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then

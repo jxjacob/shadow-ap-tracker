@@ -33,52 +33,9 @@ MISSION_MAPPING = {
     s604_0 = {4, "switch", false}
 }
 
-VANILLA_STAGE_MAPPING = true
-
-STAGE_ACCESS_MAPPING = {
-    s100 = {"true"},
-    s200 = {"100_0"},
-    s201 = {"100_1"},
-    s202 = {"100_2"},
-    s300 = {"200_0", "201_0"},
-    s301 = {"201_1", "200_2", "202_0&210"},
-    s302 = {"201_2", "202_2&210"},
-    s400 = {"300_0&310"},
-    s401 = {"300_1&310", "301_0"},
-    s402 = {"301_1", "300_2&310", "302_0"},
-    s403 = {"301_2", "302_1"},
-    s404 = {"302_2"},
-    s500 = {"400_0", "401_0&410"},
-    s501 = {"401_1&410", "402_0", "400_2"},
-    s502 = {"402_1", "401_2&410", "403_0&411"},
-    s503 = {"402_2", "403_1&411", "404_0&412"},
-    s504 = {"403_2&411", "404_2&412"},
-    s600 = {"500_0&510", "501_0"},
-    s601 = {"501_1", "502_0&511", "500_1&510"},
-    s602 = {"502_1&511", "501_2", "503_0"},
-    s603 = {"502_2&511", "503_1", "504_1"},
-    s604 = {"503_1", "504_2"},
-    s700 = {},
-    s210 = {"202_0", "202_2"},
-    s310 = {"300_0", "300_1", "300_2"},
-    s410 = {"401_0", "401_1", "401_2"},
-    s411 = {"403_0", "403_1", "403_2"},
-    s412 = {"404_0", "404_2"},
-    s510 = {"500_0", "500_1"},
-    s511 = {"502_0", "502_1", "502_2"},
-    s610 = {"600_0"},
-    s611 = {"600_2"},
-    s612 = {"601_0"},
-    s613 = {"601_2"},
-    s614 = {"602_0", "602_2"},
-    s615 = {"603_0"},
-    s616 = {"603_2"},
-    s617 = {"604_0"},
-    s618 = {"604_2"},
-    s710 = {}
-}
-
 SAB_LOCK = false
+
+STAGE_ACCESS_MAPPING = {}
 
 STAGE_ACCESS_BOOLS = {
     s100 = false,
@@ -107,32 +64,7 @@ STAGE_ACCESS_BOOLS = {
     s700 = false,
 }
 
-STAGE_EXCLUDED = {
-    s100 = false,
-    s200 = false,
-    s200 = false,
-    s201 = false,
-    s202 = false,
-    s300 = false,
-    s301 = false,
-    s302 = false,
-    s400 = false,
-    s401 = false,
-    s402 = false,
-    s403 = false,
-    s404 = false,
-    s500 = false,
-    s501 = false,
-    s502 = false,
-    s503 = false,
-    s504 = false,
-    s600 = false,
-    s601 = false,
-    s602 = false,
-    s603 = false,
-    s604 = false,
-    s700 = false,
-}
+STAGE_EXCLUDED = {}
 
 -- TODO: 202_2, 501_0, and 502_2 need to account for craft_logic
 STAGE_REGION_MAPPING = {
@@ -169,26 +101,6 @@ STAGE_REGION_MAPPING = {
     s618_1 = {"1", "true"}
 }
 
-function dump_table(o, depth)
-    if depth == nil then
-        depth = 0
-    end
-    if type(o) == 'table' then
-        local tabs = ('\t'):rep(depth)
-        local tabs2 = ('\t'):rep(depth + 1)
-        local s = '{\n'
-        for k, v in pairs(o) do
-            if type(k) ~= 'number' then
-                k = '"' .. k .. '"'
-            end
-            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
-        end
-        return s .. tabs .. '}'
-    else
-        return tostring(o)
-    end
-end
-
 -- table where the spoken name Mad Matrix gets converted into 403
 -- why couldn't you have just given me the level code chaotix you jerk
 STAGE_CODE_MAPPING = {
@@ -216,6 +128,44 @@ STAGE_CODE_MAPPING = {
     Final_Haunt = 604
 }
 
+
+------------------------------------------------------------------------
+
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+
+function shallowcopy(orig)
+    local orig_type = type(orig)
+    local copy
+    if orig_type == 'table' then
+        copy = {}
+        for orig_key, orig_value in pairs(orig) do
+            copy[orig_key] = orig_value
+        end
+    else -- number, string, boolean, etc
+        copy = orig
+    end
+    return copy
+end
+
+
 function string_split(inputstr, sep)
     -- if sep is null, set it as space
     if sep == nil then
@@ -231,11 +181,30 @@ function string_split(inputstr, sep)
     end
     -- return the array
     return t
- end
+end
 
+
+function has_value(t, val)
+    for i, v in ipairs(t) do
+        if v == val then
+            return true
+        end
+    end
+    return false
+end
+
+function tablelength(T)
+    local count = 0
+    for _ in pairs(T) do count = count + 1 end
+    return count
+  end
+  
+
+-----------------------------------
 
 function resetAccessibleRegions()
-    if SAB_LOCK == false then
+    if SAB_LOCK == true then
+        print("could not reset SAB due to lock")
         return
     end
     for key, value in pairs(STAGE_ACCESS_BOOLS) do
@@ -244,22 +213,38 @@ function resetAccessibleRegions()
     end
 end
 
-function get_SAM()
-    return DEFAULT_STAGE_ACCESS_MAPPING
-end
+function chooseTables()
+    if Tracker:ProviderCountForCode("custom_stage_mapping") == 1 then
+        print("THIS IS CUSTOM MAPPING")
+        STAGE_ACCESS_MAPPING = SLOT_DATA["STAGE_ACCESS_MAPPING"]
+    else
+        print("THIS IS VANILLA MAPPING")
+        STAGE_ACCESS_MAPPING = DEFAULT_STAGE_ACCESS_MAPPING
+    end
 
-function get_SE()
-    return DEFAULT_STAGE_EXCLUDED
+    -- print(dump_table(STAGE_ACCESS_MAPPING))
+    -- print("----------------------------------------------------------")
+
+    if Tracker:ProviderCountForCode("custom_stage_exclusion") == 1 then
+        print("THIS IS CUSTOM EXCLUSION")
+        STAGE_EXCLUDED = SLOT_DATA["STAGE_EXCLUDED"]
+    else
+        print("THIS IS VANILLA EXCLUSION")
+        STAGE_EXCLUDED = DEFAULT_STAGE_EXCLUDED
+    end
+
+    -- print(dump_table(STAGE_EXCLUDED))
+
 end
 
 function parse_story_shuffle(inputtext)
     -- print(dump_table(STAGE_ACCESS_MAPPING))
-    if (VANILLA_STAGE_MAPPING == true) then
-        VANILLA_STAGE_MAPPING = false
-        for key, value in pairs(STAGE_ACCESS_MAPPING) do
-            -- wipe data
-            STAGE_ACCESS_MAPPING[key] = {}
-        end
+
+    -- copy?
+    local localSAM = shallowcopy(DEFAULT_STAGE_ACCESS_MAPPING)
+    for key, value in pairs(localSAM) do
+        -- wipe data
+        localSAM[key] = {}
     end
 
     -- print("\n\n\n")
@@ -275,30 +260,32 @@ function parse_story_shuffle(inputtext)
 
         if params[1] == "-1" then
             -- if [1] == -1. set [2] to true in STAGE_ACCESS_MAPPING
-            table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], "true")
+            table.insert(localSAM["s"..params[2]], "true")
         elseif params[4] ~= "-1" then
             -- else if [4] != -1, set the following in SAM
                 -- [4]'s source is [1]_[3]
-                table.insert(STAGE_ACCESS_MAPPING["s"..params[4]], (params[1] .. "_" .. params[3]))
+                table.insert(localSAM["s"..params[4]], (params[1] .. "_" .. params[3]))
                 -- a -1 here means its an end boss and doesnt count
                 if params[2] ~= "-1" then
                     -- [2]'s source is [1]_[3]&[4]
-                    table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], (params[1] .. "_" .. params[3] .. "&" .. params[4]))
+                    table.insert(localSAM["s"..params[2]], (params[1] .. "_" .. params[3] .. "&" .. params[4]))
                 end
         else
             -- else, set [2]'s source is [1]_[3]
-            table.insert(STAGE_ACCESS_MAPPING["s"..params[2]], (params[1] .. "_" .. params[3]))
+            table.insert(localSAM["s"..params[2]], (params[1] .. "_" .. params[3]))
         end
     end
 
-    -- print(dump_table(STAGE_ACCESS_MAPPING))
+    return localSAM
 end
 
 function set_excluded_stages(inputtable)
+    -- copy?
+    local localSE = shallowcopy(DEFAULT_STAGE_EXCLUDED)
     for _, v in ipairs(inputtable) do
-        STAGE_EXCLUDED["s"..STAGE_CODE_MAPPING[v:gsub(" ", "_")]] = true
+        localSE["s"..STAGE_CODE_MAPPING[v:gsub(" ", "_")]] = true
     end
-
+    return localSE
 end
 
 function has_weapon_type(weapon)
@@ -396,7 +383,10 @@ function stage_visible(level_code)
 end
 
 function boss_visible(level_code)
-    if (VANILLA_STAGE_MAPPING == true) then
+    if (tablelength(STAGE_ACCESS_MAPPING) == 0) then
+        chooseTables()
+    end
+    if (Tracker:ProviderCountForCode("custom_stage_mapping") == 0) then
         -- take first of SAM
         local hoststage = STAGE_ACCESS_MAPPING["s"..level_code][1]
         -- chop off the alignment number
@@ -407,7 +397,11 @@ function boss_visible(level_code)
     return (#STAGE_ACCESS_MAPPING["s"..level_code] ~= 0)
 end
 
-function stage_available(level_code, isRecursive)
+function stage_available(level_code, isRecursive, previouslySearched)
+    previouslySearched = previouslySearched or {}
+    if (tablelength(STAGE_ACCESS_MAPPING) == 0) then
+        chooseTables()
+    end
     if Tracker:ProviderCountForCode("level_progression_select") == 1 then
         -- if the progression is select-based, then return its code
         return (Tracker:ProviderCountForCode(level_code .. "_stage") == 1)
@@ -423,6 +417,11 @@ function stage_available(level_code, isRecursive)
         return CanReachDevilDoom()
     end
 
+    -- if we're playing with secret_story, just rely on the _warp access and skip the recursive BS
+    if Tracker:ProviderCountForCode("secret_story_progression") == 1 then
+        return (Tracker:ProviderCountForCode(level_code .. "_warp") == 1)
+    end
+
     if (STAGE_EXCLUDED["s"..level_code] == true) then
         return false
     end
@@ -430,20 +429,38 @@ function stage_available(level_code, isRecursive)
     SAB_LOCK = true
     local stagedata = STAGE_ACCESS_MAPPING["s"..level_code]
 
-    local canReachStage = STAGE_ACCESS_BOOLS["s"..level_code]
-    for key, value in pairs(stagedata) do
+    if STAGE_ACCESS_BOOLS["s"..level_code] == true then
+        return true
+    end
+    if has_value(previouslySearched, level_code) == true then
+        return false
+    end
+    if has_value(previouslySearched, level_code) == false then
+        table.insert(previouslySearched, level_code)
+    end
+    local canReachStage = false
+    for key, value in pairs(stagedata) do repeat
         -- the westopolis code; always available in story mode
         if value == "true" then
+            STAGE_ACCESS_BOOLS["s"..level_code] = true
             return true
         end
         if canReachStage == true then
+            print(value.." is in SAB, returning true")
             break
         end
-
+        
         local splitcode = string_split(value, "&")
-
+        
         local lcode = string.sub(splitcode[1], 1,3)
         local lmission = string.sub(splitcode[1], 5,5)
+        
+        --print("attempting prev "..lcode)
+        if has_value(previouslySearched, lcode) == true then
+            do break end
+        else
+            table.insert(previouslySearched, lcode)
+        end
 
         local bosschain = true
         if #splitcode == 2 then
@@ -451,13 +468,16 @@ function stage_available(level_code, isRecursive)
         end
 
         if lmission == "1" then
-            canReachStage = stage_available(lcode, "1") and story_region_available(value) and bosschain
+            canReachStage = stage_available(lcode, "1", previouslySearched) and story_region_available(lcode.."_"..lmission) and bosschain
         else
-            canReachStage = stage_available(lcode, "1") and objective_clearable(lcode, lmission) and story_region_available(value) and bosschain
+            canReachStage = stage_available(lcode, "1", previouslySearched) and objective_clearable(lcode, lmission) and story_region_available(lcode.."_"..lmission) and bosschain
         end
-    end
+    until true end
 
     SAB_LOCK = false
+    if STAGE_ACCESS_BOOLS["s"..level_code] == false and canReachStage == true then
+        print("setting SAB for "..level_code)
+    end
     STAGE_ACCESS_BOOLS["s"..level_code] = canReachStage
     return canReachStage
 end
@@ -780,3 +800,4 @@ function CanReachDevilDoom()
 end
 
 ScriptHost:AddWatchForCode("regionalterting", "RegionAltering", resetAccessibleRegions)
+ScriptHost:AddWatchForCode("tablechoosing", "TableChoosing", chooseTables)

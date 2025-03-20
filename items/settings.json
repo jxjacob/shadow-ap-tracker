@@ -67,19 +67,19 @@
             {
                 "img": "images/selectmode.png",
                 "name": "Logic Progression - Select",
-                "codes": "level_progression,level_progression_select",
+                "codes": "level_progression,level_progression_select,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/storymode.png",
                 "name": "Logic Progression - Story",
-                "codes": "level_progression,level_progression_story",
+                "codes": "level_progression,level_progression_story,RegionAltering",
                 "inherit_codes": false
             },
             {
                 "img": "images/storyselectmode.png",
                 "name": "Logic Progression - Both",
-                "codes": "level_progression,level_progression_both",
+                "codes": "level_progression,level_progression_both,RegionAltering",
                 "inherit_codes": false
             }
         ]

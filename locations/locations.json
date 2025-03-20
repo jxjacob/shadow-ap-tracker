@@ -1,5 +1,5 @@
 [
-    {
+{
         "name": "Character Sanity",
         "chest_unopened_img": "images/CheckNotDone.png",
         "chest_opened_img": "images/CheckDone.png",
@@ -7,73 +7,73 @@
         "sections": [
             {
                 "name": "Sonic",
-                "access_rules": [ "$stage_available|100|1", "$stage_available|202|1", "$stage_available|604|1", "$stage_available|210|1", "$stage_available|618|1" ],
+                "access_rules": [ "$stage_available|100|0", "$stage_available|202|0", "$stage_available|604|0", "$stage_available|210|0", "$stage_available|618|0" ],
                 "visibility_rules": [ "$stage_visible|100", "$stage_visible|202", "$stage_visible|604", "$boss_visible|210", "$boss_visible|618" ],
                 "item_count": 1
             },
             {
                 "name": "Tails",
-                "access_rules": [ "$stage_available|302|1", "$stage_available|501|1" ],
+                "access_rules": [ "$stage_available|302|0", "$stage_available|501|0" ],
                 "visibility_rules": [ "$stage_visible|302", "$stage_visible|501" ],
                 "item_count": 1
             },
             {
                 "name": "Knuckles",
-                "access_rules": [ "$stage_available|201|1", "$stage_available|400|1", "$stage_available|601|1, region_accessible|601|1", "$stage_available|613|1" ],
+                "access_rules": [ "$stage_available|201|0", "$stage_available|400|0", "$stage_available|601|0, region_accessible|601|1", "$stage_available|613|0" ],
                 "visibility_rules": [ "$stage_visible|201", "$stage_visible|400", "$stage_visible|601", "$boss_visible|613" ],
                 "item_count": 1
             },
             {
                 "name": "Amy",
-                "access_rules": [ "$stage_available|300|1", "$stage_available|310|1" ],
+                "access_rules": [ "$stage_available|300|0", "$stage_available|310|0" ],
                 "visibility_rules": [ "$stage_visible|300", "$boss_visible|310" ],
                 "item_count": 1
             },
             {
                 "name": "Dr Eggman",
-                "access_rules": [ "$stage_available|300|1, region_accessible|300|1", "$stage_available|302|1", "$stage_available|402|1", "$stage_available|502|1", "$stage_available|602|1" ],
+                "access_rules": [ "$stage_available|300|0, region_accessible|300|1", "$stage_available|302|0", "$stage_available|402|0", "$stage_available|502|0", "$stage_available|602|0" ],
                 "visibility_rules": [ "$stage_visible|300", "$stage_visible|302", "$stage_visible|402", "$stage_visible|502", "$stage_visible|602" ],
                 "item_count": 1
             },
             {
                 "name": "Rouge",
-                "access_rules": [ "$stage_available|200|1", "$stage_available|404|1", "$stage_available|600|1", "$stage_available|412|1" ],
+                "access_rules": [ "$stage_available|200|0", "$stage_available|404|0", "$stage_available|600|0", "$stage_available|412|0" ],
                 "visibility_rules": [ "$stage_visible|200", "$stage_visible|404", "$stage_visible|600", "$boss_visible|412" ],
                 "item_count": 1
             },
             {
                 "name": "Omega",
-                "access_rules": [ "$stage_available|502|1", "$stage_available|602|1", "$stage_available|511|1", "$stage_available|614|1" ],
+                "access_rules": [ "$stage_available|502|0", "$stage_available|602|0", "$stage_available|511|0", "$stage_available|614|0" ],
                 "visibility_rules": [ "$stage_visible|502", "$stage_visible|602", "$boss_visible|511", "$boss_visible|614" ],
                 "item_count": 1
             },
             {
                 "name": "Black Doom",
-                "access_rules": [ "$stage_available|100|1", "$stage_available|200|1", "$stage_available|201|1", "$stage_available|202|1", "$stage_available|301|1", "$stage_available|400|1", "$stage_available|401|1", "$stage_available|402|1", "$stage_available|403|1", "$stage_available|404|1", "$stage_available|500|1", "$stage_available|501|1", "$stage_available|503|1", "$stage_available|600|1, region_accessible|600|1", "$stage_available|601|1", "$stage_available|603|1", "$stage_available|604|1, region_accessible|604|1", "$stage_available|617|1", "$stage_available|610|1", "$stage_available|612|1", "$stage_available|410|1", "$stage_available|510|1" ],
+                "access_rules": [ "$stage_available|100|0", "$stage_available|200|0", "$stage_available|201|0", "$stage_available|202|0", "$stage_available|301|0", "$stage_available|400|0", "$stage_available|401|0", "$stage_available|402|0", "$stage_available|403|0", "$stage_available|404|0", "$stage_available|500|0", "$stage_available|501|0", "$stage_available|503|0", "$stage_available|600|0, region_accessible|600|1", "$stage_available|601|0", "$stage_available|603|0", "$stage_available|604|0, region_accessible|604|1", "$stage_available|617|0", "$stage_available|610|0", "$stage_available|612|0", "$stage_available|410|0", "$stage_available|510|0" ],
                 "visibility_rules": [ "$stage_visible|100", "$stage_visible|200", "$stage_visible|201", "$stage_visible|202", "$stage_visible|301", "$stage_visible|400", "$stage_visible|401", "$stage_visible|402", "$stage_visible|403", "$stage_visible|404", "$stage_visible|500", "$stage_visible|501", "$stage_visible|503", "$stage_visible|600", "$stage_visible|601", "$stage_visible|603", "$stage_visible|604", "$boss_visible|617", "$boss_visible|610", "$boss_visible|612", "$boss_visible|410", "$boss_visible|510" ],
                 "item_count": 1
             },
             {
                 "name": "Espio",
-                "access_rules": [ "$stage_available|403|1", "$stage_available|411|1" ],
+                "access_rules": [ "$stage_available|403|0", "$stage_available|411|0" ],
                 "visibility_rules": [ "$stage_visible|403", "$boss_visible|411" ],
                 "item_count": 1
             },
             {
                 "name": "Charmy",
-                "access_rules": [ "$stage_available|301|1" ],
+                "access_rules": [ "$stage_available|301|0" ],
                 "visibility_rules": [ "$stage_visible|301" ],
                 "item_count": 1
             },
             {
                 "name": "Vector",
-                "access_rules": [ "$stage_available|603|1", "$stage_available|616|1", "$stage_available|615|1" ],
+                "access_rules": [ "$stage_available|603|0", "$stage_available|616|0", "$stage_available|615|0" ],
                 "visibility_rules": [ "$stage_visible|603", "$boss_visible|616", "$boss_visible|615" ],
                 "item_count": 1
             },
             {
                 "name": "Maria",
-                "access_rules": [ "$stage_available|401|1", "$stage_available|504|1" ],
+                "access_rules": [ "$stage_available|401|0", "$stage_available|504|0" ],
                 "visibility_rules": [ "$stage_visible|401", "$stage_visible|504" ],
                 "item_count": 1
             }
@@ -378,7 +378,7 @@
                 "item_count": 1
             },
             {
-                "name": "Lava Pole",
+                "name": "Lava Shovel",
                 "access_rules": [ "$weapon_access|602|0|lava_pole" ],
                 "visibility_rules": [ "$stage_visible|602" ],
                 "item_count": 1
