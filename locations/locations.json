@@ -8645,7 +8645,7 @@
     "name": "Final Haunt Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|618|1,$region_accessible|fh|1" ],
+    "access_rules": [ "$stage_available|618|1" ],
     "visibility_rules": ["$boss_visible|618,level_progression_story", "$boss_visible|618,level_progression_both"],
     "sections": [
         {
@@ -8674,7 +8674,7 @@
     "name": "Final Haunt Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|617|1,$region_accessible|fh|1" ],
+    "access_rules": [ "$stage_available|617|1" ],
     "visibility_rules": ["$boss_visible|617,level_progression_story", "$boss_visible|617,level_progression_both"],
     "sections": [
         {
