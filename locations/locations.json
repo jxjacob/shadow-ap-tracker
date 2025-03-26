@@ -1,5 +1,5 @@
 [
-{
+    {
         "name": "Character Sanity",
         "chest_unopened_img": "images/CheckNotDone.png",
         "chest_opened_img": "images/CheckDone.png",
@@ -7,8 +7,8 @@
         "sections": [
             {
                 "name": "Sonic",
-                "access_rules": [ "$stage_available|100|0", "$stage_available|202|0", "$stage_available|604|0", "$stage_available|210|0", "$stage_available|618|0" ],
-                "visibility_rules": [ "$stage_visible|100", "$stage_visible|202", "$stage_visible|604", "$boss_visible|210", "$boss_visible|618" ],
+                "access_rules": [ "$stage_available|100|0", "$stage_available|202|0", "$stage_available|604|0", "$stage_available|210|0", "$stage_available|617|0" ],
+                "visibility_rules": [ "$stage_visible|100", "$stage_visible|202", "$stage_visible|604", "$boss_visible|210", "$boss_visible|617" ],
                 "item_count": 1
             },
             {
@@ -19,8 +19,8 @@
             },
             {
                 "name": "Knuckles",
-                "access_rules": [ "$stage_available|201|0", "$stage_available|400|0", "$stage_available|601|0, region_accessible|601|1", "$stage_available|613|0" ],
-                "visibility_rules": [ "$stage_visible|201", "$stage_visible|400", "$stage_visible|601", "$boss_visible|613" ],
+                "access_rules": [ "$stage_available|201|0", "$stage_available|400|0", "$stage_available|601|0, region_accessible|601|1", "$stage_available|612|0" ],
+                "visibility_rules": [ "$stage_visible|201", "$stage_visible|400", "$stage_visible|601", "$boss_visible|612" ],
                 "item_count": 1
             },
             {
@@ -49,8 +49,8 @@
             },
             {
                 "name": "Black Doom",
-                "access_rules": [ "$stage_available|100|0", "$stage_available|200|0", "$stage_available|201|0", "$stage_available|202|0", "$stage_available|301|0", "$stage_available|400|0", "$stage_available|401|0", "$stage_available|402|0", "$stage_available|403|0", "$stage_available|404|0", "$stage_available|500|0", "$stage_available|501|0", "$stage_available|503|0", "$stage_available|600|0, region_accessible|600|1", "$stage_available|601|0", "$stage_available|603|0", "$stage_available|604|0, region_accessible|604|1", "$stage_available|617|0", "$stage_available|610|0", "$stage_available|612|0", "$stage_available|410|0", "$stage_available|510|0" ],
-                "visibility_rules": [ "$stage_visible|100", "$stage_visible|200", "$stage_visible|201", "$stage_visible|202", "$stage_visible|301", "$stage_visible|400", "$stage_visible|401", "$stage_visible|402", "$stage_visible|403", "$stage_visible|404", "$stage_visible|500", "$stage_visible|501", "$stage_visible|503", "$stage_visible|600", "$stage_visible|601", "$stage_visible|603", "$stage_visible|604", "$boss_visible|617", "$boss_visible|610", "$boss_visible|612", "$boss_visible|410", "$boss_visible|510" ],
+                "access_rules": [ "$stage_available|100|0", "$stage_available|200|0", "$stage_available|201|0", "$stage_available|202|0", "$stage_available|301|0", "$stage_available|400|0", "$stage_available|401|0", "$stage_available|402|0", "$stage_available|403|0", "$stage_available|404|0", "$stage_available|500|0", "$stage_available|501|0", "$stage_available|503|0", "$stage_available|600|0, region_accessible|600|1", "$stage_available|601|0", "$stage_available|603|0", "$stage_available|604|0, region_accessible|604|1", "$stage_available|618|0", "$stage_available|610|0", "$stage_available|613|0", "$stage_available|410|0", "$stage_available|510|0" ],
+                "visibility_rules": [ "$stage_visible|100", "$stage_visible|200", "$stage_visible|201", "$stage_visible|202", "$stage_visible|301", "$stage_visible|400", "$stage_visible|401", "$stage_visible|402", "$stage_visible|403", "$stage_visible|404", "$stage_visible|500", "$stage_visible|501", "$stage_visible|503", "$stage_visible|600", "$stage_visible|601", "$stage_visible|603", "$stage_visible|604", "$boss_visible|618", "$boss_visible|610", "$boss_visible|613", "$boss_visible|410", "$boss_visible|510" ],
                 "item_count": 1
             },
             {
@@ -86,6 +86,7 @@
             }
         ]
     },
+
 
 
 
@@ -1805,27 +1806,27 @@
 
         {
             "name": "Hero Mission",
-            "access_rules": ["$objective_clearable|202|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|202|2,$region_accessible|202|2"], 
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Mission Token",
-            "access_rules": ["$objective_clearable|202|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|202|2,$region_accessible|202|2"], 
             "visibility_rules": ["goal_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Hero Token",
-            "access_rules": ["$objective_clearable|202|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|202|2,$region_accessible|202|2"], 
             "visibility_rules": ["goal_hero_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Objective Token",
-            "access_rules": ["$objective_clearable|202|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|202|2,$region_accessible|202|2"], 
             "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
@@ -1843,11 +1844,12 @@
     "name": "Lethal Highway - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|202|0, $has_weapon_type|gun"],
+    "access_rules": [ "$stage_available|202|0"],
     "visibility_rules": ["$stage_visible|202,objectivesanity_enabled "],
     "sections": [
         {
             "name": "Tank 1",
+            "access_rules": [ "$region_accessible|202|2"],
             "visibility_rules": ["$objective_visible|202|2|1"],
             "item_count": 1
         }
@@ -5326,27 +5328,27 @@
     "sections": [
         {
             "name": "Dark Mission",
-            "access_rules": ["$objective_clearable|501|0,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|501|0,$region_accessible|501|2"], 
             "item_count": 1
         },
 
         {
             "name": "Dark Mission - Mission Token",
-            "access_rules": ["$objective_clearable|501|0,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|501|0,$region_accessible|501|2"], 
             "visibility_rules": ["goal_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Dark Mission - Dark Token",
-            "access_rules": ["$objective_clearable|501|0,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|501|0,$region_accessible|501|2"], 
             "visibility_rules": ["goal_dark_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Dark Mission - Objective Token",
-            "access_rules": ["$objective_clearable|501|0,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|501|0,$region_accessible|501|2"], 
             "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         },
@@ -5402,11 +5404,12 @@
     "name": "Air Fleet - Dark Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|501|0, $has_weapon_type|gun"],
+    "access_rules": [ "$stage_available|501|0"],
     "visibility_rules": ["$stage_visible|501, objectivesanity_enabled "],
     "sections": [
         {
             "name": "President Aircraft 1",
+            "access_rules": [ "$region_accessible|501|2"],
             "visibility_rules": ["$objective_visible|501|0|1"],
             "item_count": 1
         }
@@ -5771,27 +5774,27 @@
 
         {
             "name": "Hero Mission",
-            "access_rules": ["$objective_clearable|502|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|502|2,$region_accessible|502|2"], 
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Mission Token",
-            "access_rules": ["$objective_clearable|502|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|502|2,$region_accessible|502|2"], 
             "visibility_rules": ["goal_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Hero Token",
-            "access_rules": ["$objective_clearable|502|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|502|2,$region_accessible|502|2"], 
             "visibility_rules": ["goal_hero_missions:1"],
             "item_count": 1
         },
 
         {
             "name": "Hero Mission - Objective Token",
-            "access_rules": ["$objective_clearable|502|2,$has_weapon_type|gun"], 
+            "access_rules": ["$objective_clearable|502|2,$region_accessible|502|2"], 
             "visibility_rules": ["goal_objective_missions:1"],
             "item_count": 1
         }
@@ -5965,11 +5968,12 @@
     "name": "Iron Jungle - Hero Objective",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|502|0, $has_weapon_type|gun"],
+    "access_rules": [ "$stage_available|502|0"],
     "visibility_rules": ["$stage_visible|502,objectivesanity_enabled "],
     "sections": [
         {
             "name": "Egg Balloon 1",
+            "access_rules": [ "$region_accessible|502|2"],
             "visibility_rules": ["$objective_visible|502|2|1"],
             "item_count": 1
         }
@@ -8496,8 +8500,8 @@
     "name": "Black Comet Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|612|1" ],
-    "visibility_rules": ["$boss_visible|612,level_progression_story", "$boss_visible|612,level_progression_both"],
+    "access_rules": [ "$stage_available|613|1" ],
+    "visibility_rules": ["$boss_visible|613,level_progression_story", "$boss_visible|613,level_progression_both"],
     "sections": [
         {
             "name": "Diablon",
@@ -8525,8 +8529,8 @@
     "name": "Black Comet Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|613|1" ],
-    "visibility_rules": ["$boss_visible|613,level_progression_story", "$boss_visible|613,level_progression_both"],
+    "access_rules": [ "$stage_available|612|1" ],
+    "visibility_rules": ["$boss_visible|612,level_progression_story", "$boss_visible|612,level_progression_both"],
     "sections": [
         {
             "name": "Egg Dealer",
@@ -8641,8 +8645,8 @@
     "name": "Final Haunt Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|617|1,$region_accessible|fh|1" ],
-    "visibility_rules": ["$boss_visible|617,level_progression_story", "$boss_visible|617,level_progression_both"],
+    "access_rules": [ "$stage_available|618|1,$region_accessible|fh|1" ],
+    "visibility_rules": ["$boss_visible|618,level_progression_story", "$boss_visible|618,level_progression_both"],
     "sections": [
         {
             "name": "Diablon",
@@ -8670,8 +8674,8 @@
     "name": "Final Haunt Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|618|1,$region_accessible|fh|1" ],
-    "visibility_rules": ["$boss_visible|618,level_progression_story", "$boss_visible|618,level_progression_both"],
+    "access_rules": [ "$stage_available|617|1,$region_accessible|fh|1" ],
+    "visibility_rules": ["$boss_visible|617,level_progression_story", "$boss_visible|617,level_progression_both"],
     "sections": [
         {
             "name": "Black Doom",

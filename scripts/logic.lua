@@ -66,9 +66,8 @@ STAGE_ACCESS_BOOLS = {
 
 STAGE_EXCLUDED = {}
 
--- TODO: 202_2, 501_0, and 502_2 need to account for craft_logic
 STAGE_REGION_MAPPING = {
-    s202_2 = {"true", "w_gun"},
+    s202_2 = {"2", "true"},
     s300_0 = {"1", "w_torch"},
     s300_1 = {"2", "true"},
     s300_2 = {"2", "true"},
@@ -79,8 +78,8 @@ STAGE_REGION_MAPPING = {
     s403_1 = {"1", "true"},
     s403_2 = {"1", "true"},
     s500_0 = {"1", "w_gun"},
-    s501_0 = {"true", "w_gun"},
-    s502_2 = {"true", "w_gun"},
+    s501_0 = {"2", "true"},
+    s502_2 = {"2", "true"},
     s503_1 = {"1", "true"},
     s604_2 = {"1", "true"},
     s210_1 = {"1", "true"},
@@ -510,11 +509,11 @@ function objective_visible(level_code, alightment, rank)
     local lookup_id = "s".. level_code .. "_" .. alightment
     local mission_item = tostring(level_code .. "_" .. MISSION_MAPPING[lookup_id][2])
     if MISSION_MAPPING[lookup_id][3] == true then
-        local freq = 100/tonumber(Tracker:ProviderCountForCode("objective_enemy_frequency"))
+        local freq = math.floor(100/tonumber(Tracker:ProviderCountForCode("objective_enemy_frequency")))
         local finalcheck = math.floor(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_enemy_percentage")/100)
         return (tonumber(rank) <= finalcheck and freq_calc(rank, freq, finalcheck))
     else
-        local freq = 100/tonumber(Tracker:ProviderCountForCode("objective_frequency"))
+        local freq = math.floor(100/tonumber(Tracker:ProviderCountForCode("objective_frequency")))
         local finalcheck = math.ceil(tonumber(MISSION_MAPPING[lookup_id][1])*Tracker:ProviderCountForCode("objective_percentage")/100)
         return (tonumber(rank) <= finalcheck and freq_calc(rank, freq, finalcheck))
     end
@@ -553,6 +552,13 @@ function region_accessible(level_code, region_num)
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
+        elseif region_num == 2 then
+            -- fake region for Craft logic. if easy, it requires shadow_rifle, else needs A Gun
+            if (Tracker:ProviderCountForCode("craft_difficulty_easy") == 1) then
+                return Tracker:ProviderCountForCode("shadow_rifle_weapon") == 1
+            else 
+                return has_weapon_type("gun")
+            end
         end
     elseif level_code == "300" then
         if region_num == 1 then
@@ -645,11 +651,25 @@ function region_accessible(level_code, region_num)
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
+        elseif region_num == 2 then
+            -- fake region for Craft logic. if easy, it requires shadow_rifle, else needs A Gun
+            if (Tracker:ProviderCountForCode("craft_difficulty_easy") == 1) then
+                return Tracker:ProviderCountForCode("shadow_rifle_weapon") == 1
+            else 
+                return has_weapon_type("gun")
+            end
         end
     elseif level_code == "502" then
         if region_num == 1 then
             -- keydoor. if keys are put into pool, change this to account for it
             return true
+        elseif region_num == 2 then
+            -- fake region for Craft logic. if easy, it requires shadow_rifle, else needs A Gun
+            if (Tracker:ProviderCountForCode("craft_difficulty_easy") == 1) then
+                return Tracker:ProviderCountForCode("shadow_rifle_weapon") == 1
+            else 
+                return has_weapon_type("gun")
+            end
         end
     elseif level_code == "503" then
         if region_num == 1 then
