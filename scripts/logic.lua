@@ -455,10 +455,12 @@ function stage_available(level_code, isRecursive, previouslySearched)
         local lmission = string.sub(splitcode[1], 5,5)
         
         --print("attempting prev "..lcode)
-        if has_value(previouslySearched, lcode) == true then
-            do break end
-        else
-            table.insert(previouslySearched, lcode)
+        if (Tracker:ProviderCountForCode("custom_stage_mapping") == 1) then
+            if has_value(previouslySearched, lcode) == true then
+                do break end
+            else
+                table.insert(previouslySearched, lcode)
+            end
         end
 
         local bosschain = true

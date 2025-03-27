@@ -87,14 +87,20 @@ function onClear(slot_data)
         vam.Active = 0
     end
 
-    if slot_data['shuffled_story_mode'] then
-        print("found custom story")
-        SLOT_DATA['STAGE_ACCESS_MAPPING'] = parse_story_shuffle(slot_data['shuffled_story_mode'])
-        local vam = Tracker:FindObjectForCode("custom_stage_mapping")
-        vam.Active = 1
+    if slot_data['story_shuffle'] then
+        print("story is " .. slot_data['story_shuffle'])
+        if slot_data['story_shuffle'] ~= 0 then
+            print("found custom story")
+            SLOT_DATA['STAGE_ACCESS_MAPPING'] = parse_story_shuffle(slot_data['shuffled_story_mode'])
+            local vam1 = Tracker:FindObjectForCode("custom_stage_mapping")
+            vam1.Active = 1
+        else 
+            local vam2 = Tracker:FindObjectForCode("custom_stage_mapping")
+            vam2.Active = 0
+        end
     else 
-        local vam = Tracker:FindObjectForCode("custom_stage_mapping")
-        vam.Active = 0
+        local vam3 = Tracker:FindObjectForCode("custom_stage_mapping")
+        vam3.Active = 0
     end
 
     chooseTables()
