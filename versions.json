@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.7",
+			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.7/shadow_ap.zip",
+			"sha256": "50efed7d893fce91bffcd649cc2a9090d5b2ceece722d18c613ab9ef8b74c20a",
+			"changelog": [
+				"hotfix for defualt story logic"
+			]
+		},
+		{
 			"package_version": "0.0.6",
 			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.6/shadow_ap.zip",
 			"sha256": "e53d748d59a97697e4f7113bda1bb78c16a3126e4d519c1c4e62f71a3edeae9b",
