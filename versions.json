@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.8",
+			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.8/shadow_ap.zip",
+			"sha256": "37c7593314f0a76527ff8b075a0aaffeca7efdd158c1f2962937517934a112ca",
+			"changelog": [
+				"unborked final boss tokens and the GF bosses"
+			]
+		},
+		{
 			"package_version": "0.0.7",
 			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.7/shadow_ap.zip",
 			"sha256": "50efed7d893fce91bffcd649cc2a9090d5b2ceece722d18c613ab9ef8b74c20a",
