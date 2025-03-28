@@ -84,7 +84,7 @@ ITEM_MAPPING = {
     [1743805003] = {"token_final", "consumable"},
     [1743805004] = {"token_objective", "consumable"},
     [1743805005] = {"token_boss", "consumable"},
-    [1743805006] = {"token_final", "consumable"},
+    [1743805006] = {"token_final_boss", "consumable"},
     [1743802000] = {"pistol_weapon", "toggle"},
     [1743802001] = {"sub_machine_gun_weapon", "toggle"},
     [1743802002] = {"semi_automatic_rifle_weapon", "toggle"},
@@ -210,6 +210,5 @@ ITEM_MAPPING = {
     [1743802066] = {"laser_weapons", "toggle"},
     [1743802067] = {"standard_melee_weapons", "toggle"},
     [1743802068] = {"all_melee_weapons", "toggle"},
-
 
 }
