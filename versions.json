@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.9",
+			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.9/shadow_ap.zip",
+			"sha256": "3eb6816377520350cf479bfabb908ab6910e9f796495139ccf593ff1ff6f3ee9",
+			"changelog": [
+				"one more round of hotfixes"
+			]
+		},
+		{
 			"package_version": "0.0.8",
 			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.8/shadow_ap.zip",
 			"sha256": "37c7593314f0a76527ff8b075a0aaffeca7efdd158c1f2962937517934a112ca",
