@@ -39,8 +39,8 @@ ITEM_MAPPING = {
     [1743800127] = {"412_stage", "toggle"},
     [1743800128] = {"510_stage", "toggle"},
     [1743800129] = {"511_stage", "toggle"},
-    [1743800130] = {"611_stage", "toggle"},
-    [1743800131] = {"610_stage", "toggle"},
+    [1743800130] = {"610_stage", "toggle"},
+    [1743800131] = {"611_stage", "toggle"},
     [1743800132] = {"612_stage", "toggle"},
     [1743800133] = {"613_stage", "toggle"},
     [1743800134] = {"614_stage", "toggle"},
@@ -184,8 +184,8 @@ ITEM_MAPPING = {
     [1743800177] = {"412_warp", "toggle"},
     [1743800178] = {"510_warp", "toggle"},
     [1743800179] = {"511_warp", "toggle"},
-    [1743800180] = {"611_warp", "toggle"},
-    [1743800181] = {"610_warp", "toggle"},
+    [1743800180] = {"610_warp", "toggle"},
+    [1743800181] = {"611_warp", "toggle"},
     [1743800182] = {"612_warp", "toggle"},
     [1743800183] = {"613_warp", "toggle"},
     [1743800184] = {"614_warp", "toggle"},
@@ -210,5 +210,6 @@ ITEM_MAPPING = {
     [1743802066] = {"laser_weapons", "toggle"},
     [1743802067] = {"standard_melee_weapons", "toggle"},
     [1743802068] = {"all_melee_weapons", "toggle"},
+
 
 }

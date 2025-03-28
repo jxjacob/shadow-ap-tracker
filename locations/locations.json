@@ -49,8 +49,8 @@
             },
             {
                 "name": "Black Doom",
-                "access_rules": [ "$stage_available|100|0", "$stage_available|200|0", "$stage_available|201|0", "$stage_available|202|0", "$stage_available|301|0", "$stage_available|400|0", "$stage_available|401|0", "$stage_available|402|0", "$stage_available|403|0", "$stage_available|404|0", "$stage_available|500|0", "$stage_available|501|0", "$stage_available|503|0", "$stage_available|600|0, region_accessible|600|1", "$stage_available|601|0", "$stage_available|603|0", "$stage_available|604|0, region_accessible|604|1", "$stage_available|618|0", "$stage_available|610|0", "$stage_available|613|0", "$stage_available|410|0", "$stage_available|510|0" ],
-                "visibility_rules": [ "$stage_visible|100", "$stage_visible|200", "$stage_visible|201", "$stage_visible|202", "$stage_visible|301", "$stage_visible|400", "$stage_visible|401", "$stage_visible|402", "$stage_visible|403", "$stage_visible|404", "$stage_visible|500", "$stage_visible|501", "$stage_visible|503", "$stage_visible|600", "$stage_visible|601", "$stage_visible|603", "$stage_visible|604", "$boss_visible|618", "$boss_visible|610", "$boss_visible|613", "$boss_visible|410", "$boss_visible|510" ],
+                "access_rules": [ "$stage_available|100|0", "$stage_available|200|0", "$stage_available|201|0", "$stage_available|202|0", "$stage_available|301|0", "$stage_available|400|0", "$stage_available|401|0", "$stage_available|402|0", "$stage_available|403|0", "$stage_available|404|0", "$stage_available|500|0", "$stage_available|501|0", "$stage_available|503|0", "$stage_available|600|0, region_accessible|600|1", "$stage_available|601|0", "$stage_available|603|0", "$stage_available|604|0, region_accessible|604|1", "$stage_available|618|0", "$stage_available|611|0", "$stage_available|613|0", "$stage_available|410|0", "$stage_available|510|0" ],
+                "visibility_rules": [ "$stage_visible|100", "$stage_visible|200", "$stage_visible|201", "$stage_visible|202", "$stage_visible|301", "$stage_visible|400", "$stage_visible|401", "$stage_visible|402", "$stage_visible|403", "$stage_visible|404", "$stage_visible|500", "$stage_visible|501", "$stage_visible|503", "$stage_visible|600", "$stage_visible|601", "$stage_visible|603", "$stage_visible|604", "$boss_visible|618", "$boss_visible|611", "$boss_visible|613", "$boss_visible|410", "$boss_visible|510" ],
                 "item_count": 1
             },
             {
@@ -8442,8 +8442,8 @@
     "name": "Gun Fortress Dark Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|610|1" ],
-    "visibility_rules": ["$boss_visible|610,level_progression_story", "$boss_visible|610,level_progression_both"],
+    "access_rules": [ "$stage_available|611|1" ],
+    "visibility_rules": ["$boss_visible|611,level_progression_story", "$boss_visible|611,level_progression_both"],
     "sections": [
         {
             "name": "Diablon",
@@ -8471,8 +8471,8 @@
     "name": "Gun Fortress Hero Boss",
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
-    "access_rules": [ "$stage_available|611|1" ],
-    "visibility_rules": ["$boss_visible|611,level_progression_story", "$boss_visible|611,level_progression_both"],
+    "access_rules": [ "$stage_available|610|1" ],
+    "visibility_rules": ["$boss_visible|610,level_progression_story", "$boss_visible|610,level_progression_both"],
     "sections": [
         {
             "name": "Black Doom",
@@ -8698,6 +8698,7 @@
         }
     ]
 }
+
 
 
     
