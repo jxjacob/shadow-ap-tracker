@@ -225,13 +225,13 @@
         "name": "Warp: Gun Fortress Black Doom",
         "type": "toggle",
         "img": "/images/fortress.png",
-        "codes": "611_warp"
+        "codes": "610_warp"
     },
     {
         "name": "Warp: Gun Fortress Diablon",
         "type": "toggle",
         "img": "/images/fortress.png",
-        "codes": "610_warp"
+        "codes": "611_warp"
     },
     {
         "name": "Warp: Black Comet Egg Dealer",

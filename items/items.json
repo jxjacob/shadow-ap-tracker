@@ -484,13 +484,13 @@
         "name": "Boss: Gun Fortress Black Doom",
         "type": "toggle",
         "img": "/images/fortress_doom.png",
-        "codes": "611_stage"
+        "codes": "610_stage"
     },
     {
         "name": "Boss: Gun Fortress Diablon",
         "type": "toggle",
         "img": "/images/fortress_diablon.png",
-        "codes": "610_stage"
+        "codes": "611_stage"
     },
     {
         "name": "Boss: Black Comet Egg Dealer",
