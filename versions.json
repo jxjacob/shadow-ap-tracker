@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.10",
+			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.10/shadow_ap.zip",
+			"sha256": "43aa1edd4d03993d8529fb45c8fa2ad2e53fbb6175c7c026ed06d233017b5884",
+			"changelog": [
+				"boss mission fixes"
+			]
+		},
+		{
 			"package_version": "0.0.9",
 			"download_url": "https://github.com/jxjacob/shadow-ap-tracker/releases/download/v0.0.9/shadow_ap.zip",
 			"sha256": "3eb6816377520350cf479bfabb908ab6910e9f796495139ccf593ff1ff6f3ee9",
