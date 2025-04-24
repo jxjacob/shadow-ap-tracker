@@ -6,6 +6,12 @@
         "codes": "secret_story_progression,TableChoosing"
     },
     {
+        "name": "Select Mode Bosses",
+        "type": "toggle",
+        "img": "images/west.png",
+        "codes": "select_bosses"
+    },
+    {
         "name": "Custom Stage Mapping",
         "type": "toggle",
         "img": "images/west.png",

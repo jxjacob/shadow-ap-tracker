@@ -109,6 +109,11 @@ function onClear(slot_data)
         local ssp = Tracker:FindObjectForCode("secret_story_progression")
         ssp.Active = (slot_data['secret_story_progression'])
     end
+    
+    if slot_data['select_bosses'] then
+        local sbo = Tracker:FindObjectForCode("select_bosses")
+        sbo.Active = (slot_data['select_bosses'])
+    end
 
     -- sanities
     if slot_data['objective_sanity'] then

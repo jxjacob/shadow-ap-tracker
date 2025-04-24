@@ -8268,17 +8268,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|210|1" ],
-    "visibility_rules": ["$boss_visible|210,level_progression_story", "$boss_visible|210,level_progression_both"],
+    "visibility_rules": ["$boss_visible|210"],
     "sections": [
         {
             "name": "Black Bull",
             "item_count": 1
         },
         {
-            "name": "Black Bull Boss Token",
+            "name": "Black Bull - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Black Bull - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8293,17 +8299,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|310|1" ],
-    "visibility_rules": ["$boss_visible|310,level_progression_story", "$boss_visible|310,level_progression_both"],
+    "visibility_rules": ["$boss_visible|310"],
     "sections": [
         {
             "name": "Egg Breaker",
             "item_count": 1
         },
         {
-            "name": "Egg Breaker Boss Token",
+            "name": "Egg Breaker - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Breaker - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8318,17 +8330,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|410|1" ],
-    "visibility_rules": ["$boss_visible|410,level_progression_story", "$boss_visible|410,level_progression_both"],
+    "visibility_rules": ["$boss_visible|410"],
     "sections": [
         {
             "name": "Heavy Dog",
             "item_count": 1
         },
         {
-            "name": "Heavy Dog Boss Token",
+            "name": "Heavy Dog - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Heavy Dog - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8343,17 +8361,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|411|1" ],
-    "visibility_rules": ["$boss_visible|411,level_progression_story", "$boss_visible|411,level_progression_both"],
+    "visibility_rules": ["$boss_visible|411"],
     "sections": [
         {
             "name": "Egg Breaker",
             "item_count": 1
         },
         {
-            "name": "Egg Breaker Boss Token",
+            "name": "Egg Breaker - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Breaker - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8368,17 +8392,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|412|1" ],
-    "visibility_rules": ["$boss_visible|412,level_progression_story", "$boss_visible|412,level_progression_both"],
+    "visibility_rules": ["$boss_visible|412"],
     "sections": [
         {
             "name": "Black Bull",
             "item_count": 1
         },
         {
-            "name": "Black Bull Boss Token",
+            "name": "Black Bull - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Black Bull - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8393,17 +8423,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|510|1" ],
-    "visibility_rules": ["$boss_visible|510,level_progression_story", "$boss_visible|510,level_progression_both"],
+    "visibility_rules": ["$boss_visible|510"],
     "sections": [
         {
             "name": "Blue Falcon",
             "item_count": 1
         },
         {
-            "name": "Blue Falcon Boss Token",
+            "name": "Blue Falcon - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Blue Falcon - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8418,17 +8454,23 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|511|1,$has_vehicle|gunturret" ],
-    "visibility_rules": ["$boss_visible|511,level_progression_story", "$boss_visible|511,level_progression_both"],
+    "visibility_rules": ["$boss_visible|511"],
     "sections": [
         {
             "name": "Egg Breaker",
             "item_count": 1
         },
         {
-            "name": "Egg Breaker Boss Token",
+            "name": "Egg Breaker - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Breaker - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        }],
+        }
+        ],
     "map_locations": [
         {
             "map": "menu",
@@ -8443,18 +8485,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|611|1" ],
-    "visibility_rules": ["$boss_visible|611,level_progression_story", "$boss_visible|611,level_progression_both"],
+    "visibility_rules": ["$boss_visible|611"],
     "sections": [
         {
             "name": "Diablon",
             "item_count": 1
         },
         {
-            "name": "Diablon Boss Token",
+            "name": "Diablon - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Diablon - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Diablon Final Boss Token",
+        },
+        {
+            "name": "Diablon - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8472,18 +8520,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|610|1" ],
-    "visibility_rules": ["$boss_visible|610,level_progression_story", "$boss_visible|610,level_progression_both"],
+    "visibility_rules": ["$boss_visible|610"],
     "sections": [
         {
             "name": "Black Doom",
             "item_count": 1
         },
         {
-            "name": "Black Doom Boss Token",
+            "name": "Black Doom - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Black Doom - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Black Doom Final Boss Token",
+        },
+        {
+            "name": "Black Doom - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8501,18 +8555,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|613|1" ],
-    "visibility_rules": ["$boss_visible|613,level_progression_story", "$boss_visible|613,level_progression_both"],
+    "visibility_rules": ["$boss_visible|613"],
     "sections": [
         {
             "name": "Diablon",
             "item_count": 1
         },
         {
-            "name": "Diablon Boss Token",
+            "name": "Diablon - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Diablon - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Diablon Final Boss Token",
+        },
+        {
+            "name": "Diablon - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8530,18 +8590,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|612|1" ],
-    "visibility_rules": ["$boss_visible|612,level_progression_story", "$boss_visible|612,level_progression_both"],
+    "visibility_rules": ["$boss_visible|612"],
     "sections": [
         {
             "name": "Egg Dealer",
             "item_count": 1
         },
         {
-            "name": "Egg Dealer Boss Token",
+            "name": "Egg Dealer - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Dealer - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Egg Dealer Final Boss Token",
+        },
+        {
+            "name": "Egg Dealer - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8559,18 +8625,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|614|1" ],
-    "visibility_rules": ["$boss_visible|614,level_progression_story", "$boss_visible|614,level_progression_both"],
+    "visibility_rules": ["$boss_visible|614"],
     "sections": [
         {
             "name": "Egg Dealer",
             "item_count": 1
         },
         {
-            "name": "Egg Dealer Boss Token",
+            "name": "Egg Dealer - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Dealer - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Egg Dealer Final Boss Token",
+        },
+        {
+            "name": "Egg Dealer - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8588,18 +8660,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|615|1" ],
-    "visibility_rules": ["$boss_visible|615,level_progression_story", "$boss_visible|615,level_progression_both"],
+    "visibility_rules": ["$boss_visible|615"],
     "sections": [
         {
             "name": "Egg Dealer",
             "item_count": 1
         },
         {
-            "name": "Egg Dealer Boss Token",
+            "name": "Egg Dealer - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Egg Dealer - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Egg Dealer Final Boss Token",
+        },
+        {
+            "name": "Egg Dealer - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8617,18 +8695,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|616|1" ],
-    "visibility_rules": ["$boss_visible|616,level_progression_story", "$boss_visible|616,level_progression_both"],
+    "visibility_rules": ["$boss_visible|616"],
     "sections": [
         {
             "name": "Black Doom",
             "item_count": 1
         },
         {
-            "name": "Black Doom Boss Token",
+            "name": "Black Doom - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Black Doom - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Black Doom Final Boss Token",
+        },
+        {
+            "name": "Black Doom - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8646,18 +8730,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|618|1" ],
-    "visibility_rules": ["$boss_visible|618,level_progression_story", "$boss_visible|618,level_progression_both"],
+    "visibility_rules": ["$boss_visible|618"],
     "sections": [
         {
             "name": "Diablon",
             "item_count": 1
         },
         {
-            "name": "Diablon Boss Token",
+            "name": "Diablon - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Diablon - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Diablon Final Boss Token",
+        },
+        {
+            "name": "Diablon - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8675,18 +8765,24 @@
     "chest_unopened_img": "images/CheckNotDone.png",
     "chest_opened_img": "images/CheckDone.png",
     "access_rules": [ "$stage_available|617|1" ],
-    "visibility_rules": ["$boss_visible|617,level_progression_story", "$boss_visible|617,level_progression_both"],
+    "visibility_rules": ["$boss_visible|617"],
     "sections": [
         {
             "name": "Black Doom",
             "item_count": 1
         },
         {
-            "name": "Black Doom Boss Token",
+            "name": "Black Doom - Mission Token",
+            "visibility_rules": ["goal_missions:1"],
+            "item_count": 1
+        },
+        {
+            "name": "Black Doom - Boss Token",
             "visibility_rules": ["goal_boss_missions:1"],
             "item_count": 1
-        },{
-            "name": "Black Doom Final Boss Token",
+        },
+        {
+            "name": "Black Doom - Final Boss Token",
             "visibility_rules": ["goal_final_boss_missions:1"],
             "item_count": 1
         }],
@@ -8698,6 +8794,7 @@
         }
     ]
 }
+
 
 
 

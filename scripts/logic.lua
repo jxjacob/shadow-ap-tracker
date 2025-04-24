@@ -385,9 +385,12 @@ function boss_visible(level_code)
     if (tablelength(STAGE_ACCESS_MAPPING) == 0) then
         chooseTables()
     end
-    if (Tracker:ProviderCountForCode("custom_stage_mapping") == 0) then
+    if Tracker:ProviderCountForCode("level_progression_select") == 1 and Tracker:ProviderCountForCode("select_bosses") == 0 then
+        return false
+    end
+    if (Tracker:ProviderCountForCode("custom_stage_mapping") == 0) or (Tracker:ProviderCountForCode("level_progression_select") == 1 and Tracker:ProviderCountForCode("select_bosses") == 1) then
         -- take first of SAM
-        local hoststage = STAGE_ACCESS_MAPPING["s"..level_code][1]
+        local hoststage = DEFAULT_STAGE_ACCESS_MAPPING["s"..level_code][1]
         -- chop off the alignment number
         local hostcode = string.sub(hoststage, 1,3)
         -- return if that number is in excluded_stages
@@ -402,8 +405,18 @@ function stage_available(level_code, isRecursive, previouslySearched)
         chooseTables()
     end
     if Tracker:ProviderCountForCode("level_progression_select") == 1 then
+        local bossbool = false
+        if (string.sub(level_code,2,2) == "1") then
+            -- if its a boss, you also need access to its main stage in select mode, so we check that as well
+            local selbossass = DEFAULT_STAGE_ACCESS_MAPPING["s"..level_code]
+            if (Tracker:ProviderCountForCode(string.sub(selbossass[1],1,3) .. "_stage") == 1) then
+                bossbool = true
+            end
+        else
+            bossbool = true
+        end
         -- if the progression is select-based, then return its code
-        return (Tracker:ProviderCountForCode(level_code .. "_stage") == 1)
+        return ((Tracker:ProviderCountForCode(level_code .. "_stage") == 1) and bossbool)
     elseif Tracker:ProviderCountForCode("level_progression_both") == 1 and isRecursive == "0" then
         -- if the progression is both, return true if level accessible that way, otherwise move on the recursive loop
         if Tracker:ProviderCountForCode(level_code .. "_stage") == 1 then
