@@ -72,6 +72,17 @@ function onClear(slot_data)
 
     SAB_LOCK = true
 
+    if slot_data['story_mode_available'] then
+        local stagemode = 0
+        if slot_data['story_mode_available'] == true then
+            stagemode = 1
+            if slot_data['select_mode_available'] == true then
+                stagemode = 2
+            end
+        end
+        local levelprog = Tracker:FindObjectForCode("level_progression")
+        levelprog.CurrentStage = (stagemode)
+    end
     
     if slot_data['include_last_way_shuffle'] then
         local inclw = Tracker:FindObjectForCode("shuffle_last_way")
@@ -88,8 +99,8 @@ function onClear(slot_data)
     end
 
     if slot_data['story_shuffle'] then
-        print("story is " .. slot_data['story_shuffle'])
-        if slot_data['story_shuffle'] ~= 0 then
+        print("story is " .. slot_data['story_shuffle'] .. " and progression is " .. Tracker:ProviderCountForCode("level_progression") )
+        if slot_data['story_shuffle'] ~= 0 and Tracker:ProviderCountForCode("level_progression") ~= 1 then
             print("found custom story")
             SLOT_DATA['STAGE_ACCESS_MAPPING'] = parse_story_shuffle(slot_data['shuffled_story_mode'])
             local vam1 = Tracker:FindObjectForCode("custom_stage_mapping")
@@ -152,18 +163,6 @@ function onClear(slot_data)
     end
 
     -- logic
-    if slot_data['story_mode_available'] then
-        local stagemode = 0
-        if slot_data['story_mode_available'] == true then
-            stagemode = 1
-            if slot_data['select_mode_available'] == true then
-                stagemode = 2
-            end
-        end
-        local levelprog = Tracker:FindObjectForCode("level_progression")
-        levelprog.CurrentStage = (stagemode)
-    end
-
     if slot_data['logic_level'] then
         Tracker:FindObjectForCode("logic_difficulty").CurrentStage = (slot_data['logic_level'])
     else

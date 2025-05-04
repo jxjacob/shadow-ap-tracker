@@ -405,6 +405,11 @@ function stage_available(level_code, isRecursive, previouslySearched)
         chooseTables()
     end
     if Tracker:ProviderCountForCode("level_progression_select") == 1 then
+        -- special case for select mode's LW
+        if (level_code == "700") then
+            return CanReachDevilDoom()
+        end
+
         local bossbool = false
         if (string.sub(level_code,2,2) == "1") then
             -- if its a boss, you also need access to its main stage in select mode, so we check that as well
@@ -812,25 +817,15 @@ function CanReachDevilDoom()
     local emerald_check = true
     local entrance_check = true
 
-    if STAGE_ACCESS_MAPPING["s710"] ~= {} then
+    if not next(STAGE_ACCESS_MAPPING["s710"]) == nil then
         entrance_check = stage_available("710", "0")
     end
 
     if required_emeralds > 0 then
-        if emerald_1 > 0 and emerald_2 > 0 and emerald_3 > 0 and emerald_4 > 0 and emerald_5 > 0 and emerald_6 > 0 and emerald_7 > 0 then
-			emerald_check = true
-		else
-            emerald_check = false
-        end
+        emerald_check = (emerald_1 > 0 and emerald_2 > 0 and emerald_3 > 0 and emerald_4 > 0 and emerald_5 > 0 and emerald_6 > 0 and emerald_7 > 0)
     end
 
-    if emerald_check and current_mission_tokens >= required_mission_tokens and current_hero_tokens >= required_hero_tokens and current_dark_tokens >= required_dark_tokens and current_final_tokens >= required_final_tokens and current_objective_tokens >= required_objective_tokens
-    and current_boss_tokens >= required_boss_tokens
-    and current_final_boss_tokens >= required_final_boss_tokens then
-        return true
-    end
-
-    return false
+    return (emerald_check and current_mission_tokens >= required_mission_tokens and current_hero_tokens >= required_hero_tokens and current_dark_tokens >= required_dark_tokens and current_final_tokens >= required_final_tokens and current_objective_tokens >= required_objective_tokens and current_boss_tokens >= required_boss_tokens and current_final_boss_tokens >= required_final_boss_tokens)
 
 end
 
